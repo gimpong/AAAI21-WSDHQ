@@ -1,0 +1,1639 @@
+2022-10-18 23:12:03,037 prepare dataset.
+2022-10-18 23:12:07,171 prepare data loader.
+2022-10-18 23:12:07,172 Initializing DataLoader.
+2022-10-18 23:12:07,175 DataLoader already.
+2022-10-18 23:12:07,175 prepare model.
+2022-10-18 23:12:07,352 Number of semantic embeddings: 928.
+2022-10-18 23:12:14,688 From /data/wangjinpeng/anaconda3/envs/py37torch/lib/python3.7/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where.
+2022-10-18 23:12:27,742 begin training.
+2022-10-18 23:12:45,856 step [   1], lr [0.0003000], embedding loss [ 0.8951], quantization loss [ 0.0000], 13.05 sec/batch.
+2022-10-18 23:12:50,891 step [   2], lr [0.0003000], embedding loss [ 0.8666], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:12:55,660 step [   3], lr [0.0003000], embedding loss [ 0.8456], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:13:00,406 step [   4], lr [0.0003000], embedding loss [ 0.8376], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:13:05,013 step [   5], lr [0.0003000], embedding loss [ 0.8377], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:13:09,660 step [   6], lr [0.0003000], embedding loss [ 0.8264], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:13:15,188 step [   7], lr [0.0003000], embedding loss [ 0.8238], quantization loss [ 0.0000],  0.60 sec/batch.
+2022-10-18 23:13:19,722 step [   8], lr [0.0003000], embedding loss [ 0.8226], quantization loss [ 0.0000],  0.59 sec/batch.
+2022-10-18 23:13:24,460 step [   9], lr [0.0003000], embedding loss [ 0.8108], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:13:28,650 step [  10], lr [0.0003000], embedding loss [ 0.8225], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:13:33,196 step [  11], lr [0.0003000], embedding loss [ 0.8138], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:13:37,486 step [  12], lr [0.0003000], embedding loss [ 0.8063], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:13:42,112 step [  13], lr [0.0003000], embedding loss [ 0.8153], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:13:46,860 step [  14], lr [0.0003000], embedding loss [ 0.8063], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:13:51,264 step [  15], lr [0.0003000], embedding loss [ 0.8090], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:13:55,227 step [  16], lr [0.0003000], embedding loss [ 0.8015], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:13:59,548 step [  17], lr [0.0003000], embedding loss [ 0.8045], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:14:03,965 step [  18], lr [0.0003000], embedding loss [ 0.7934], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:14:08,091 step [  19], lr [0.0003000], embedding loss [ 0.8030], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:14:12,589 step [  20], lr [0.0003000], embedding loss [ 0.8032], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:14:16,698 step [  21], lr [0.0003000], embedding loss [ 0.7944], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:14:20,623 step [  22], lr [0.0003000], embedding loss [ 0.7986], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:14:24,576 step [  23], lr [0.0003000], embedding loss [ 0.7896], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:14:28,896 step [  24], lr [0.0003000], embedding loss [ 0.7899], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:14:33,145 step [  25], lr [0.0003000], embedding loss [ 0.7817], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:14:37,146 step [  26], lr [0.0003000], embedding loss [ 0.7949], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:14:41,173 step [  27], lr [0.0003000], embedding loss [ 0.7918], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:14:45,630 step [  28], lr [0.0003000], embedding loss [ 0.7899], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:14:49,936 step [  29], lr [0.0003000], embedding loss [ 0.7859], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:14:54,251 step [  30], lr [0.0003000], embedding loss [ 0.7933], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:14:58,274 step [  31], lr [0.0003000], embedding loss [ 0.7839], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:02,230 step [  32], lr [0.0003000], embedding loss [ 0.7809], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:15:06,438 step [  33], lr [0.0003000], embedding loss [ 0.7789], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:10,667 step [  34], lr [0.0003000], embedding loss [ 0.7852], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:15:14,514 step [  35], lr [0.0003000], embedding loss [ 0.7809], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:15:18,476 step [  36], lr [0.0003000], embedding loss [ 0.7713], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:15:22,593 step [  37], lr [0.0003000], embedding loss [ 0.7875], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:15:26,880 step [  38], lr [0.0003000], embedding loss [ 0.7882], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:15:31,242 step [  39], lr [0.0003000], embedding loss [ 0.7809], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:15:32,997 step [  40], lr [0.0003000], embedding loss [ 0.7772], quantization loss [ 0.0000],  0.51 sec/batch.
+2022-10-18 23:15:34,876 step [  41], lr [0.0003000], embedding loss [ 0.7840], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:36,730 step [  42], lr [0.0003000], embedding loss [ 0.7652], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:38,577 step [  43], lr [0.0003000], embedding loss [ 0.7642], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:40,526 step [  44], lr [0.0003000], embedding loss [ 0.7717], quantization loss [ 0.0000],  0.59 sec/batch.
+2022-10-18 23:15:42,392 step [  45], lr [0.0003000], embedding loss [ 0.7682], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:15:44,314 step [  46], lr [0.0003000], embedding loss [ 0.7798], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:15:46,235 step [  47], lr [0.0003000], embedding loss [ 0.7657], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:15:48,318 step [  48], lr [0.0003000], embedding loss [ 0.7718], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:15:50,257 step [  49], lr [0.0003000], embedding loss [ 0.7731], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:15:52,175 step [  50], lr [0.0003000], embedding loss [ 0.7572], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:15:54,070 step [  51], lr [0.0003000], embedding loss [ 0.7633], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:15:55,985 step [  52], lr [0.0003000], embedding loss [ 0.7675], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:15:57,764 step [  53], lr [0.0003000], embedding loss [ 0.7620], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:15:59,647 step [  54], lr [0.0003000], embedding loss [ 0.7582], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:16:01,537 step [  55], lr [0.0003000], embedding loss [ 0.7666], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:03,350 step [  56], lr [0.0003000], embedding loss [ 0.7586], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:16:05,246 step [  57], lr [0.0003000], embedding loss [ 0.7639], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:16:07,144 step [  58], lr [0.0003000], embedding loss [ 0.7596], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:16:09,038 step [  59], lr [0.0003000], embedding loss [ 0.7572], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:16:10,963 step [  60], lr [0.0003000], embedding loss [ 0.7614], quantization loss [ 0.0000],  0.52 sec/batch.
+2022-10-18 23:16:12,847 step [  61], lr [0.0003000], embedding loss [ 0.7675], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:14,788 step [  62], lr [0.0003000], embedding loss [ 0.7538], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:16:16,727 step [  63], lr [0.0003000], embedding loss [ 0.7563], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:16:18,631 step [  64], lr [0.0003000], embedding loss [ 0.7612], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:20,518 step [  65], lr [0.0003000], embedding loss [ 0.7569], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:22,482 step [  66], lr [0.0003000], embedding loss [ 0.7580], quantization loss [ 0.0000],  0.55 sec/batch.
+2022-10-18 23:16:24,419 step [  67], lr [0.0003000], embedding loss [ 0.7646], quantization loss [ 0.0000],  0.61 sec/batch.
+2022-10-18 23:16:26,325 step [  68], lr [0.0003000], embedding loss [ 0.7526], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:28,192 step [  69], lr [0.0003000], embedding loss [ 0.7533], quantization loss [ 0.0000],  0.59 sec/batch.
+2022-10-18 23:16:30,183 step [  70], lr [0.0003000], embedding loss [ 0.7603], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:16:32,078 step [  71], lr [0.0003000], embedding loss [ 0.7544], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:34,059 step [  72], lr [0.0003000], embedding loss [ 0.7481], quantization loss [ 0.0000],  0.54 sec/batch.
+2022-10-18 23:16:35,986 step [  73], lr [0.0003000], embedding loss [ 0.7626], quantization loss [ 0.0000],  0.57 sec/batch.
+2022-10-18 23:16:37,934 step [  74], lr [0.0003000], embedding loss [ 0.7519], quantization loss [ 0.0000],  0.53 sec/batch.
+2022-10-18 23:16:39,781 step [  75], lr [0.0003000], embedding loss [ 0.7619], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:16:41,667 step [  76], lr [0.0003000], embedding loss [ 0.7507], quantization loss [ 0.0000],  0.56 sec/batch.
+2022-10-18 23:16:47,345 step [  77], lr [0.0003000], embedding loss [ 0.7568], quantization loss [ 0.0000],  0.59 sec/batch.
+2022-10-18 23:16:50,420 step [  78], lr [0.0003000], embedding loss [ 0.7504], quantization loss [ 0.0000],  1.07 sec/batch.
+2022-10-18 23:16:52,239 step [  79], lr [0.0003000], embedding loss [ 0.7506], quantization loss [ 0.0000],  0.58 sec/batch.
+2022-10-18 23:16:54,205 step [  80], lr [0.0003000], embedding loss [ 0.7458], quantization loss [ 0.0000],  0.59 sec/batch.
+2022-10-18 23:16:57,131 step [  81], lr [0.0003000], embedding loss [ 0.7409], quantization loss [ 0.0000],  1.13 sec/batch.
+2022-10-18 23:16:57,132 initialize centers iter(1/1).
+2022-10-18 23:17:00,241 finish center initialization, duration: 3.11 sec.
+2022-10-18 23:17:00,241 update codes and centers iter(1/1).
+2022-10-18 23:17:01,905 number of update_code wrong: 0.
+2022-10-18 23:17:05,800 non zero codewords: 256.
+2022-10-18 23:17:05,801 finish center update, duration: 5.56 sec.
+2022-10-18 23:17:08,390 step [  82], lr [0.0003000], embedding loss [ 0.7455], quantization loss [ 0.5216],  1.40 sec/batch.
+2022-10-18 23:17:10,391 step [  83], lr [0.0003000], embedding loss [ 0.7707], quantization loss [ 0.7875],  0.56 sec/batch.
+2022-10-18 23:17:12,795 step [  84], lr [0.0003000], embedding loss [ 0.7824], quantization loss [ 0.9937],  0.99 sec/batch.
+2022-10-18 23:17:15,302 step [  85], lr [0.0003000], embedding loss [ 0.7520], quantization loss [ 0.5236],  1.04 sec/batch.
+2022-10-18 23:17:17,233 step [  86], lr [0.0003000], embedding loss [ 0.7841], quantization loss [ 0.7925],  0.58 sec/batch.
+2022-10-18 23:17:19,187 step [  87], lr [0.0003000], embedding loss [ 0.7701], quantization loss [ 0.5057],  0.58 sec/batch.
+2022-10-18 23:17:21,105 step [  88], lr [0.0003000], embedding loss [ 0.7622], quantization loss [ 0.5332],  0.56 sec/batch.
+2022-10-18 23:17:23,938 step [  89], lr [0.0003000], embedding loss [ 0.7707], quantization loss [ 0.4961],  0.95 sec/batch.
+2022-10-18 23:17:25,779 step [  90], lr [0.0003000], embedding loss [ 0.7698], quantization loss [ 0.5540],  0.56 sec/batch.
+2022-10-18 23:17:28,106 step [  91], lr [0.0003000], embedding loss [ 0.7686], quantization loss [ 0.4157],  1.04 sec/batch.
+2022-10-18 23:17:29,909 step [  92], lr [0.0003000], embedding loss [ 0.7759], quantization loss [ 0.5351],  0.56 sec/batch.
+2022-10-18 23:17:31,822 step [  93], lr [0.0003000], embedding loss [ 0.7729], quantization loss [ 0.4916],  0.56 sec/batch.
+2022-10-18 23:17:34,072 step [  94], lr [0.0003000], embedding loss [ 0.7748], quantization loss [ 0.4504],  0.60 sec/batch.
+2022-10-18 23:17:35,946 step [  95], lr [0.0003000], embedding loss [ 0.7547], quantization loss [ 0.5204],  0.57 sec/batch.
+2022-10-18 23:17:38,332 step [  96], lr [0.0003000], embedding loss [ 0.7660], quantization loss [ 0.3768],  1.07 sec/batch.
+2022-10-18 23:17:40,220 step [  97], lr [0.0003000], embedding loss [ 0.7656], quantization loss [ 0.4046],  0.59 sec/batch.
+2022-10-18 23:17:42,181 step [  98], lr [0.0003000], embedding loss [ 0.7693], quantization loss [ 0.4050],  0.56 sec/batch.
+2022-10-18 23:17:44,550 step [  99], lr [0.0003000], embedding loss [ 0.7584], quantization loss [ 0.3755],  1.03 sec/batch.
+2022-10-18 23:17:46,543 step [ 100], lr [0.0003000], embedding loss [ 0.7617], quantization loss [ 0.3425],  0.56 sec/batch.
+2022-10-18 23:17:49,253 step [ 101], lr [0.0003000], embedding loss [ 0.7612], quantization loss [ 0.4332],  1.26 sec/batch.
+2022-10-18 23:17:51,522 step [ 102], lr [0.0003000], embedding loss [ 0.7595], quantization loss [ 0.3246],  1.00 sec/batch.
+2022-10-18 23:17:53,358 step [ 103], lr [0.0003000], embedding loss [ 0.7666], quantization loss [ 0.3759],  0.56 sec/batch.
+2022-10-18 23:17:55,868 step [ 104], lr [0.0003000], embedding loss [ 0.7524], quantization loss [ 0.3326],  1.22 sec/batch.
+2022-10-18 23:17:58,259 step [ 105], lr [0.0003000], embedding loss [ 0.7621], quantization loss [ 0.3624],  1.06 sec/batch.
+2022-10-18 23:18:00,234 step [ 106], lr [0.0003000], embedding loss [ 0.7587], quantization loss [ 0.3583],  0.57 sec/batch.
+2022-10-18 23:18:02,237 step [ 107], lr [0.0003000], embedding loss [ 0.7559], quantization loss [ 0.3428],  0.60 sec/batch.
+2022-10-18 23:18:04,749 step [ 108], lr [0.0003000], embedding loss [ 0.7658], quantization loss [ 0.3195],  1.27 sec/batch.
+2022-10-18 23:18:06,629 step [ 109], lr [0.0003000], embedding loss [ 0.7670], quantization loss [ 0.3150],  0.57 sec/batch.
+2022-10-18 23:18:09,199 step [ 110], lr [0.0003000], embedding loss [ 0.7634], quantization loss [ 0.3403],  1.17 sec/batch.
+2022-10-18 23:18:11,581 step [ 111], lr [0.0003000], embedding loss [ 0.7578], quantization loss [ 0.3310],  1.07 sec/batch.
+2022-10-18 23:18:13,542 step [ 112], lr [0.0003000], embedding loss [ 0.7568], quantization loss [ 0.3204],  0.57 sec/batch.
+2022-10-18 23:18:15,963 step [ 113], lr [0.0003000], embedding loss [ 0.7554], quantization loss [ 0.3561],  1.03 sec/batch.
+2022-10-18 23:18:18,318 step [ 114], lr [0.0003000], embedding loss [ 0.7671], quantization loss [ 0.3840],  1.05 sec/batch.
+2022-10-18 23:18:20,816 step [ 115], lr [0.0003000], embedding loss [ 0.7607], quantization loss [ 0.3271],  1.15 sec/batch.
+2022-10-18 23:18:23,220 step [ 116], lr [0.0003000], embedding loss [ 0.7551], quantization loss [ 0.2967],  1.05 sec/batch.
+2022-10-18 23:18:26,182 step [ 117], lr [0.0003000], embedding loss [ 0.7545], quantization loss [ 0.3220],  1.64 sec/batch.
+2022-10-18 23:18:28,655 step [ 118], lr [0.0003000], embedding loss [ 0.7557], quantization loss [ 0.3255],  1.10 sec/batch.
+2022-10-18 23:18:31,323 step [ 119], lr [0.0003000], embedding loss [ 0.7527], quantization loss [ 0.3278],  1.31 sec/batch.
+2022-10-18 23:18:34,121 step [ 120], lr [0.0003000], embedding loss [ 0.7519], quantization loss [ 0.3020],  1.37 sec/batch.
+2022-10-18 23:18:36,046 step [ 121], lr [0.0003000], embedding loss [ 0.7571], quantization loss [ 0.3207],  0.57 sec/batch.
+2022-10-18 23:18:37,963 step [ 122], lr [0.0003000], embedding loss [ 0.7537], quantization loss [ 0.2910],  0.62 sec/batch.
+2022-10-18 23:18:39,884 step [ 123], lr [0.0003000], embedding loss [ 0.7634], quantization loss [ 0.2572],  0.58 sec/batch.
+2022-10-18 23:18:41,910 step [ 124], lr [0.0003000], embedding loss [ 0.7493], quantization loss [ 0.2955],  0.58 sec/batch.
+2022-10-18 23:18:43,830 step [ 125], lr [0.0003000], embedding loss [ 0.7453], quantization loss [ 0.2373],  0.58 sec/batch.
+2022-10-18 23:18:46,706 step [ 126], lr [0.0003000], embedding loss [ 0.7585], quantization loss [ 0.2989],  1.05 sec/batch.
+2022-10-18 23:18:49,120 step [ 127], lr [0.0003000], embedding loss [ 0.7441], quantization loss [ 0.3113],  1.05 sec/batch.
+2022-10-18 23:18:51,678 step [ 128], lr [0.0003000], embedding loss [ 0.7397], quantization loss [ 0.2850],  1.25 sec/batch.
+2022-10-18 23:18:53,672 step [ 129], lr [0.0003000], embedding loss [ 0.7540], quantization loss [ 0.2845],  0.56 sec/batch.
+2022-10-18 23:18:56,033 step [ 130], lr [0.0003000], embedding loss [ 0.7441], quantization loss [ 0.3511],  0.58 sec/batch.
+2022-10-18 23:18:58,625 step [ 131], lr [0.0003000], embedding loss [ 0.7535], quantization loss [ 0.2714],  1.25 sec/batch.
+2022-10-18 23:19:01,224 step [ 132], lr [0.0003000], embedding loss [ 0.7591], quantization loss [ 0.2906],  1.29 sec/batch.
+2022-10-18 23:19:03,136 step [ 133], lr [0.0003000], embedding loss [ 0.7559], quantization loss [ 0.2671],  0.57 sec/batch.
+2022-10-18 23:19:04,963 step [ 134], lr [0.0003000], embedding loss [ 0.7587], quantization loss [ 0.3006],  0.55 sec/batch.
+2022-10-18 23:19:07,633 step [ 135], lr [0.0003000], embedding loss [ 0.7544], quantization loss [ 0.2974],  1.36 sec/batch.
+2022-10-18 23:19:09,632 step [ 136], lr [0.0003000], embedding loss [ 0.7614], quantization loss [ 0.2620],  0.59 sec/batch.
+2022-10-18 23:19:12,003 step [ 137], lr [0.0003000], embedding loss [ 0.7776], quantization loss [ 0.3357],  1.04 sec/batch.
+2022-10-18 23:19:14,778 step [ 138], lr [0.0003000], embedding loss [ 0.7643], quantization loss [ 0.2968],  1.54 sec/batch.
+2022-10-18 23:19:16,957 step [ 139], lr [0.0003000], embedding loss [ 0.7536], quantization loss [ 0.2529],  0.78 sec/batch.
+2022-10-18 23:19:19,888 step [ 140], lr [0.0003000], embedding loss [ 0.7524], quantization loss [ 0.3674],  1.07 sec/batch.
+2022-10-18 23:19:21,798 step [ 141], lr [0.0003000], embedding loss [ 0.7544], quantization loss [ 0.2829],  0.57 sec/batch.
+2022-10-18 23:19:25,032 step [ 142], lr [0.0003000], embedding loss [ 0.7698], quantization loss [ 0.3277],  1.33 sec/batch.
+2022-10-18 23:19:26,942 step [ 143], lr [0.0003000], embedding loss [ 0.7611], quantization loss [ 0.2961],  0.57 sec/batch.
+2022-10-18 23:19:30,214 step [ 144], lr [0.0003000], embedding loss [ 0.7415], quantization loss [ 0.3228],  1.42 sec/batch.
+2022-10-18 23:19:32,570 step [ 145], lr [0.0003000], embedding loss [ 0.7564], quantization loss [ 0.2792],  1.06 sec/batch.
+2022-10-18 23:19:35,254 step [ 146], lr [0.0003000], embedding loss [ 0.7558], quantization loss [ 0.2726],  1.27 sec/batch.
+2022-10-18 23:19:37,589 step [ 147], lr [0.0003000], embedding loss [ 0.7560], quantization loss [ 0.2908],  0.57 sec/batch.
+2022-10-18 23:19:39,659 step [ 148], lr [0.0003000], embedding loss [ 0.7397], quantization loss [ 0.2819],  0.62 sec/batch.
+2022-10-18 23:19:41,658 step [ 149], lr [0.0003000], embedding loss [ 0.7400], quantization loss [ 0.2790],  0.57 sec/batch.
+2022-10-18 23:19:44,623 step [ 150], lr [0.0003000], embedding loss [ 0.7565], quantization loss [ 0.2754],  1.13 sec/batch.
+2022-10-18 23:19:46,547 step [ 151], lr [0.0003000], embedding loss [ 0.7602], quantization loss [ 0.2872],  0.57 sec/batch.
+2022-10-18 23:19:48,621 step [ 152], lr [0.0003000], embedding loss [ 0.7530], quantization loss [ 0.2764],  0.57 sec/batch.
+2022-10-18 23:19:50,894 step [ 153], lr [0.0003000], embedding loss [ 0.7529], quantization loss [ 0.2582],  0.90 sec/batch.
+2022-10-18 23:19:52,834 step [ 154], lr [0.0003000], embedding loss [ 0.7519], quantization loss [ 0.2585],  0.57 sec/batch.
+2022-10-18 23:19:54,793 step [ 155], lr [0.0003000], embedding loss [ 0.7711], quantization loss [ 0.2687],  0.58 sec/batch.
+2022-10-18 23:19:57,476 step [ 156], lr [0.0003000], embedding loss [ 0.7613], quantization loss [ 0.2417],  1.32 sec/batch.
+2022-10-18 23:19:59,465 step [ 157], lr [0.0003000], embedding loss [ 0.7643], quantization loss [ 0.2564],  0.56 sec/batch.
+2022-10-18 23:20:02,215 step [ 158], lr [0.0003000], embedding loss [ 0.7438], quantization loss [ 0.2770],  1.47 sec/batch.
+2022-10-18 23:20:04,568 step [ 159], lr [0.0003000], embedding loss [ 0.7595], quantization loss [ 0.2992],  0.93 sec/batch.
+2022-10-18 23:20:06,496 step [ 160], lr [0.0003000], embedding loss [ 0.7585], quantization loss [ 0.2563],  0.57 sec/batch.
+2022-10-18 23:20:08,911 step [ 161], lr [0.0003000], embedding loss [ 0.7553], quantization loss [ 0.2423],  1.00 sec/batch.
+2022-10-18 23:20:08,912 update codes and centers iter(1/1).
+2022-10-18 23:20:09,704 number of update_code wrong: 0.
+2022-10-18 23:20:12,707 non zero codewords: 256.
+2022-10-18 23:20:12,707 finish center update, duration: 3.80 sec.
+2022-10-18 23:20:14,602 step [ 162], lr [0.0003000], embedding loss [ 0.7480], quantization loss [ 0.1600],  0.58 sec/batch.
+2022-10-18 23:20:16,585 step [ 163], lr [0.0003000], embedding loss [ 0.7562], quantization loss [ 0.1926],  0.56 sec/batch.
+2022-10-18 23:20:18,966 step [ 164], lr [0.0003000], embedding loss [ 0.7461], quantization loss [ 0.1852],  0.98 sec/batch.
+2022-10-18 23:20:20,921 step [ 165], lr [0.0003000], embedding loss [ 0.7475], quantization loss [ 0.1760],  0.57 sec/batch.
+2022-10-18 23:20:22,907 step [ 166], lr [0.0003000], embedding loss [ 0.7548], quantization loss [ 0.2265],  0.57 sec/batch.
+2022-10-18 23:20:24,884 step [ 167], lr [0.0003000], embedding loss [ 0.7499], quantization loss [ 0.2139],  0.59 sec/batch.
+2022-10-18 23:20:27,762 step [ 168], lr [0.0003000], embedding loss [ 0.7562], quantization loss [ 0.2085],  1.06 sec/batch.
+2022-10-18 23:20:29,808 step [ 169], lr [0.0003000], embedding loss [ 0.7571], quantization loss [ 0.2134],  0.58 sec/batch.
+2022-10-18 23:20:32,405 step [ 170], lr [0.0003000], embedding loss [ 0.7567], quantization loss [ 0.2089],  1.25 sec/batch.
+2022-10-18 23:20:34,359 step [ 171], lr [0.0003000], embedding loss [ 0.7662], quantization loss [ 0.1983],  0.57 sec/batch.
+2022-10-18 23:20:37,563 step [ 172], lr [0.0003000], embedding loss [ 0.7575], quantization loss [ 0.1787],  1.35 sec/batch.
+2022-10-18 23:20:39,565 step [ 173], lr [0.0003000], embedding loss [ 0.7580], quantization loss [ 0.1754],  0.57 sec/batch.
+2022-10-18 23:20:41,561 step [ 174], lr [0.0003000], embedding loss [ 0.7528], quantization loss [ 0.1703],  0.57 sec/batch.
+2022-10-18 23:20:44,445 step [ 175], lr [0.0003000], embedding loss [ 0.7478], quantization loss [ 0.1800],  1.06 sec/batch.
+2022-10-18 23:20:46,393 step [ 176], lr [0.0003000], embedding loss [ 0.7625], quantization loss [ 0.1722],  0.57 sec/batch.
+2022-10-18 23:20:48,289 step [ 177], lr [0.0003000], embedding loss [ 0.7418], quantization loss [ 0.1681],  0.56 sec/batch.
+2022-10-18 23:20:50,738 step [ 178], lr [0.0003000], embedding loss [ 0.7697], quantization loss [ 0.1557],  1.03 sec/batch.
+2022-10-18 23:20:52,807 step [ 179], lr [0.0003000], embedding loss [ 0.7595], quantization loss [ 0.1642],  0.57 sec/batch.
+2022-10-18 23:20:54,738 step [ 180], lr [0.0003000], embedding loss [ 0.7532], quantization loss [ 0.2113],  0.57 sec/batch.
+2022-10-18 23:20:57,281 step [ 181], lr [0.0003000], embedding loss [ 0.7553], quantization loss [ 0.1633],  1.08 sec/batch.
+2022-10-18 23:20:59,912 step [ 182], lr [0.0003000], embedding loss [ 0.7619], quantization loss [ 0.1667],  1.29 sec/batch.
+2022-10-18 23:21:01,972 step [ 183], lr [0.0003000], embedding loss [ 0.7524], quantization loss [ 0.1731],  0.60 sec/batch.
+2022-10-18 23:21:04,288 step [ 184], lr [0.0003000], embedding loss [ 0.7518], quantization loss [ 0.1664],  0.94 sec/batch.
+2022-10-18 23:21:06,776 step [ 185], lr [0.0003000], embedding loss [ 0.7554], quantization loss [ 0.1633],  1.07 sec/batch.
+2022-10-18 23:21:08,641 step [ 186], lr [0.0003000], embedding loss [ 0.7433], quantization loss [ 0.1597],  0.56 sec/batch.
+2022-10-18 23:21:11,085 step [ 187], lr [0.0003000], embedding loss [ 0.7463], quantization loss [ 0.1666],  1.10 sec/batch.
+2022-10-18 23:21:13,302 step [ 188], lr [0.0003000], embedding loss [ 0.7552], quantization loss [ 0.1623],  0.58 sec/batch.
+2022-10-18 23:21:15,397 step [ 189], lr [0.0003000], embedding loss [ 0.7581], quantization loss [ 0.1685],  0.57 sec/batch.
+2022-10-18 23:21:17,428 step [ 190], lr [0.0003000], embedding loss [ 0.7489], quantization loss [ 0.1815],  0.56 sec/batch.
+2022-10-18 23:21:20,111 step [ 191], lr [0.0003000], embedding loss [ 0.7624], quantization loss [ 0.1654],  1.27 sec/batch.
+2022-10-18 23:21:22,052 step [ 192], lr [0.0003000], embedding loss [ 0.7449], quantization loss [ 0.1907],  0.57 sec/batch.
+2022-10-18 23:21:24,049 step [ 193], lr [0.0003000], embedding loss [ 0.7427], quantization loss [ 0.1718],  0.57 sec/batch.
+2022-10-18 23:21:26,041 step [ 194], lr [0.0003000], embedding loss [ 0.7430], quantization loss [ 0.1785],  0.56 sec/batch.
+2022-10-18 23:21:28,484 step [ 195], lr [0.0003000], embedding loss [ 0.7587], quantization loss [ 0.1627],  0.56 sec/batch.
+2022-10-18 23:21:30,438 step [ 196], lr [0.0003000], embedding loss [ 0.7529], quantization loss [ 0.2127],  0.58 sec/batch.
+2022-10-18 23:21:32,853 step [ 197], lr [0.0003000], embedding loss [ 0.7559], quantization loss [ 0.1656],  1.05 sec/batch.
+2022-10-18 23:21:34,872 step [ 198], lr [0.0003000], embedding loss [ 0.7529], quantization loss [ 0.1872],  0.57 sec/batch.
+2022-10-18 23:21:36,866 step [ 199], lr [0.0003000], embedding loss [ 0.7695], quantization loss [ 0.1757],  0.57 sec/batch.
+2022-10-18 23:21:38,825 step [ 200], lr [0.0003000], embedding loss [ 0.7461], quantization loss [ 0.1696],  0.56 sec/batch.
+2022-10-18 23:21:41,222 step [ 201], lr [0.0003000], embedding loss [ 0.7407], quantization loss [ 0.1765],  0.97 sec/batch.
+2022-10-18 23:21:43,084 step [ 202], lr [0.0003000], embedding loss [ 0.7473], quantization loss [ 0.1651],  0.56 sec/batch.
+2022-10-18 23:21:44,984 step [ 203], lr [0.0003000], embedding loss [ 0.7432], quantization loss [ 0.1515],  0.52 sec/batch.
+2022-10-18 23:21:48,034 step [ 204], lr [0.0003000], embedding loss [ 0.7566], quantization loss [ 0.1393],  1.25 sec/batch.
+2022-10-18 23:21:49,917 step [ 205], lr [0.0003000], embedding loss [ 0.7499], quantization loss [ 0.1352],  0.57 sec/batch.
+2022-10-18 23:21:52,718 step [ 206], lr [0.0003000], embedding loss [ 0.7494], quantization loss [ 0.1579],  0.98 sec/batch.
+2022-10-18 23:21:55,380 step [ 207], lr [0.0003000], embedding loss [ 0.7400], quantization loss [ 0.1400],  1.28 sec/batch.
+2022-10-18 23:21:57,729 step [ 208], lr [0.0003000], embedding loss [ 0.7574], quantization loss [ 0.1476],  1.03 sec/batch.
+2022-10-18 23:22:00,388 step [ 209], lr [0.0003000], embedding loss [ 0.7606], quantization loss [ 0.1444],  1.33 sec/batch.
+2022-10-18 23:22:02,338 step [ 210], lr [0.0003000], embedding loss [ 0.7502], quantization loss [ 0.1405],  0.57 sec/batch.
+2022-10-18 23:22:04,348 step [ 211], lr [0.0003000], embedding loss [ 0.7554], quantization loss [ 0.1354],  0.56 sec/batch.
+2022-10-18 23:22:07,223 step [ 212], lr [0.0003000], embedding loss [ 0.7554], quantization loss [ 0.1529],  1.28 sec/batch.
+2022-10-18 23:22:09,279 step [ 213], lr [0.0003000], embedding loss [ 0.7519], quantization loss [ 0.1273],  0.57 sec/batch.
+2022-10-18 23:22:11,682 step [ 214], lr [0.0003000], embedding loss [ 0.7555], quantization loss [ 0.1393],  0.58 sec/batch.
+2022-10-18 23:22:13,698 step [ 215], lr [0.0003000], embedding loss [ 0.7414], quantization loss [ 0.1414],  0.56 sec/batch.
+2022-10-18 23:22:16,259 step [ 216], lr [0.0003000], embedding loss [ 0.7462], quantization loss [ 0.1530],  1.03 sec/batch.
+2022-10-18 23:22:18,197 step [ 217], lr [0.0003000], embedding loss [ 0.7536], quantization loss [ 0.1198],  0.58 sec/batch.
+2022-10-18 23:22:20,718 step [ 218], lr [0.0003000], embedding loss [ 0.7577], quantization loss [ 0.1575],  0.57 sec/batch.
+2022-10-18 23:22:23,589 step [ 219], lr [0.0003000], embedding loss [ 0.7450], quantization loss [ 0.1288],  1.03 sec/batch.
+2022-10-18 23:22:25,856 step [ 220], lr [0.0003000], embedding loss [ 0.7571], quantization loss [ 0.1527],  0.57 sec/batch.
+2022-10-18 23:22:27,818 step [ 221], lr [0.0003000], embedding loss [ 0.7557], quantization loss [ 0.1444],  0.56 sec/batch.
+2022-10-18 23:22:30,860 step [ 222], lr [0.0003000], embedding loss [ 0.7475], quantization loss [ 0.1466],  1.59 sec/batch.
+2022-10-18 23:22:33,874 step [ 223], lr [0.0003000], embedding loss [ 0.7506], quantization loss [ 0.1437],  1.67 sec/batch.
+2022-10-18 23:22:36,334 step [ 224], lr [0.0003000], embedding loss [ 0.7497], quantization loss [ 0.1569],  1.04 sec/batch.
+2022-10-18 23:22:38,746 step [ 225], lr [0.0003000], embedding loss [ 0.7480], quantization loss [ 0.1421],  1.02 sec/batch.
+2022-10-18 23:22:40,774 step [ 226], lr [0.0003000], embedding loss [ 0.7609], quantization loss [ 0.1428],  0.55 sec/batch.
+2022-10-18 23:22:43,075 step [ 227], lr [0.0003000], embedding loss [ 0.7485], quantization loss [ 0.1534],  0.92 sec/batch.
+2022-10-18 23:22:45,014 step [ 228], lr [0.0003000], embedding loss [ 0.7527], quantization loss [ 0.1293],  0.56 sec/batch.
+2022-10-18 23:22:47,566 step [ 229], lr [0.0003000], embedding loss [ 0.7494], quantization loss [ 0.1303],  1.18 sec/batch.
+2022-10-18 23:22:50,567 step [ 230], lr [0.0003000], embedding loss [ 0.7575], quantization loss [ 0.1468],  1.67 sec/batch.
+2022-10-18 23:22:53,590 step [ 231], lr [0.0003000], embedding loss [ 0.7561], quantization loss [ 0.1340],  1.61 sec/batch.
+2022-10-18 23:22:56,540 step [ 232], lr [0.0003000], embedding loss [ 0.7629], quantization loss [ 0.1350],  1.63 sec/batch.
+2022-10-18 23:22:59,564 step [ 233], lr [0.0003000], embedding loss [ 0.7530], quantization loss [ 0.1378],  1.63 sec/batch.
+2022-10-18 23:23:02,012 step [ 234], lr [0.0003000], embedding loss [ 0.7490], quantization loss [ 0.1467],  1.05 sec/batch.
+2022-10-18 23:23:04,510 step [ 235], lr [0.0003000], embedding loss [ 0.7521], quantization loss [ 0.1390],  1.08 sec/batch.
+2022-10-18 23:23:06,930 step [ 236], lr [0.0003000], embedding loss [ 0.7606], quantization loss [ 0.1450],  1.03 sec/batch.
+2022-10-18 23:23:10,019 step [ 237], lr [0.0003000], embedding loss [ 0.7538], quantization loss [ 0.1390],  1.62 sec/batch.
+2022-10-18 23:23:12,882 step [ 238], lr [0.0003000], embedding loss [ 0.7403], quantization loss [ 0.1459],  1.54 sec/batch.
+2022-10-18 23:23:15,997 step [ 239], lr [0.0003000], embedding loss [ 0.7560], quantization loss [ 0.1455],  1.53 sec/batch.
+2022-10-18 23:23:18,611 step [ 240], lr [0.0003000], embedding loss [ 0.7469], quantization loss [ 0.1245],  1.24 sec/batch.
+2022-10-18 23:23:20,537 step [ 241], lr [0.0003000], embedding loss [ 0.7465], quantization loss [ 0.1233],  0.55 sec/batch.
+2022-10-18 23:23:20,538 update codes and centers iter(1/1).
+2022-10-18 23:23:21,332 number of update_code wrong: 0.
+2022-10-18 23:23:23,981 non zero codewords: 256.
+2022-10-18 23:23:23,981 finish center update, duration: 3.44 sec.
+2022-10-18 23:23:26,349 step [ 242], lr [0.0003000], embedding loss [ 0.7536], quantization loss [ 0.1244],  0.55 sec/batch.
+2022-10-18 23:23:28,237 step [ 243], lr [0.0003000], embedding loss [ 0.7488], quantization loss [ 0.0992],  0.55 sec/batch.
+2022-10-18 23:23:31,264 step [ 244], lr [0.0003000], embedding loss [ 0.7517], quantization loss [ 0.1169],  1.61 sec/batch.
+2022-10-18 23:23:33,184 step [ 245], lr [0.0003000], embedding loss [ 0.7473], quantization loss [ 0.1064],  0.56 sec/batch.
+2022-10-18 23:23:35,653 step [ 246], lr [0.0003000], embedding loss [ 0.7438], quantization loss [ 0.1081],  0.56 sec/batch.
+2022-10-18 23:23:38,370 step [ 247], lr [0.0003000], embedding loss [ 0.7526], quantization loss [ 0.1125],  1.29 sec/batch.
+2022-10-18 23:23:41,132 step [ 248], lr [0.0003000], embedding loss [ 0.7503], quantization loss [ 0.1056],  1.38 sec/batch.
+2022-10-18 23:23:43,436 step [ 249], lr [0.0003000], embedding loss [ 0.7606], quantization loss [ 0.1173],  0.57 sec/batch.
+2022-10-18 23:23:46,112 step [ 250], lr [0.0003000], embedding loss [ 0.7408], quantization loss [ 0.0961],  1.28 sec/batch.
+2022-10-18 23:23:48,513 step [ 251], lr [0.0003000], embedding loss [ 0.7635], quantization loss [ 0.1222],  1.04 sec/batch.
+2022-10-18 23:23:51,224 step [ 252], lr [0.0003000], embedding loss [ 0.7603], quantization loss [ 0.1035],  1.28 sec/batch.
+2022-10-18 23:23:54,232 step [ 253], lr [0.0003000], embedding loss [ 0.7541], quantization loss [ 0.1011],  1.35 sec/batch.
+2022-10-18 23:23:57,285 step [ 254], lr [0.0003000], embedding loss [ 0.7521], quantization loss [ 0.1122],  1.63 sec/batch.
+2022-10-18 23:23:59,823 step [ 255], lr [0.0003000], embedding loss [ 0.7441], quantization loss [ 0.1060],  1.28 sec/batch.
+2022-10-18 23:24:02,684 step [ 256], lr [0.0003000], embedding loss [ 0.7461], quantization loss [ 0.1367],  1.25 sec/batch.
+2022-10-18 23:24:05,596 step [ 257], lr [0.0003000], embedding loss [ 0.7469], quantization loss [ 0.1087],  1.34 sec/batch.
+2022-10-18 23:24:08,879 step [ 258], lr [0.0003000], embedding loss [ 0.7442], quantization loss [ 0.1097],  1.65 sec/batch.
+2022-10-18 23:24:11,897 step [ 259], lr [0.0003000], embedding loss [ 0.7510], quantization loss [ 0.1227],  1.61 sec/batch.
+2022-10-18 23:24:14,946 step [ 260], lr [0.0003000], embedding loss [ 0.7612], quantization loss [ 0.1153],  1.63 sec/batch.
+2022-10-18 23:24:17,943 step [ 261], lr [0.0003000], embedding loss [ 0.7496], quantization loss [ 0.1078],  1.33 sec/batch.
+2022-10-18 23:24:20,950 step [ 262], lr [0.0003000], embedding loss [ 0.7466], quantization loss [ 0.1210],  1.56 sec/batch.
+2022-10-18 23:24:23,167 step [ 263], lr [0.0003000], embedding loss [ 0.7556], quantization loss [ 0.1029],  0.56 sec/batch.
+2022-10-18 23:24:25,122 step [ 264], lr [0.0003000], embedding loss [ 0.7517], quantization loss [ 0.1094],  0.58 sec/batch.
+2022-10-18 23:24:27,124 step [ 265], lr [0.0003000], embedding loss [ 0.7562], quantization loss [ 0.1074],  0.56 sec/batch.
+2022-10-18 23:24:29,563 step [ 266], lr [0.0003000], embedding loss [ 0.7552], quantization loss [ 0.0919],  0.62 sec/batch.
+2022-10-18 23:24:32,180 step [ 267], lr [0.0003000], embedding loss [ 0.7660], quantization loss [ 0.0991],  1.23 sec/batch.
+2022-10-18 23:24:34,579 step [ 268], lr [0.0003000], embedding loss [ 0.7497], quantization loss [ 0.1056],  1.05 sec/batch.
+2022-10-18 23:24:37,338 step [ 269], lr [0.0003000], embedding loss [ 0.7458], quantization loss [ 0.1017],  1.35 sec/batch.
+2022-10-18 23:24:40,284 step [ 270], lr [0.0003000], embedding loss [ 0.7474], quantization loss [ 0.0953],  1.59 sec/batch.
+2022-10-18 23:24:42,240 step [ 271], lr [0.0003000], embedding loss [ 0.7494], quantization loss [ 0.1040],  0.56 sec/batch.
+2022-10-18 23:24:44,673 step [ 272], lr [0.0003000], embedding loss [ 0.7523], quantization loss [ 0.0939],  0.56 sec/batch.
+2022-10-18 23:24:47,114 step [ 273], lr [0.0003000], embedding loss [ 0.7537], quantization loss [ 0.0961],  1.01 sec/batch.
+2022-10-18 23:24:49,575 step [ 274], lr [0.0003000], embedding loss [ 0.7501], quantization loss [ 0.0957],  1.10 sec/batch.
+2022-10-18 23:24:52,072 step [ 275], lr [0.0003000], embedding loss [ 0.7547], quantization loss [ 0.0928],  1.05 sec/batch.
+2022-10-18 23:24:54,061 step [ 276], lr [0.0003000], embedding loss [ 0.7424], quantization loss [ 0.1013],  0.57 sec/batch.
+2022-10-18 23:24:56,558 step [ 277], lr [0.0003000], embedding loss [ 0.7525], quantization loss [ 0.1020],  0.57 sec/batch.
+2022-10-18 23:24:59,185 step [ 278], lr [0.0003000], embedding loss [ 0.7460], quantization loss [ 0.1048],  1.22 sec/batch.
+2022-10-18 23:25:01,428 step [ 279], lr [0.0003000], embedding loss [ 0.7473], quantization loss [ 0.0882],  0.55 sec/batch.
+2022-10-18 23:25:03,698 step [ 280], lr [0.0003000], embedding loss [ 0.7464], quantization loss [ 0.0984],  0.92 sec/batch.
+2022-10-18 23:25:05,642 step [ 281], lr [0.0003000], embedding loss [ 0.7525], quantization loss [ 0.0979],  0.56 sec/batch.
+2022-10-18 23:25:07,591 step [ 282], lr [0.0003000], embedding loss [ 0.7516], quantization loss [ 0.0995],  0.56 sec/batch.
+2022-10-18 23:25:09,639 step [ 283], lr [0.0003000], embedding loss [ 0.7519], quantization loss [ 0.0883],  0.56 sec/batch.
+2022-10-18 23:25:12,564 step [ 284], lr [0.0003000], embedding loss [ 0.7410], quantization loss [ 0.0912],  1.54 sec/batch.
+2022-10-18 23:25:14,500 step [ 285], lr [0.0003000], embedding loss [ 0.7513], quantization loss [ 0.0927],  0.58 sec/batch.
+2022-10-18 23:25:16,511 step [ 286], lr [0.0003000], embedding loss [ 0.7522], quantization loss [ 0.0815],  0.53 sec/batch.
+2022-10-18 23:25:18,985 step [ 287], lr [0.0003000], embedding loss [ 0.7455], quantization loss [ 0.0954],  1.13 sec/batch.
+2022-10-18 23:25:20,960 step [ 288], lr [0.0003000], embedding loss [ 0.7591], quantization loss [ 0.0911],  0.57 sec/batch.
+2022-10-18 23:25:22,892 step [ 289], lr [0.0003000], embedding loss [ 0.7510], quantization loss [ 0.0963],  0.56 sec/batch.
+2022-10-18 23:25:24,861 step [ 290], lr [0.0003000], embedding loss [ 0.7418], quantization loss [ 0.0929],  0.56 sec/batch.
+2022-10-18 23:25:27,430 step [ 291], lr [0.0003000], embedding loss [ 0.7578], quantization loss [ 0.0841],  1.12 sec/batch.
+2022-10-18 23:25:30,138 step [ 292], lr [0.0003000], embedding loss [ 0.7475], quantization loss [ 0.0861],  1.32 sec/batch.
+2022-10-18 23:25:32,192 step [ 293], lr [0.0003000], embedding loss [ 0.7604], quantization loss [ 0.0954],  0.58 sec/batch.
+2022-10-18 23:25:34,266 step [ 294], lr [0.0003000], embedding loss [ 0.7530], quantization loss [ 0.0982],  0.54 sec/batch.
+2022-10-18 23:25:37,205 step [ 295], lr [0.0003000], embedding loss [ 0.7397], quantization loss [ 0.0916],  1.56 sec/batch.
+2022-10-18 23:25:39,790 step [ 296], lr [0.0003000], embedding loss [ 0.7421], quantization loss [ 0.0856],  1.21 sec/batch.
+2022-10-18 23:25:42,450 step [ 297], lr [0.0003000], embedding loss [ 0.7569], quantization loss [ 0.0923],  1.29 sec/batch.
+2022-10-18 23:25:44,902 step [ 298], lr [0.0003000], embedding loss [ 0.7398], quantization loss [ 0.0926],  1.09 sec/batch.
+2022-10-18 23:25:46,902 step [ 299], lr [0.0003000], embedding loss [ 0.7464], quantization loss [ 0.0932],  0.55 sec/batch.
+2022-10-18 23:25:49,807 step [ 300], lr [0.0003000], embedding loss [ 0.7539], quantization loss [ 0.1150],  1.42 sec/batch.
+2022-10-18 23:25:52,511 step [ 301], lr [0.0001500], embedding loss [ 0.7534], quantization loss [ 0.0943],  1.36 sec/batch.
+2022-10-18 23:25:54,922 step [ 302], lr [0.0001500], embedding loss [ 0.7366], quantization loss [ 0.0881],  1.00 sec/batch.
+2022-10-18 23:25:57,921 step [ 303], lr [0.0001500], embedding loss [ 0.7542], quantization loss [ 0.0886],  1.59 sec/batch.
+2022-10-18 23:26:00,855 step [ 304], lr [0.0001500], embedding loss [ 0.7499], quantization loss [ 0.0884],  1.52 sec/batch.
+2022-10-18 23:26:03,802 step [ 305], lr [0.0001500], embedding loss [ 0.7389], quantization loss [ 0.0873],  1.31 sec/batch.
+2022-10-18 23:26:07,047 step [ 306], lr [0.0001500], embedding loss [ 0.7497], quantization loss [ 0.0986],  1.58 sec/batch.
+2022-10-18 23:26:09,880 step [ 307], lr [0.0001500], embedding loss [ 0.7598], quantization loss [ 0.0885],  1.26 sec/batch.
+2022-10-18 23:26:13,102 step [ 308], lr [0.0001500], embedding loss [ 0.7460], quantization loss [ 0.0865],  1.53 sec/batch.
+2022-10-18 23:26:15,869 step [ 309], lr [0.0001500], embedding loss [ 0.7460], quantization loss [ 0.0960],  1.22 sec/batch.
+2022-10-18 23:26:18,954 step [ 310], lr [0.0001500], embedding loss [ 0.7512], quantization loss [ 0.0824],  1.44 sec/batch.
+2022-10-18 23:26:21,832 step [ 311], lr [0.0001500], embedding loss [ 0.7428], quantization loss [ 0.0832],  1.26 sec/batch.
+2022-10-18 23:26:24,986 step [ 312], lr [0.0001500], embedding loss [ 0.7443], quantization loss [ 0.0991],  1.52 sec/batch.
+2022-10-18 23:26:28,092 step [ 313], lr [0.0001500], embedding loss [ 0.7509], quantization loss [ 0.0819],  1.48 sec/batch.
+2022-10-18 23:26:31,612 step [ 314], lr [0.0001500], embedding loss [ 0.7463], quantization loss [ 0.0887],  1.99 sec/batch.
+2022-10-18 23:26:34,984 step [ 315], lr [0.0001500], embedding loss [ 0.7506], quantization loss [ 0.0842],  1.54 sec/batch.
+2022-10-18 23:26:37,962 step [ 316], lr [0.0001500], embedding loss [ 0.7581], quantization loss [ 0.0804],  1.59 sec/batch.
+2022-10-18 23:26:41,293 step [ 317], lr [0.0001500], embedding loss [ 0.7502], quantization loss [ 0.0909],  1.57 sec/batch.
+2022-10-18 23:26:44,357 step [ 318], lr [0.0001500], embedding loss [ 0.7347], quantization loss [ 0.0810],  1.54 sec/batch.
+2022-10-18 23:26:47,166 step [ 319], lr [0.0001500], embedding loss [ 0.7642], quantization loss [ 0.0894],  1.45 sec/batch.
+2022-10-18 23:26:50,402 step [ 320], lr [0.0001500], embedding loss [ 0.7455], quantization loss [ 0.0783],  1.66 sec/batch.
+2022-10-18 23:26:53,403 step [ 321], lr [0.0001500], embedding loss [ 0.7399], quantization loss [ 0.0810],  1.44 sec/batch.
+2022-10-18 23:26:53,404 update codes and centers iter(1/1).
+2022-10-18 23:26:54,198 number of update_code wrong: 0.
+2022-10-18 23:26:56,983 non zero codewords: 256.
+2022-10-18 23:26:56,983 finish center update, duration: 3.58 sec.
+2022-10-18 23:26:59,675 step [ 322], lr [0.0001500], embedding loss [ 0.7454], quantization loss [ 0.0680],  1.46 sec/batch.
+2022-10-18 23:27:03,033 step [ 323], lr [0.0001500], embedding loss [ 0.7535], quantization loss [ 0.0768],  1.70 sec/batch.
+2022-10-18 23:27:05,988 step [ 324], lr [0.0001500], embedding loss [ 0.7583], quantization loss [ 0.0723],  1.45 sec/batch.
+2022-10-18 23:27:09,068 step [ 325], lr [0.0001500], embedding loss [ 0.7520], quantization loss [ 0.0803],  1.65 sec/batch.
+2022-10-18 23:27:12,115 step [ 326], lr [0.0001500], embedding loss [ 0.7397], quantization loss [ 0.0706],  1.55 sec/batch.
+2022-10-18 23:27:15,237 step [ 327], lr [0.0001500], embedding loss [ 0.7439], quantization loss [ 0.0761],  1.47 sec/batch.
+2022-10-18 23:27:18,167 step [ 328], lr [0.0001500], embedding loss [ 0.7528], quantization loss [ 0.0823],  1.54 sec/batch.
+2022-10-18 23:27:21,218 step [ 329], lr [0.0001500], embedding loss [ 0.7495], quantization loss [ 0.0746],  1.48 sec/batch.
+2022-10-18 23:27:24,226 step [ 330], lr [0.0001500], embedding loss [ 0.7433], quantization loss [ 0.0729],  1.47 sec/batch.
+2022-10-18 23:27:27,339 step [ 331], lr [0.0001500], embedding loss [ 0.7562], quantization loss [ 0.0783],  1.58 sec/batch.
+2022-10-18 23:27:30,464 step [ 332], lr [0.0001500], embedding loss [ 0.7516], quantization loss [ 0.0716],  1.53 sec/batch.
+2022-10-18 23:27:33,611 step [ 333], lr [0.0001500], embedding loss [ 0.7467], quantization loss [ 0.0722],  1.48 sec/batch.
+2022-10-18 23:27:36,628 step [ 334], lr [0.0001500], embedding loss [ 0.7457], quantization loss [ 0.0773],  1.63 sec/batch.
+2022-10-18 23:27:39,781 step [ 335], lr [0.0001500], embedding loss [ 0.7441], quantization loss [ 0.0747],  1.56 sec/batch.
+2022-10-18 23:27:42,941 step [ 336], lr [0.0001500], embedding loss [ 0.7432], quantization loss [ 0.0747],  1.47 sec/batch.
+2022-10-18 23:27:45,958 step [ 337], lr [0.0001500], embedding loss [ 0.7482], quantization loss [ 0.0705],  1.63 sec/batch.
+2022-10-18 23:27:49,356 step [ 338], lr [0.0001500], embedding loss [ 0.7496], quantization loss [ 0.0823],  1.81 sec/batch.
+2022-10-18 23:27:51,441 step [ 339], lr [0.0001500], embedding loss [ 0.7386], quantization loss [ 0.0773],  0.56 sec/batch.
+2022-10-18 23:27:53,365 step [ 340], lr [0.0001500], embedding loss [ 0.7468], quantization loss [ 0.0645],  0.52 sec/batch.
+2022-10-18 23:27:55,327 step [ 341], lr [0.0001500], embedding loss [ 0.7513], quantization loss [ 0.0729],  0.54 sec/batch.
+2022-10-18 23:27:57,181 step [ 342], lr [0.0001500], embedding loss [ 0.7461], quantization loss [ 0.0904],  0.52 sec/batch.
+2022-10-18 23:27:59,037 step [ 343], lr [0.0001500], embedding loss [ 0.7473], quantization loss [ 0.0850],  0.53 sec/batch.
+2022-10-18 23:28:00,926 step [ 344], lr [0.0001500], embedding loss [ 0.7552], quantization loss [ 0.0789],  0.52 sec/batch.
+2022-10-18 23:28:02,767 step [ 345], lr [0.0001500], embedding loss [ 0.7439], quantization loss [ 0.0828],  0.52 sec/batch.
+2022-10-18 23:28:04,583 step [ 346], lr [0.0001500], embedding loss [ 0.7497], quantization loss [ 0.0782],  0.51 sec/batch.
+2022-10-18 23:28:06,401 step [ 347], lr [0.0001500], embedding loss [ 0.7419], quantization loss [ 0.0741],  0.51 sec/batch.
+2022-10-18 23:28:08,240 step [ 348], lr [0.0001500], embedding loss [ 0.7374], quantization loss [ 0.0749],  0.51 sec/batch.
+2022-10-18 23:28:10,127 step [ 349], lr [0.0001500], embedding loss [ 0.7534], quantization loss [ 0.0653],  0.55 sec/batch.
+2022-10-18 23:28:12,045 step [ 350], lr [0.0001500], embedding loss [ 0.7513], quantization loss [ 0.0809],  0.51 sec/batch.
+2022-10-18 23:28:13,914 step [ 351], lr [0.0001500], embedding loss [ 0.7525], quantization loss [ 0.0807],  0.55 sec/batch.
+2022-10-18 23:28:15,792 step [ 352], lr [0.0001500], embedding loss [ 0.7321], quantization loss [ 0.0773],  0.52 sec/batch.
+2022-10-18 23:28:17,740 step [ 353], lr [0.0001500], embedding loss [ 0.7667], quantization loss [ 0.0678],  0.53 sec/batch.
+2022-10-18 23:28:19,660 step [ 354], lr [0.0001500], embedding loss [ 0.7457], quantization loss [ 0.0705],  0.52 sec/batch.
+2022-10-18 23:28:21,537 step [ 355], lr [0.0001500], embedding loss [ 0.7356], quantization loss [ 0.0744],  0.52 sec/batch.
+2022-10-18 23:28:23,403 step [ 356], lr [0.0001500], embedding loss [ 0.7530], quantization loss [ 0.0746],  0.52 sec/batch.
+2022-10-18 23:28:25,275 step [ 357], lr [0.0001500], embedding loss [ 0.7527], quantization loss [ 0.0777],  0.52 sec/batch.
+2022-10-18 23:28:27,110 step [ 358], lr [0.0001500], embedding loss [ 0.7483], quantization loss [ 0.0724],  0.52 sec/batch.
+2022-10-18 23:28:28,991 step [ 359], lr [0.0001500], embedding loss [ 0.7511], quantization loss [ 0.0740],  0.52 sec/batch.
+2022-10-18 23:28:30,860 step [ 360], lr [0.0001500], embedding loss [ 0.7449], quantization loss [ 0.0834],  0.52 sec/batch.
+2022-10-18 23:28:32,782 step [ 361], lr [0.0001500], embedding loss [ 0.7422], quantization loss [ 0.0745],  0.52 sec/batch.
+2022-10-18 23:28:34,712 step [ 362], lr [0.0001500], embedding loss [ 0.7409], quantization loss [ 0.0701],  0.53 sec/batch.
+2022-10-18 23:28:36,536 step [ 363], lr [0.0001500], embedding loss [ 0.7470], quantization loss [ 0.0685],  0.51 sec/batch.
+2022-10-18 23:28:38,361 step [ 364], lr [0.0001500], embedding loss [ 0.7484], quantization loss [ 0.0657],  0.52 sec/batch.
+2022-10-18 23:28:40,225 step [ 365], lr [0.0001500], embedding loss [ 0.7437], quantization loss [ 0.0666],  0.53 sec/batch.
+2022-10-18 23:28:42,103 step [ 366], lr [0.0001500], embedding loss [ 0.7456], quantization loss [ 0.0723],  0.52 sec/batch.
+2022-10-18 23:28:43,992 step [ 367], lr [0.0001500], embedding loss [ 0.7447], quantization loss [ 0.0685],  0.55 sec/batch.
+2022-10-18 23:28:45,930 step [ 368], lr [0.0001500], embedding loss [ 0.7444], quantization loss [ 0.0699],  0.59 sec/batch.
+2022-10-18 23:28:47,791 step [ 369], lr [0.0001500], embedding loss [ 0.7653], quantization loss [ 0.0703],  0.52 sec/batch.
+2022-10-18 23:28:49,671 step [ 370], lr [0.0001500], embedding loss [ 0.7423], quantization loss [ 0.0597],  0.52 sec/batch.
+2022-10-18 23:28:51,566 step [ 371], lr [0.0001500], embedding loss [ 0.7546], quantization loss [ 0.0687],  0.52 sec/batch.
+2022-10-18 23:28:53,405 step [ 372], lr [0.0001500], embedding loss [ 0.7521], quantization loss [ 0.0801],  0.52 sec/batch.
+2022-10-18 23:28:55,251 step [ 373], lr [0.0001500], embedding loss [ 0.7441], quantization loss [ 0.0668],  0.51 sec/batch.
+2022-10-18 23:28:57,146 step [ 374], lr [0.0001500], embedding loss [ 0.7423], quantization loss [ 0.0641],  0.52 sec/batch.
+2022-10-18 23:28:59,016 step [ 375], lr [0.0001500], embedding loss [ 0.7432], quantization loss [ 0.0773],  0.52 sec/batch.
+2022-10-18 23:29:00,899 step [ 376], lr [0.0001500], embedding loss [ 0.7445], quantization loss [ 0.0676],  0.52 sec/batch.
+2022-10-18 23:29:02,787 step [ 377], lr [0.0001500], embedding loss [ 0.7476], quantization loss [ 0.0753],  0.52 sec/batch.
+2022-10-18 23:29:04,638 step [ 378], lr [0.0001500], embedding loss [ 0.7522], quantization loss [ 0.0700],  0.52 sec/batch.
+2022-10-18 23:29:06,544 step [ 379], lr [0.0001500], embedding loss [ 0.7568], quantization loss [ 0.0706],  0.52 sec/batch.
+2022-10-18 23:29:08,394 step [ 380], lr [0.0001500], embedding loss [ 0.7396], quantization loss [ 0.0637],  0.52 sec/batch.
+2022-10-18 23:29:10,272 step [ 381], lr [0.0001500], embedding loss [ 0.7519], quantization loss [ 0.0699],  0.52 sec/batch.
+2022-10-18 23:29:12,149 step [ 382], lr [0.0001500], embedding loss [ 0.7327], quantization loss [ 0.0648],  0.52 sec/batch.
+2022-10-18 23:29:14,013 step [ 383], lr [0.0001500], embedding loss [ 0.7463], quantization loss [ 0.0639],  0.52 sec/batch.
+2022-10-18 23:29:15,865 step [ 384], lr [0.0001500], embedding loss [ 0.7539], quantization loss [ 0.0849],  0.51 sec/batch.
+2022-10-18 23:29:17,742 step [ 385], lr [0.0001500], embedding loss [ 0.7414], quantization loss [ 0.0700],  0.52 sec/batch.
+2022-10-18 23:29:19,599 step [ 386], lr [0.0001500], embedding loss [ 0.7549], quantization loss [ 0.0762],  0.53 sec/batch.
+2022-10-18 23:29:21,635 step [ 387], lr [0.0001500], embedding loss [ 0.7412], quantization loss [ 0.0640],  0.50 sec/batch.
+2022-10-18 23:29:23,459 step [ 388], lr [0.0001500], embedding loss [ 0.7515], quantization loss [ 0.0612],  0.52 sec/batch.
+2022-10-18 23:29:25,341 step [ 389], lr [0.0001500], embedding loss [ 0.7515], quantization loss [ 0.0695],  0.53 sec/batch.
+2022-10-18 23:29:27,193 step [ 390], lr [0.0001500], embedding loss [ 0.7504], quantization loss [ 0.0828],  0.51 sec/batch.
+2022-10-18 23:29:29,071 step [ 391], lr [0.0001500], embedding loss [ 0.7528], quantization loss [ 0.0672],  0.52 sec/batch.
+2022-10-18 23:29:30,913 step [ 392], lr [0.0001500], embedding loss [ 0.7506], quantization loss [ 0.0755],  0.52 sec/batch.
+2022-10-18 23:29:32,775 step [ 393], lr [0.0001500], embedding loss [ 0.7396], quantization loss [ 0.0763],  0.52 sec/batch.
+2022-10-18 23:29:34,672 step [ 394], lr [0.0001500], embedding loss [ 0.7387], quantization loss [ 0.0653],  0.52 sec/batch.
+2022-10-18 23:29:36,533 step [ 395], lr [0.0001500], embedding loss [ 0.7581], quantization loss [ 0.0730],  0.50 sec/batch.
+2022-10-18 23:29:38,391 step [ 396], lr [0.0001500], embedding loss [ 0.7335], quantization loss [ 0.0745],  0.52 sec/batch.
+2022-10-18 23:29:40,300 step [ 397], lr [0.0001500], embedding loss [ 0.7394], quantization loss [ 0.0640],  0.52 sec/batch.
+2022-10-18 23:29:42,213 step [ 398], lr [0.0001500], embedding loss [ 0.7386], quantization loss [ 0.0583],  0.52 sec/batch.
+2022-10-18 23:29:44,109 step [ 399], lr [0.0001500], embedding loss [ 0.7531], quantization loss [ 0.0585],  0.52 sec/batch.
+2022-10-18 23:29:46,027 step [ 400], lr [0.0001500], embedding loss [ 0.7481], quantization loss [ 0.0635],  0.52 sec/batch.
+2022-10-18 23:29:47,917 step [ 401], lr [0.0001500], embedding loss [ 0.7595], quantization loss [ 0.0618],  0.52 sec/batch.
+2022-10-18 23:29:47,917 update codes and centers iter(1/1).
+2022-10-18 23:29:48,727 number of update_code wrong: 0.
+2022-10-18 23:29:51,469 non zero codewords: 256.
+2022-10-18 23:29:51,469 finish center update, duration: 3.55 sec.
+2022-10-18 23:29:53,307 step [ 402], lr [0.0001500], embedding loss [ 0.7589], quantization loss [ 0.0568],  0.52 sec/batch.
+2022-10-18 23:29:55,160 step [ 403], lr [0.0001500], embedding loss [ 0.7339], quantization loss [ 0.0556],  0.53 sec/batch.
+2022-10-18 23:29:57,053 step [ 404], lr [0.0001500], embedding loss [ 0.7379], quantization loss [ 0.0626],  0.52 sec/batch.
+2022-10-18 23:29:58,981 step [ 405], lr [0.0001500], embedding loss [ 0.7415], quantization loss [ 0.0616],  0.52 sec/batch.
+2022-10-18 23:30:00,875 step [ 406], lr [0.0001500], embedding loss [ 0.7527], quantization loss [ 0.0628],  0.52 sec/batch.
+2022-10-18 23:30:02,771 step [ 407], lr [0.0001500], embedding loss [ 0.7531], quantization loss [ 0.0585],  0.52 sec/batch.
+2022-10-18 23:30:04,673 step [ 408], lr [0.0001500], embedding loss [ 0.7469], quantization loss [ 0.0604],  0.51 sec/batch.
+2022-10-18 23:30:06,646 step [ 409], lr [0.0001500], embedding loss [ 0.7487], quantization loss [ 0.0562],  0.52 sec/batch.
+2022-10-18 23:30:08,561 step [ 410], lr [0.0001500], embedding loss [ 0.7488], quantization loss [ 0.0578],  0.52 sec/batch.
+2022-10-18 23:30:10,435 step [ 411], lr [0.0001500], embedding loss [ 0.7402], quantization loss [ 0.0556],  0.53 sec/batch.
+2022-10-18 23:30:12,345 step [ 412], lr [0.0001500], embedding loss [ 0.7428], quantization loss [ 0.0570],  0.54 sec/batch.
+2022-10-18 23:30:14,307 step [ 413], lr [0.0001500], embedding loss [ 0.7458], quantization loss [ 0.0677],  0.52 sec/batch.
+2022-10-18 23:30:16,175 step [ 414], lr [0.0001500], embedding loss [ 0.7532], quantization loss [ 0.0670],  0.52 sec/batch.
+2022-10-18 23:30:18,057 step [ 415], lr [0.0001500], embedding loss [ 0.7312], quantization loss [ 0.0594],  0.52 sec/batch.
+2022-10-18 23:30:19,916 step [ 416], lr [0.0001500], embedding loss [ 0.7494], quantization loss [ 0.0568],  0.53 sec/batch.
+2022-10-18 23:30:21,811 step [ 417], lr [0.0001500], embedding loss [ 0.7485], quantization loss [ 0.0625],  0.52 sec/batch.
+2022-10-18 23:30:23,651 step [ 418], lr [0.0001500], embedding loss [ 0.7459], quantization loss [ 0.0627],  0.51 sec/batch.
+2022-10-18 23:30:25,540 step [ 419], lr [0.0001500], embedding loss [ 0.7519], quantization loss [ 0.0633],  0.51 sec/batch.
+2022-10-18 23:30:27,429 step [ 420], lr [0.0001500], embedding loss [ 0.7452], quantization loss [ 0.0633],  0.52 sec/batch.
+2022-10-18 23:30:29,297 step [ 421], lr [0.0001500], embedding loss [ 0.7448], quantization loss [ 0.0618],  0.52 sec/batch.
+2022-10-18 23:30:31,166 step [ 422], lr [0.0001500], embedding loss [ 0.7487], quantization loss [ 0.0567],  0.52 sec/batch.
+2022-10-18 23:30:33,023 step [ 423], lr [0.0001500], embedding loss [ 0.7578], quantization loss [ 0.0667],  0.52 sec/batch.
+2022-10-18 23:30:34,914 step [ 424], lr [0.0001500], embedding loss [ 0.7507], quantization loss [ 0.0654],  0.53 sec/batch.
+2022-10-18 23:30:36,839 step [ 425], lr [0.0001500], embedding loss [ 0.7426], quantization loss [ 0.0637],  0.52 sec/batch.
+2022-10-18 23:30:38,740 step [ 426], lr [0.0001500], embedding loss [ 0.7566], quantization loss [ 0.0633],  0.55 sec/batch.
+2022-10-18 23:30:40,661 step [ 427], lr [0.0001500], embedding loss [ 0.7479], quantization loss [ 0.0640],  0.52 sec/batch.
+2022-10-18 23:30:42,587 step [ 428], lr [0.0001500], embedding loss [ 0.7474], quantization loss [ 0.0503],  0.52 sec/batch.
+2022-10-18 23:30:44,565 step [ 429], lr [0.0001500], embedding loss [ 0.7464], quantization loss [ 0.0612],  0.52 sec/batch.
+2022-10-18 23:30:46,537 step [ 430], lr [0.0001500], embedding loss [ 0.7352], quantization loss [ 0.0588],  0.53 sec/batch.
+2022-10-18 23:30:48,481 step [ 431], lr [0.0001500], embedding loss [ 0.7556], quantization loss [ 0.0633],  0.53 sec/batch.
+2022-10-18 23:30:50,372 step [ 432], lr [0.0001500], embedding loss [ 0.7463], quantization loss [ 0.0631],  0.52 sec/batch.
+2022-10-18 23:30:52,302 step [ 433], lr [0.0001500], embedding loss [ 0.7465], quantization loss [ 0.0626],  0.55 sec/batch.
+2022-10-18 23:30:54,230 step [ 434], lr [0.0001500], embedding loss [ 0.7297], quantization loss [ 0.0630],  0.53 sec/batch.
+2022-10-18 23:30:56,111 step [ 435], lr [0.0001500], embedding loss [ 0.7416], quantization loss [ 0.0635],  0.52 sec/batch.
+2022-10-18 23:30:58,040 step [ 436], lr [0.0001500], embedding loss [ 0.7305], quantization loss [ 0.0505],  0.52 sec/batch.
+2022-10-18 23:30:59,983 step [ 437], lr [0.0001500], embedding loss [ 0.7528], quantization loss [ 0.0631],  0.52 sec/batch.
+2022-10-18 23:31:01,875 step [ 438], lr [0.0001500], embedding loss [ 0.7442], quantization loss [ 0.0581],  0.53 sec/batch.
+2022-10-18 23:31:03,811 step [ 439], lr [0.0001500], embedding loss [ 0.7434], quantization loss [ 0.0599],  0.54 sec/batch.
+2022-10-18 23:31:05,710 step [ 440], lr [0.0001500], embedding loss [ 0.7422], quantization loss [ 0.0590],  0.53 sec/batch.
+2022-10-18 23:31:07,569 step [ 441], lr [0.0001500], embedding loss [ 0.7507], quantization loss [ 0.0572],  0.51 sec/batch.
+2022-10-18 23:31:09,454 step [ 442], lr [0.0001500], embedding loss [ 0.7607], quantization loss [ 0.0572],  0.53 sec/batch.
+2022-10-18 23:31:11,389 step [ 443], lr [0.0001500], embedding loss [ 0.7423], quantization loss [ 0.0524],  0.52 sec/batch.
+2022-10-18 23:31:13,304 step [ 444], lr [0.0001500], embedding loss [ 0.7452], quantization loss [ 0.0589],  0.53 sec/batch.
+2022-10-18 23:31:15,207 step [ 445], lr [0.0001500], embedding loss [ 0.7425], quantization loss [ 0.0509],  0.53 sec/batch.
+2022-10-18 23:31:17,115 step [ 446], lr [0.0001500], embedding loss [ 0.7488], quantization loss [ 0.0609],  0.51 sec/batch.
+2022-10-18 23:31:19,020 step [ 447], lr [0.0001500], embedding loss [ 0.7479], quantization loss [ 0.0575],  0.53 sec/batch.
+2022-10-18 23:31:20,908 step [ 448], lr [0.0001500], embedding loss [ 0.7376], quantization loss [ 0.0562],  0.53 sec/batch.
+2022-10-18 23:31:22,846 step [ 449], lr [0.0001500], embedding loss [ 0.7414], quantization loss [ 0.0572],  0.53 sec/batch.
+2022-10-18 23:31:24,773 step [ 450], lr [0.0001500], embedding loss [ 0.7334], quantization loss [ 0.0570],  0.53 sec/batch.
+2022-10-18 23:31:26,691 step [ 451], lr [0.0001500], embedding loss [ 0.7486], quantization loss [ 0.0576],  0.52 sec/batch.
+2022-10-18 23:31:28,644 step [ 452], lr [0.0001500], embedding loss [ 0.7402], quantization loss [ 0.0560],  0.53 sec/batch.
+2022-10-18 23:31:30,519 step [ 453], lr [0.0001500], embedding loss [ 0.7391], quantization loss [ 0.0543],  0.52 sec/batch.
+2022-10-18 23:31:32,443 step [ 454], lr [0.0001500], embedding loss [ 0.7509], quantization loss [ 0.0551],  0.52 sec/batch.
+2022-10-18 23:31:34,376 step [ 455], lr [0.0001500], embedding loss [ 0.7501], quantization loss [ 0.0643],  0.53 sec/batch.
+2022-10-18 23:31:36,309 step [ 456], lr [0.0001500], embedding loss [ 0.7417], quantization loss [ 0.0520],  0.52 sec/batch.
+2022-10-18 23:31:38,196 step [ 457], lr [0.0001500], embedding loss [ 0.7523], quantization loss [ 0.0523],  0.52 sec/batch.
+2022-10-18 23:31:40,077 step [ 458], lr [0.0001500], embedding loss [ 0.7413], quantization loss [ 0.0584],  0.55 sec/batch.
+2022-10-18 23:31:41,961 step [ 459], lr [0.0001500], embedding loss [ 0.7573], quantization loss [ 0.0591],  0.51 sec/batch.
+2022-10-18 23:31:43,916 step [ 460], lr [0.0001500], embedding loss [ 0.7481], quantization loss [ 0.0532],  0.52 sec/batch.
+2022-10-18 23:31:45,880 step [ 461], lr [0.0001500], embedding loss [ 0.7428], quantization loss [ 0.0564],  0.52 sec/batch.
+2022-10-18 23:31:47,761 step [ 462], lr [0.0001500], embedding loss [ 0.7356], quantization loss [ 0.0516],  0.52 sec/batch.
+2022-10-18 23:31:49,681 step [ 463], lr [0.0001500], embedding loss [ 0.7534], quantization loss [ 0.0551],  0.53 sec/batch.
+2022-10-18 23:31:51,676 step [ 464], lr [0.0001500], embedding loss [ 0.7407], quantization loss [ 0.0611],  0.57 sec/batch.
+2022-10-18 23:31:53,590 step [ 465], lr [0.0001500], embedding loss [ 0.7438], quantization loss [ 0.0569],  0.53 sec/batch.
+2022-10-18 23:31:55,534 step [ 466], lr [0.0001500], embedding loss [ 0.7474], quantization loss [ 0.0597],  0.53 sec/batch.
+2022-10-18 23:31:57,453 step [ 467], lr [0.0001500], embedding loss [ 0.7472], quantization loss [ 0.0622],  0.52 sec/batch.
+2022-10-18 23:31:59,327 step [ 468], lr [0.0001500], embedding loss [ 0.7432], quantization loss [ 0.0530],  0.52 sec/batch.
+2022-10-18 23:32:01,237 step [ 469], lr [0.0001500], embedding loss [ 0.7459], quantization loss [ 0.0703],  0.55 sec/batch.
+2022-10-18 23:32:03,192 step [ 470], lr [0.0001500], embedding loss [ 0.7487], quantization loss [ 0.0639],  0.53 sec/batch.
+2022-10-18 23:32:05,160 step [ 471], lr [0.0001500], embedding loss [ 0.7395], quantization loss [ 0.0549],  0.54 sec/batch.
+2022-10-18 23:32:07,136 step [ 472], lr [0.0001500], embedding loss [ 0.7489], quantization loss [ 0.0586],  0.52 sec/batch.
+2022-10-18 23:32:09,035 step [ 473], lr [0.0001500], embedding loss [ 0.7495], quantization loss [ 0.0550],  0.52 sec/batch.
+2022-10-18 23:32:10,970 step [ 474], lr [0.0001500], embedding loss [ 0.7307], quantization loss [ 0.0620],  0.52 sec/batch.
+2022-10-18 23:32:12,853 step [ 475], lr [0.0001500], embedding loss [ 0.7482], quantization loss [ 0.0596],  0.52 sec/batch.
+2022-10-18 23:32:14,746 step [ 476], lr [0.0001500], embedding loss [ 0.7238], quantization loss [ 0.0670],  0.52 sec/batch.
+2022-10-18 23:32:16,625 step [ 477], lr [0.0001500], embedding loss [ 0.7436], quantization loss [ 0.0550],  0.51 sec/batch.
+2022-10-18 23:32:18,519 step [ 478], lr [0.0001500], embedding loss [ 0.7449], quantization loss [ 0.0556],  0.52 sec/batch.
+2022-10-18 23:32:20,443 step [ 479], lr [0.0001500], embedding loss [ 0.7389], quantization loss [ 0.0629],  0.52 sec/batch.
+2022-10-18 23:32:22,339 step [ 480], lr [0.0001500], embedding loss [ 0.7387], quantization loss [ 0.0516],  0.52 sec/batch.
+2022-10-18 23:32:24,211 step [ 481], lr [0.0001500], embedding loss [ 0.7492], quantization loss [ 0.0556],  0.52 sec/batch.
+2022-10-18 23:32:24,211 update codes and centers iter(1/1).
+2022-10-18 23:32:25,008 number of update_code wrong: 0.
+2022-10-18 23:32:27,701 non zero codewords: 256.
+2022-10-18 23:32:27,701 finish center update, duration: 3.49 sec.
+2022-10-18 23:32:29,580 step [ 482], lr [0.0001500], embedding loss [ 0.7457], quantization loss [ 0.0604],  0.53 sec/batch.
+2022-10-18 23:32:31,493 step [ 483], lr [0.0001500], embedding loss [ 0.7383], quantization loss [ 0.0578],  0.53 sec/batch.
+2022-10-18 23:32:33,373 step [ 484], lr [0.0001500], embedding loss [ 0.7523], quantization loss [ 0.0645],  0.52 sec/batch.
+2022-10-18 23:32:35,264 step [ 485], lr [0.0001500], embedding loss [ 0.7325], quantization loss [ 0.0578],  0.53 sec/batch.
+2022-10-18 23:32:37,178 step [ 486], lr [0.0001500], embedding loss [ 0.7378], quantization loss [ 0.0599],  0.53 sec/batch.
+2022-10-18 23:32:39,093 step [ 487], lr [0.0001500], embedding loss [ 0.7429], quantization loss [ 0.0520],  0.52 sec/batch.
+2022-10-18 23:32:41,054 step [ 488], lr [0.0001500], embedding loss [ 0.7403], quantization loss [ 0.0549],  0.53 sec/batch.
+2022-10-18 23:32:42,942 step [ 489], lr [0.0001500], embedding loss [ 0.7393], quantization loss [ 0.0525],  0.51 sec/batch.
+2022-10-18 23:32:44,853 step [ 490], lr [0.0001500], embedding loss [ 0.7425], quantization loss [ 0.0557],  0.53 sec/batch.
+2022-10-18 23:32:46,746 step [ 491], lr [0.0001500], embedding loss [ 0.7494], quantization loss [ 0.0625],  0.51 sec/batch.
+2022-10-18 23:32:48,638 step [ 492], lr [0.0001500], embedding loss [ 0.7462], quantization loss [ 0.0597],  0.52 sec/batch.
+2022-10-18 23:32:50,517 step [ 493], lr [0.0001500], embedding loss [ 0.7516], quantization loss [ 0.0571],  0.52 sec/batch.
+2022-10-18 23:32:52,415 step [ 494], lr [0.0001500], embedding loss [ 0.7393], quantization loss [ 0.0649],  0.53 sec/batch.
+2022-10-18 23:32:54,325 step [ 495], lr [0.0001500], embedding loss [ 0.7368], quantization loss [ 0.0592],  0.52 sec/batch.
+2022-10-18 23:32:56,247 step [ 496], lr [0.0001500], embedding loss [ 0.7452], quantization loss [ 0.0494],  0.52 sec/batch.
+2022-10-18 23:32:58,141 step [ 497], lr [0.0001500], embedding loss [ 0.7472], quantization loss [ 0.0552],  0.52 sec/batch.
+2022-10-18 23:33:00,052 step [ 498], lr [0.0001500], embedding loss [ 0.7455], quantization loss [ 0.0567],  0.53 sec/batch.
+2022-10-18 23:33:01,979 step [ 499], lr [0.0001500], embedding loss [ 0.7324], quantization loss [ 0.0460],  0.52 sec/batch.
+2022-10-18 23:33:03,894 step [ 500], lr [0.0001500], embedding loss [ 0.7626], quantization loss [ 0.0582],  0.52 sec/batch.
+2022-10-18 23:33:05,795 step [ 501], lr [0.0001500], embedding loss [ 0.7372], quantization loss [ 0.0482],  0.53 sec/batch.
+2022-10-18 23:33:07,703 step [ 502], lr [0.0001500], embedding loss [ 0.7456], quantization loss [ 0.0583],  0.51 sec/batch.
+2022-10-18 23:33:09,604 step [ 503], lr [0.0001500], embedding loss [ 0.7433], quantization loss [ 0.0520],  0.52 sec/batch.
+2022-10-18 23:33:11,525 step [ 504], lr [0.0001500], embedding loss [ 0.7534], quantization loss [ 0.0526],  0.52 sec/batch.
+2022-10-18 23:33:13,542 step [ 505], lr [0.0001500], embedding loss [ 0.7433], quantization loss [ 0.0537],  0.52 sec/batch.
+2022-10-18 23:33:15,472 step [ 506], lr [0.0001500], embedding loss [ 0.7542], quantization loss [ 0.0561],  0.53 sec/batch.
+2022-10-18 23:33:17,460 step [ 507], lr [0.0001500], embedding loss [ 0.7556], quantization loss [ 0.0565],  0.53 sec/batch.
+2022-10-18 23:33:19,374 step [ 508], lr [0.0001500], embedding loss [ 0.7529], quantization loss [ 0.0574],  0.53 sec/batch.
+2022-10-18 23:33:21,263 step [ 509], lr [0.0001500], embedding loss [ 0.7438], quantization loss [ 0.0556],  0.52 sec/batch.
+2022-10-18 23:33:23,165 step [ 510], lr [0.0001500], embedding loss [ 0.7394], quantization loss [ 0.0572],  0.53 sec/batch.
+2022-10-18 23:33:25,080 step [ 511], lr [0.0001500], embedding loss [ 0.7513], quantization loss [ 0.0650],  0.53 sec/batch.
+2022-10-18 23:33:26,981 step [ 512], lr [0.0001500], embedding loss [ 0.7224], quantization loss [ 0.0504],  0.54 sec/batch.
+2022-10-18 23:33:28,902 step [ 513], lr [0.0001500], embedding loss [ 0.7347], quantization loss [ 0.0507],  0.52 sec/batch.
+2022-10-18 23:33:30,807 step [ 514], lr [0.0001500], embedding loss [ 0.7452], quantization loss [ 0.0453],  0.53 sec/batch.
+2022-10-18 23:33:32,728 step [ 515], lr [0.0001500], embedding loss [ 0.7543], quantization loss [ 0.0553],  0.52 sec/batch.
+2022-10-18 23:33:34,615 step [ 516], lr [0.0001500], embedding loss [ 0.7433], quantization loss [ 0.0545],  0.52 sec/batch.
+2022-10-18 23:33:36,494 step [ 517], lr [0.0001500], embedding loss [ 0.7323], quantization loss [ 0.0513],  0.52 sec/batch.
+2022-10-18 23:33:38,390 step [ 518], lr [0.0001500], embedding loss [ 0.7423], quantization loss [ 0.0560],  0.52 sec/batch.
+2022-10-18 23:33:40,318 step [ 519], lr [0.0001500], embedding loss [ 0.7416], quantization loss [ 0.0633],  0.52 sec/batch.
+2022-10-18 23:33:42,266 step [ 520], lr [0.0001500], embedding loss [ 0.7477], quantization loss [ 0.0618],  0.53 sec/batch.
+2022-10-18 23:33:44,167 step [ 521], lr [0.0001500], embedding loss [ 0.7388], quantization loss [ 0.0506],  0.51 sec/batch.
+2022-10-18 23:33:46,071 step [ 522], lr [0.0001500], embedding loss [ 0.7469], quantization loss [ 0.0505],  0.52 sec/batch.
+2022-10-18 23:33:47,967 step [ 523], lr [0.0001500], embedding loss [ 0.7498], quantization loss [ 0.0544],  0.52 sec/batch.
+2022-10-18 23:33:49,832 step [ 524], lr [0.0001500], embedding loss [ 0.7438], quantization loss [ 0.0437],  0.52 sec/batch.
+2022-10-18 23:33:51,742 step [ 525], lr [0.0001500], embedding loss [ 0.7451], quantization loss [ 0.0532],  0.52 sec/batch.
+2022-10-18 23:33:53,652 step [ 526], lr [0.0001500], embedding loss [ 0.7465], quantization loss [ 0.0518],  0.52 sec/batch.
+2022-10-18 23:33:55,601 step [ 527], lr [0.0001500], embedding loss [ 0.7473], quantization loss [ 0.0540],  0.54 sec/batch.
+2022-10-18 23:33:57,505 step [ 528], lr [0.0001500], embedding loss [ 0.7237], quantization loss [ 0.0476],  0.51 sec/batch.
+2022-10-18 23:33:59,427 step [ 529], lr [0.0001500], embedding loss [ 0.7396], quantization loss [ 0.0523],  0.52 sec/batch.
+2022-10-18 23:34:01,343 step [ 530], lr [0.0001500], embedding loss [ 0.7299], quantization loss [ 0.0519],  0.51 sec/batch.
+2022-10-18 23:34:03,193 step [ 531], lr [0.0001500], embedding loss [ 0.7317], quantization loss [ 0.0525],  0.51 sec/batch.
+2022-10-18 23:34:05,063 step [ 532], lr [0.0001500], embedding loss [ 0.7425], quantization loss [ 0.0494],  0.52 sec/batch.
+2022-10-18 23:34:06,956 step [ 533], lr [0.0001500], embedding loss [ 0.7443], quantization loss [ 0.0488],  0.52 sec/batch.
+2022-10-18 23:34:08,858 step [ 534], lr [0.0001500], embedding loss [ 0.7443], quantization loss [ 0.0535],  0.53 sec/batch.
+2022-10-18 23:34:10,839 step [ 535], lr [0.0001500], embedding loss [ 0.7402], quantization loss [ 0.0552],  0.52 sec/batch.
+2022-10-18 23:34:12,778 step [ 536], lr [0.0001500], embedding loss [ 0.7531], quantization loss [ 0.0492],  0.55 sec/batch.
+2022-10-18 23:34:14,677 step [ 537], lr [0.0001500], embedding loss [ 0.7443], quantization loss [ 0.0497],  0.52 sec/batch.
+2022-10-18 23:34:16,565 step [ 538], lr [0.0001500], embedding loss [ 0.7394], quantization loss [ 0.0547],  0.52 sec/batch.
+2022-10-18 23:34:18,451 step [ 539], lr [0.0001500], embedding loss [ 0.7462], quantization loss [ 0.0525],  0.52 sec/batch.
+2022-10-18 23:34:20,385 step [ 540], lr [0.0001500], embedding loss [ 0.7477], quantization loss [ 0.0507],  0.52 sec/batch.
+2022-10-18 23:34:22,318 step [ 541], lr [0.0001500], embedding loss [ 0.7509], quantization loss [ 0.0532],  0.52 sec/batch.
+2022-10-18 23:34:24,242 step [ 542], lr [0.0001500], embedding loss [ 0.7378], quantization loss [ 0.0596],  0.52 sec/batch.
+2022-10-18 23:34:26,161 step [ 543], lr [0.0001500], embedding loss [ 0.7392], quantization loss [ 0.0496],  0.52 sec/batch.
+2022-10-18 23:34:28,105 step [ 544], lr [0.0001500], embedding loss [ 0.7435], quantization loss [ 0.0461],  0.53 sec/batch.
+2022-10-18 23:34:30,066 step [ 545], lr [0.0001500], embedding loss [ 0.7530], quantization loss [ 0.0600],  0.52 sec/batch.
+2022-10-18 23:34:31,994 step [ 546], lr [0.0001500], embedding loss [ 0.7404], quantization loss [ 0.0406],  0.53 sec/batch.
+2022-10-18 23:34:33,910 step [ 547], lr [0.0001500], embedding loss [ 0.7376], quantization loss [ 0.0511],  0.52 sec/batch.
+2022-10-18 23:34:35,822 step [ 548], lr [0.0001500], embedding loss [ 0.7454], quantization loss [ 0.0522],  0.53 sec/batch.
+2022-10-18 23:34:37,735 step [ 549], lr [0.0001500], embedding loss [ 0.7451], quantization loss [ 0.0501],  0.52 sec/batch.
+2022-10-18 23:34:39,668 step [ 550], lr [0.0001500], embedding loss [ 0.7409], quantization loss [ 0.0546],  0.52 sec/batch.
+2022-10-18 23:34:41,571 step [ 551], lr [0.0001500], embedding loss [ 0.7439], quantization loss [ 0.0516],  0.51 sec/batch.
+2022-10-18 23:34:43,446 step [ 552], lr [0.0001500], embedding loss [ 0.7486], quantization loss [ 0.0454],  0.51 sec/batch.
+2022-10-18 23:34:45,380 step [ 553], lr [0.0001500], embedding loss [ 0.7505], quantization loss [ 0.0551],  0.52 sec/batch.
+2022-10-18 23:34:47,283 step [ 554], lr [0.0001500], embedding loss [ 0.7318], quantization loss [ 0.0488],  0.53 sec/batch.
+2022-10-18 23:34:49,176 step [ 555], lr [0.0001500], embedding loss [ 0.7416], quantization loss [ 0.0470],  0.52 sec/batch.
+2022-10-18 23:34:51,076 step [ 556], lr [0.0001500], embedding loss [ 0.7360], quantization loss [ 0.0553],  0.52 sec/batch.
+2022-10-18 23:34:52,950 step [ 557], lr [0.0001500], embedding loss [ 0.7414], quantization loss [ 0.0563],  0.52 sec/batch.
+2022-10-18 23:34:54,875 step [ 558], lr [0.0001500], embedding loss [ 0.7513], quantization loss [ 0.0547],  0.54 sec/batch.
+2022-10-18 23:34:57,339 step [ 559], lr [0.0001500], embedding loss [ 0.7382], quantization loss [ 0.0553],  1.02 sec/batch.
+2022-10-18 23:34:59,355 step [ 560], lr [0.0001500], embedding loss [ 0.7424], quantization loss [ 0.0457],  0.55 sec/batch.
+2022-10-18 23:35:01,283 step [ 561], lr [0.0001500], embedding loss [ 0.7496], quantization loss [ 0.0446],  0.55 sec/batch.
+2022-10-18 23:35:01,283 update codes and centers iter(1/1).
+2022-10-18 23:35:02,147 number of update_code wrong: 0.
+2022-10-18 23:35:04,962 non zero codewords: 256.
+2022-10-18 23:35:04,963 finish center update, duration: 3.68 sec.
+2022-10-18 23:35:06,901 step [ 562], lr [0.0001500], embedding loss [ 0.7363], quantization loss [ 0.0489],  0.58 sec/batch.
+2022-10-18 23:35:08,861 step [ 563], lr [0.0001500], embedding loss [ 0.7371], quantization loss [ 0.0451],  0.56 sec/batch.
+2022-10-18 23:35:10,876 step [ 564], lr [0.0001500], embedding loss [ 0.7456], quantization loss [ 0.0511],  0.57 sec/batch.
+2022-10-18 23:35:12,836 step [ 565], lr [0.0001500], embedding loss [ 0.7469], quantization loss [ 0.0490],  0.56 sec/batch.
+2022-10-18 23:35:14,832 step [ 566], lr [0.0001500], embedding loss [ 0.7385], quantization loss [ 0.0506],  0.56 sec/batch.
+2022-10-18 23:35:16,747 step [ 567], lr [0.0001500], embedding loss [ 0.7296], quantization loss [ 0.0473],  0.56 sec/batch.
+2022-10-18 23:35:18,912 step [ 568], lr [0.0001500], embedding loss [ 0.7375], quantization loss [ 0.0479],  0.58 sec/batch.
+2022-10-18 23:35:20,965 step [ 569], lr [0.0001500], embedding loss [ 0.7403], quantization loss [ 0.0468],  0.56 sec/batch.
+2022-10-18 23:35:23,226 step [ 570], lr [0.0001500], embedding loss [ 0.7264], quantization loss [ 0.0470],  0.57 sec/batch.
+2022-10-18 23:35:25,239 step [ 571], lr [0.0001500], embedding loss [ 0.7471], quantization loss [ 0.0460],  0.57 sec/batch.
+2022-10-18 23:35:27,369 step [ 572], lr [0.0001500], embedding loss [ 0.7459], quantization loss [ 0.0604],  0.57 sec/batch.
+2022-10-18 23:35:29,530 step [ 573], lr [0.0001500], embedding loss [ 0.7360], quantization loss [ 0.0446],  0.57 sec/batch.
+2022-10-18 23:35:31,638 step [ 574], lr [0.0001500], embedding loss [ 0.7390], quantization loss [ 0.0485],  0.56 sec/batch.
+2022-10-18 23:35:33,726 step [ 575], lr [0.0001500], embedding loss [ 0.7339], quantization loss [ 0.0455],  0.57 sec/batch.
+2022-10-18 23:35:35,713 step [ 576], lr [0.0001500], embedding loss [ 0.7475], quantization loss [ 0.0568],  0.57 sec/batch.
+2022-10-18 23:35:37,747 step [ 577], lr [0.0001500], embedding loss [ 0.7379], quantization loss [ 0.0545],  0.57 sec/batch.
+2022-10-18 23:35:39,953 step [ 578], lr [0.0001500], embedding loss [ 0.7351], quantization loss [ 0.0514],  0.57 sec/batch.
+2022-10-18 23:35:42,011 step [ 579], lr [0.0001500], embedding loss [ 0.7421], quantization loss [ 0.0507],  0.57 sec/batch.
+2022-10-18 23:35:43,950 step [ 580], lr [0.0001500], embedding loss [ 0.7525], quantization loss [ 0.0427],  0.57 sec/batch.
+2022-10-18 23:35:46,014 step [ 581], lr [0.0001500], embedding loss [ 0.7422], quantization loss [ 0.0469],  0.56 sec/batch.
+2022-10-18 23:35:48,101 step [ 582], lr [0.0001500], embedding loss [ 0.7431], quantization loss [ 0.0495],  0.57 sec/batch.
+2022-10-18 23:35:50,140 step [ 583], lr [0.0001500], embedding loss [ 0.7424], quantization loss [ 0.0502],  0.56 sec/batch.
+2022-10-18 23:35:52,181 step [ 584], lr [0.0001500], embedding loss [ 0.7486], quantization loss [ 0.0483],  0.58 sec/batch.
+2022-10-18 23:35:54,273 step [ 585], lr [0.0001500], embedding loss [ 0.7335], quantization loss [ 0.0511],  0.56 sec/batch.
+2022-10-18 23:35:56,362 step [ 586], lr [0.0001500], embedding loss [ 0.7349], quantization loss [ 0.0566],  0.56 sec/batch.
+2022-10-18 23:35:58,504 step [ 587], lr [0.0001500], embedding loss [ 0.7344], quantization loss [ 0.0533],  0.59 sec/batch.
+2022-10-18 23:36:00,553 step [ 588], lr [0.0001500], embedding loss [ 0.7359], quantization loss [ 0.0470],  0.57 sec/batch.
+2022-10-18 23:36:02,615 step [ 589], lr [0.0001500], embedding loss [ 0.7387], quantization loss [ 0.0545],  0.57 sec/batch.
+2022-10-18 23:36:04,550 step [ 590], lr [0.0001500], embedding loss [ 0.7312], quantization loss [ 0.0504],  0.56 sec/batch.
+2022-10-18 23:36:06,517 step [ 591], lr [0.0001500], embedding loss [ 0.7534], quantization loss [ 0.0573],  0.56 sec/batch.
+2022-10-18 23:36:08,634 step [ 592], lr [0.0001500], embedding loss [ 0.7483], quantization loss [ 0.0540],  0.56 sec/batch.
+2022-10-18 23:36:10,671 step [ 593], lr [0.0001500], embedding loss [ 0.7481], quantization loss [ 0.0515],  0.56 sec/batch.
+2022-10-18 23:36:12,668 step [ 594], lr [0.0001500], embedding loss [ 0.7533], quantization loss [ 0.0489],  0.57 sec/batch.
+2022-10-18 23:36:14,997 step [ 595], lr [0.0001500], embedding loss [ 0.7558], quantization loss [ 0.0605],  0.57 sec/batch.
+2022-10-18 23:36:16,952 step [ 596], lr [0.0001500], embedding loss [ 0.7460], quantization loss [ 0.0566],  0.56 sec/batch.
+2022-10-18 23:36:18,927 step [ 597], lr [0.0001500], embedding loss [ 0.7509], quantization loss [ 0.0524],  0.57 sec/batch.
+2022-10-18 23:36:21,029 step [ 598], lr [0.0001500], embedding loss [ 0.7346], quantization loss [ 0.0553],  0.71 sec/batch.
+2022-10-18 23:36:23,190 step [ 599], lr [0.0001500], embedding loss [ 0.7530], quantization loss [ 0.0537],  0.56 sec/batch.
+2022-10-18 23:36:25,281 step [ 600], lr [0.0001500], embedding loss [ 0.7385], quantization loss [ 0.0477],  0.56 sec/batch.
+2022-10-18 23:36:27,328 step [ 601], lr [0.0000750], embedding loss [ 0.7397], quantization loss [ 0.0444],  0.57 sec/batch.
+2022-10-18 23:36:29,271 step [ 602], lr [0.0000750], embedding loss [ 0.7421], quantization loss [ 0.0486],  0.57 sec/batch.
+2022-10-18 23:36:31,254 step [ 603], lr [0.0000750], embedding loss [ 0.7395], quantization loss [ 0.0525],  0.56 sec/batch.
+2022-10-18 23:36:33,189 step [ 604], lr [0.0000750], embedding loss [ 0.7343], quantization loss [ 0.0467],  0.56 sec/batch.
+2022-10-18 23:36:35,126 step [ 605], lr [0.0000750], embedding loss [ 0.7330], quantization loss [ 0.0468],  0.56 sec/batch.
+2022-10-18 23:36:37,268 step [ 606], lr [0.0000750], embedding loss [ 0.7390], quantization loss [ 0.0489],  0.57 sec/batch.
+2022-10-18 23:36:39,219 step [ 607], lr [0.0000750], embedding loss [ 0.7424], quantization loss [ 0.0529],  0.56 sec/batch.
+2022-10-18 23:36:41,209 step [ 608], lr [0.0000750], embedding loss [ 0.7544], quantization loss [ 0.0490],  0.56 sec/batch.
+2022-10-18 23:36:43,396 step [ 609], lr [0.0000750], embedding loss [ 0.7444], quantization loss [ 0.0428],  0.57 sec/batch.
+2022-10-18 23:36:45,468 step [ 610], lr [0.0000750], embedding loss [ 0.7355], quantization loss [ 0.0454],  0.57 sec/batch.
+2022-10-18 23:36:47,466 step [ 611], lr [0.0000750], embedding loss [ 0.7402], quantization loss [ 0.0484],  0.57 sec/batch.
+2022-10-18 23:36:49,654 step [ 612], lr [0.0000750], embedding loss [ 0.7329], quantization loss [ 0.0474],  0.57 sec/batch.
+2022-10-18 23:36:51,711 step [ 613], lr [0.0000750], embedding loss [ 0.7402], quantization loss [ 0.0483],  0.57 sec/batch.
+2022-10-18 23:36:53,769 step [ 614], lr [0.0000750], embedding loss [ 0.7369], quantization loss [ 0.0519],  0.60 sec/batch.
+2022-10-18 23:36:55,867 step [ 615], lr [0.0000750], embedding loss [ 0.7451], quantization loss [ 0.0459],  0.56 sec/batch.
+2022-10-18 23:36:57,839 step [ 616], lr [0.0000750], embedding loss [ 0.7407], quantization loss [ 0.0499],  0.54 sec/batch.
+2022-10-18 23:36:59,996 step [ 617], lr [0.0000750], embedding loss [ 0.7337], quantization loss [ 0.0493],  0.56 sec/batch.
+2022-10-18 23:37:02,161 step [ 618], lr [0.0000750], embedding loss [ 0.7542], quantization loss [ 0.0546],  0.55 sec/batch.
+2022-10-18 23:37:04,156 step [ 619], lr [0.0000750], embedding loss [ 0.7544], quantization loss [ 0.0528],  0.56 sec/batch.
+2022-10-18 23:37:06,171 step [ 620], lr [0.0000750], embedding loss [ 0.7342], quantization loss [ 0.0490],  0.57 sec/batch.
+2022-10-18 23:37:08,392 step [ 621], lr [0.0000750], embedding loss [ 0.7489], quantization loss [ 0.0481],  0.56 sec/batch.
+2022-10-18 23:37:10,384 step [ 622], lr [0.0000750], embedding loss [ 0.7457], quantization loss [ 0.0436],  0.56 sec/batch.
+2022-10-18 23:37:12,325 step [ 623], lr [0.0000750], embedding loss [ 0.7333], quantization loss [ 0.0560],  0.56 sec/batch.
+2022-10-18 23:37:14,313 step [ 624], lr [0.0000750], embedding loss [ 0.7267], quantization loss [ 0.0442],  0.57 sec/batch.
+2022-10-18 23:37:16,261 step [ 625], lr [0.0000750], embedding loss [ 0.7388], quantization loss [ 0.0513],  0.55 sec/batch.
+2022-10-18 23:37:18,238 step [ 626], lr [0.0000750], embedding loss [ 0.7343], quantization loss [ 0.0437],  0.56 sec/batch.
+2022-10-18 23:37:20,262 step [ 627], lr [0.0000750], embedding loss [ 0.7448], quantization loss [ 0.0415],  0.57 sec/batch.
+2022-10-18 23:37:22,249 step [ 628], lr [0.0000750], embedding loss [ 0.7402], quantization loss [ 0.0448],  0.57 sec/batch.
+2022-10-18 23:37:24,240 step [ 629], lr [0.0000750], embedding loss [ 0.7370], quantization loss [ 0.0451],  0.57 sec/batch.
+2022-10-18 23:37:26,401 step [ 630], lr [0.0000750], embedding loss [ 0.7313], quantization loss [ 0.0427],  0.61 sec/batch.
+2022-10-18 23:37:28,394 step [ 631], lr [0.0000750], embedding loss [ 0.7543], quantization loss [ 0.0427],  0.55 sec/batch.
+2022-10-18 23:37:30,341 step [ 632], lr [0.0000750], embedding loss [ 0.7204], quantization loss [ 0.0441],  0.56 sec/batch.
+2022-10-18 23:37:32,304 step [ 633], lr [0.0000750], embedding loss [ 0.7358], quantization loss [ 0.0433],  0.56 sec/batch.
+2022-10-18 23:37:34,433 step [ 634], lr [0.0000750], embedding loss [ 0.7508], quantization loss [ 0.0441],  0.56 sec/batch.
+2022-10-18 23:37:36,411 step [ 635], lr [0.0000750], embedding loss [ 0.7463], quantization loss [ 0.0421],  0.57 sec/batch.
+2022-10-18 23:37:38,473 step [ 636], lr [0.0000750], embedding loss [ 0.7401], quantization loss [ 0.0488],  0.57 sec/batch.
+2022-10-18 23:37:40,544 step [ 637], lr [0.0000750], embedding loss [ 0.7404], quantization loss [ 0.0447],  0.57 sec/batch.
+2022-10-18 23:37:42,497 step [ 638], lr [0.0000750], embedding loss [ 0.7450], quantization loss [ 0.0451],  0.56 sec/batch.
+2022-10-18 23:37:44,539 step [ 639], lr [0.0000750], embedding loss [ 0.7546], quantization loss [ 0.0506],  0.57 sec/batch.
+2022-10-18 23:37:46,577 step [ 640], lr [0.0000750], embedding loss [ 0.7366], quantization loss [ 0.0414],  0.56 sec/batch.
+2022-10-18 23:37:48,610 step [ 641], lr [0.0000750], embedding loss [ 0.7340], quantization loss [ 0.0437],  0.62 sec/batch.
+2022-10-18 23:37:48,610 update codes and centers iter(1/1).
+2022-10-18 23:37:49,660 number of update_code wrong: 0.
+2022-10-18 23:37:52,638 non zero codewords: 256.
+2022-10-18 23:37:52,638 finish center update, duration: 4.03 sec.
+2022-10-18 23:37:54,695 step [ 642], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0426],  0.63 sec/batch.
+2022-10-18 23:37:56,964 step [ 643], lr [0.0000750], embedding loss [ 0.7518], quantization loss [ 0.0410],  0.64 sec/batch.
+2022-10-18 23:37:59,103 step [ 644], lr [0.0000750], embedding loss [ 0.7363], quantization loss [ 0.0391],  0.62 sec/batch.
+2022-10-18 23:38:01,182 step [ 645], lr [0.0000750], embedding loss [ 0.7458], quantization loss [ 0.0401],  0.60 sec/batch.
+2022-10-18 23:38:03,276 step [ 646], lr [0.0000750], embedding loss [ 0.7319], quantization loss [ 0.0400],  0.62 sec/batch.
+2022-10-18 23:38:05,435 step [ 647], lr [0.0000750], embedding loss [ 0.7424], quantization loss [ 0.0454],  0.62 sec/batch.
+2022-10-18 23:38:07,496 step [ 648], lr [0.0000750], embedding loss [ 0.7316], quantization loss [ 0.0400],  0.64 sec/batch.
+2022-10-18 23:38:09,683 step [ 649], lr [0.0000750], embedding loss [ 0.7430], quantization loss [ 0.0507],  0.66 sec/batch.
+2022-10-18 23:38:11,795 step [ 650], lr [0.0000750], embedding loss [ 0.7414], quantization loss [ 0.0446],  0.63 sec/batch.
+2022-10-18 23:38:13,974 step [ 651], lr [0.0000750], embedding loss [ 0.7466], quantization loss [ 0.0390],  0.66 sec/batch.
+2022-10-18 23:38:16,116 step [ 652], lr [0.0000750], embedding loss [ 0.7380], quantization loss [ 0.0443],  0.65 sec/batch.
+2022-10-18 23:38:18,257 step [ 653], lr [0.0000750], embedding loss [ 0.7433], quantization loss [ 0.0434],  0.66 sec/batch.
+2022-10-18 23:38:20,346 step [ 654], lr [0.0000750], embedding loss [ 0.7323], quantization loss [ 0.0443],  0.66 sec/batch.
+2022-10-18 23:38:22,458 step [ 655], lr [0.0000750], embedding loss [ 0.7221], quantization loss [ 0.0452],  0.63 sec/batch.
+2022-10-18 23:38:24,590 step [ 656], lr [0.0000750], embedding loss [ 0.7412], quantization loss [ 0.0458],  0.63 sec/batch.
+2022-10-18 23:38:26,761 step [ 657], lr [0.0000750], embedding loss [ 0.7407], quantization loss [ 0.0410],  0.62 sec/batch.
+2022-10-18 23:38:28,870 step [ 658], lr [0.0000750], embedding loss [ 0.7456], quantization loss [ 0.0503],  0.63 sec/batch.
+2022-10-18 23:38:31,008 step [ 659], lr [0.0000750], embedding loss [ 0.7405], quantization loss [ 0.0405],  0.62 sec/batch.
+2022-10-18 23:38:33,115 step [ 660], lr [0.0000750], embedding loss [ 0.7423], quantization loss [ 0.0436],  0.63 sec/batch.
+2022-10-18 23:38:35,195 step [ 661], lr [0.0000750], embedding loss [ 0.7415], quantization loss [ 0.0445],  0.63 sec/batch.
+2022-10-18 23:38:37,272 step [ 662], lr [0.0000750], embedding loss [ 0.7383], quantization loss [ 0.0421],  0.63 sec/batch.
+2022-10-18 23:38:39,483 step [ 663], lr [0.0000750], embedding loss [ 0.7441], quantization loss [ 0.0453],  0.63 sec/batch.
+2022-10-18 23:38:41,546 step [ 664], lr [0.0000750], embedding loss [ 0.7493], quantization loss [ 0.0412],  0.62 sec/batch.
+2022-10-18 23:38:43,617 step [ 665], lr [0.0000750], embedding loss [ 0.7491], quantization loss [ 0.0391],  0.63 sec/batch.
+2022-10-18 23:38:45,780 step [ 666], lr [0.0000750], embedding loss [ 0.7433], quantization loss [ 0.0419],  0.63 sec/batch.
+2022-10-18 23:38:47,849 step [ 667], lr [0.0000750], embedding loss [ 0.7386], quantization loss [ 0.0475],  0.61 sec/batch.
+2022-10-18 23:38:49,921 step [ 668], lr [0.0000750], embedding loss [ 0.7358], quantization loss [ 0.0454],  0.61 sec/batch.
+2022-10-18 23:38:52,025 step [ 669], lr [0.0000750], embedding loss [ 0.7399], quantization loss [ 0.0386],  0.64 sec/batch.
+2022-10-18 23:38:54,189 step [ 670], lr [0.0000750], embedding loss [ 0.7401], quantization loss [ 0.0416],  0.63 sec/batch.
+2022-10-18 23:38:56,661 step [ 671], lr [0.0000750], embedding loss [ 0.7395], quantization loss [ 0.0372],  0.63 sec/batch.
+2022-10-18 23:38:58,904 step [ 672], lr [0.0000750], embedding loss [ 0.7345], quantization loss [ 0.0468],  0.63 sec/batch.
+2022-10-18 23:39:01,283 step [ 673], lr [0.0000750], embedding loss [ 0.7410], quantization loss [ 0.0456],  0.64 sec/batch.
+2022-10-18 23:39:03,461 step [ 674], lr [0.0000750], embedding loss [ 0.7311], quantization loss [ 0.0511],  0.65 sec/batch.
+2022-10-18 23:39:05,676 step [ 675], lr [0.0000750], embedding loss [ 0.7423], quantization loss [ 0.0378],  0.65 sec/batch.
+2022-10-18 23:39:07,815 step [ 676], lr [0.0000750], embedding loss [ 0.7321], quantization loss [ 0.0435],  0.63 sec/batch.
+2022-10-18 23:39:09,902 step [ 677], lr [0.0000750], embedding loss [ 0.7429], quantization loss [ 0.0412],  0.60 sec/batch.
+2022-10-18 23:39:12,035 step [ 678], lr [0.0000750], embedding loss [ 0.7316], quantization loss [ 0.0416],  0.63 sec/batch.
+2022-10-18 23:39:14,115 step [ 679], lr [0.0000750], embedding loss [ 0.7384], quantization loss [ 0.0426],  0.65 sec/batch.
+2022-10-18 23:39:16,162 step [ 680], lr [0.0000750], embedding loss [ 0.7402], quantization loss [ 0.0502],  0.59 sec/batch.
+2022-10-18 23:39:18,263 step [ 681], lr [0.0000750], embedding loss [ 0.7466], quantization loss [ 0.0435],  0.63 sec/batch.
+2022-10-18 23:39:20,381 step [ 682], lr [0.0000750], embedding loss [ 0.7508], quantization loss [ 0.0455],  0.62 sec/batch.
+2022-10-18 23:39:22,474 step [ 683], lr [0.0000750], embedding loss [ 0.7438], quantization loss [ 0.0388],  0.62 sec/batch.
+2022-10-18 23:39:24,615 step [ 684], lr [0.0000750], embedding loss [ 0.7456], quantization loss [ 0.0403],  0.62 sec/batch.
+2022-10-18 23:39:26,678 step [ 685], lr [0.0000750], embedding loss [ 0.7306], quantization loss [ 0.0381],  0.62 sec/batch.
+2022-10-18 23:39:28,786 step [ 686], lr [0.0000750], embedding loss [ 0.7379], quantization loss [ 0.0357],  0.64 sec/batch.
+2022-10-18 23:39:30,842 step [ 687], lr [0.0000750], embedding loss [ 0.7352], quantization loss [ 0.0406],  0.62 sec/batch.
+2022-10-18 23:39:32,945 step [ 688], lr [0.0000750], embedding loss [ 0.7327], quantization loss [ 0.0422],  0.62 sec/batch.
+2022-10-18 23:39:35,009 step [ 689], lr [0.0000750], embedding loss [ 0.7422], quantization loss [ 0.0393],  0.60 sec/batch.
+2022-10-18 23:39:37,099 step [ 690], lr [0.0000750], embedding loss [ 0.7414], quantization loss [ 0.0393],  0.60 sec/batch.
+2022-10-18 23:39:39,218 step [ 691], lr [0.0000750], embedding loss [ 0.7380], quantization loss [ 0.0348],  0.61 sec/batch.
+2022-10-18 23:39:41,319 step [ 692], lr [0.0000750], embedding loss [ 0.7418], quantization loss [ 0.0400],  0.60 sec/batch.
+2022-10-18 23:39:43,409 step [ 693], lr [0.0000750], embedding loss [ 0.7286], quantization loss [ 0.0379],  0.61 sec/batch.
+2022-10-18 23:39:45,486 step [ 694], lr [0.0000750], embedding loss [ 0.7261], quantization loss [ 0.0416],  0.60 sec/batch.
+2022-10-18 23:39:47,569 step [ 695], lr [0.0000750], embedding loss [ 0.7447], quantization loss [ 0.0395],  0.60 sec/batch.
+2022-10-18 23:39:49,651 step [ 696], lr [0.0000750], embedding loss [ 0.7395], quantization loss [ 0.0439],  0.61 sec/batch.
+2022-10-18 23:39:51,776 step [ 697], lr [0.0000750], embedding loss [ 0.7406], quantization loss [ 0.0387],  0.60 sec/batch.
+2022-10-18 23:39:53,823 step [ 698], lr [0.0000750], embedding loss [ 0.7393], quantization loss [ 0.0391],  0.59 sec/batch.
+2022-10-18 23:39:55,902 step [ 699], lr [0.0000750], embedding loss [ 0.7486], quantization loss [ 0.0361],  0.61 sec/batch.
+2022-10-18 23:39:57,997 step [ 700], lr [0.0000750], embedding loss [ 0.7282], quantization loss [ 0.0430],  0.61 sec/batch.
+2022-10-18 23:40:00,076 step [ 701], lr [0.0000750], embedding loss [ 0.7413], quantization loss [ 0.0472],  0.61 sec/batch.
+2022-10-18 23:40:02,199 step [ 702], lr [0.0000750], embedding loss [ 0.7322], quantization loss [ 0.0448],  0.61 sec/batch.
+2022-10-18 23:40:04,326 step [ 703], lr [0.0000750], embedding loss [ 0.7253], quantization loss [ 0.0422],  0.61 sec/batch.
+2022-10-18 23:40:06,432 step [ 704], lr [0.0000750], embedding loss [ 0.7531], quantization loss [ 0.0395],  0.61 sec/batch.
+2022-10-18 23:40:08,520 step [ 705], lr [0.0000750], embedding loss [ 0.7368], quantization loss [ 0.0405],  0.61 sec/batch.
+2022-10-18 23:40:10,600 step [ 706], lr [0.0000750], embedding loss [ 0.7319], quantization loss [ 0.0390],  0.60 sec/batch.
+2022-10-18 23:40:12,679 step [ 707], lr [0.0000750], embedding loss [ 0.7342], quantization loss [ 0.0400],  0.61 sec/batch.
+2022-10-18 23:40:14,763 step [ 708], lr [0.0000750], embedding loss [ 0.7377], quantization loss [ 0.0373],  0.60 sec/batch.
+2022-10-18 23:40:16,861 step [ 709], lr [0.0000750], embedding loss [ 0.7478], quantization loss [ 0.0398],  0.60 sec/batch.
+2022-10-18 23:40:18,950 step [ 710], lr [0.0000750], embedding loss [ 0.7308], quantization loss [ 0.0416],  0.58 sec/batch.
+2022-10-18 23:40:21,002 step [ 711], lr [0.0000750], embedding loss [ 0.7446], quantization loss [ 0.0419],  0.58 sec/batch.
+2022-10-18 23:40:23,038 step [ 712], lr [0.0000750], embedding loss [ 0.7416], quantization loss [ 0.0390],  0.59 sec/batch.
+2022-10-18 23:40:25,137 step [ 713], lr [0.0000750], embedding loss [ 0.7438], quantization loss [ 0.0410],  0.59 sec/batch.
+2022-10-18 23:40:27,197 step [ 714], lr [0.0000750], embedding loss [ 0.7532], quantization loss [ 0.0397],  0.59 sec/batch.
+2022-10-18 23:40:29,254 step [ 715], lr [0.0000750], embedding loss [ 0.7460], quantization loss [ 0.0511],  0.59 sec/batch.
+2022-10-18 23:40:31,256 step [ 716], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0416],  0.59 sec/batch.
+2022-10-18 23:40:33,305 step [ 717], lr [0.0000750], embedding loss [ 0.7232], quantization loss [ 0.0352],  0.58 sec/batch.
+2022-10-18 23:40:35,375 step [ 718], lr [0.0000750], embedding loss [ 0.7301], quantization loss [ 0.0420],  0.59 sec/batch.
+2022-10-18 23:40:37,477 step [ 719], lr [0.0000750], embedding loss [ 0.7434], quantization loss [ 0.0424],  0.59 sec/batch.
+2022-10-18 23:40:39,554 step [ 720], lr [0.0000750], embedding loss [ 0.7320], quantization loss [ 0.0391],  0.61 sec/batch.
+2022-10-18 23:40:41,649 step [ 721], lr [0.0000750], embedding loss [ 0.7335], quantization loss [ 0.0403],  0.60 sec/batch.
+2022-10-18 23:40:41,650 update codes and centers iter(1/1).
+2022-10-18 23:40:42,622 number of update_code wrong: 0.
+2022-10-18 23:40:45,551 non zero codewords: 256.
+2022-10-18 23:40:45,552 finish center update, duration: 3.90 sec.
+2022-10-18 23:40:47,554 step [ 722], lr [0.0000750], embedding loss [ 0.7351], quantization loss [ 0.0363],  0.60 sec/batch.
+2022-10-18 23:40:49,629 step [ 723], lr [0.0000750], embedding loss [ 0.7427], quantization loss [ 0.0404],  0.61 sec/batch.
+2022-10-18 23:40:51,681 step [ 724], lr [0.0000750], embedding loss [ 0.7370], quantization loss [ 0.0420],  0.60 sec/batch.
+2022-10-18 23:40:53,718 step [ 725], lr [0.0000750], embedding loss [ 0.7409], quantization loss [ 0.0380],  0.59 sec/batch.
+2022-10-18 23:40:55,863 step [ 726], lr [0.0000750], embedding loss [ 0.7269], quantization loss [ 0.0440],  0.64 sec/batch.
+2022-10-18 23:40:57,957 step [ 727], lr [0.0000750], embedding loss [ 0.7365], quantization loss [ 0.0423],  0.61 sec/batch.
+2022-10-18 23:41:00,000 step [ 728], lr [0.0000750], embedding loss [ 0.7350], quantization loss [ 0.0401],  0.62 sec/batch.
+2022-10-18 23:41:02,059 step [ 729], lr [0.0000750], embedding loss [ 0.7409], quantization loss [ 0.0396],  0.58 sec/batch.
+2022-10-18 23:41:04,125 step [ 730], lr [0.0000750], embedding loss [ 0.7268], quantization loss [ 0.0379],  0.61 sec/batch.
+2022-10-18 23:41:06,198 step [ 731], lr [0.0000750], embedding loss [ 0.7361], quantization loss [ 0.0363],  0.61 sec/batch.
+2022-10-18 23:41:08,289 step [ 732], lr [0.0000750], embedding loss [ 0.7376], quantization loss [ 0.0382],  0.62 sec/batch.
+2022-10-18 23:41:10,377 step [ 733], lr [0.0000750], embedding loss [ 0.7559], quantization loss [ 0.0382],  0.61 sec/batch.
+2022-10-18 23:41:12,429 step [ 734], lr [0.0000750], embedding loss [ 0.7282], quantization loss [ 0.0365],  0.61 sec/batch.
+2022-10-18 23:41:14,472 step [ 735], lr [0.0000750], embedding loss [ 0.7376], quantization loss [ 0.0396],  0.60 sec/batch.
+2022-10-18 23:41:16,576 step [ 736], lr [0.0000750], embedding loss [ 0.7424], quantization loss [ 0.0402],  0.63 sec/batch.
+2022-10-18 23:41:18,620 step [ 737], lr [0.0000750], embedding loss [ 0.7497], quantization loss [ 0.0431],  0.60 sec/batch.
+2022-10-18 23:41:20,695 step [ 738], lr [0.0000750], embedding loss [ 0.7342], quantization loss [ 0.0401],  0.60 sec/batch.
+2022-10-18 23:41:22,769 step [ 739], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0411],  0.59 sec/batch.
+2022-10-18 23:41:24,829 step [ 740], lr [0.0000750], embedding loss [ 0.7344], quantization loss [ 0.0380],  0.59 sec/batch.
+2022-10-18 23:41:26,848 step [ 741], lr [0.0000750], embedding loss [ 0.7392], quantization loss [ 0.0382],  0.58 sec/batch.
+2022-10-18 23:41:28,896 step [ 742], lr [0.0000750], embedding loss [ 0.7342], quantization loss [ 0.0389],  0.59 sec/batch.
+2022-10-18 23:41:31,028 step [ 743], lr [0.0000750], embedding loss [ 0.7430], quantization loss [ 0.0331],  0.60 sec/batch.
+2022-10-18 23:41:33,091 step [ 744], lr [0.0000750], embedding loss [ 0.7293], quantization loss [ 0.0397],  0.60 sec/batch.
+2022-10-18 23:41:35,073 step [ 745], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0439],  0.58 sec/batch.
+2022-10-18 23:41:37,181 step [ 746], lr [0.0000750], embedding loss [ 0.7368], quantization loss [ 0.0367],  0.59 sec/batch.
+2022-10-18 23:41:39,205 step [ 747], lr [0.0000750], embedding loss [ 0.7362], quantization loss [ 0.0401],  0.59 sec/batch.
+2022-10-18 23:41:41,269 step [ 748], lr [0.0000750], embedding loss [ 0.7375], quantization loss [ 0.0398],  0.59 sec/batch.
+2022-10-18 23:41:43,344 step [ 749], lr [0.0000750], embedding loss [ 0.7418], quantization loss [ 0.0348],  0.60 sec/batch.
+2022-10-18 23:41:45,495 step [ 750], lr [0.0000750], embedding loss [ 0.7328], quantization loss [ 0.0411],  0.59 sec/batch.
+2022-10-18 23:41:47,553 step [ 751], lr [0.0000750], embedding loss [ 0.7371], quantization loss [ 0.0422],  0.61 sec/batch.
+2022-10-18 23:41:49,634 step [ 752], lr [0.0000750], embedding loss [ 0.7388], quantization loss [ 0.0350],  0.60 sec/batch.
+2022-10-18 23:41:51,706 step [ 753], lr [0.0000750], embedding loss [ 0.7407], quantization loss [ 0.0406],  0.61 sec/batch.
+2022-10-18 23:41:53,785 step [ 754], lr [0.0000750], embedding loss [ 0.7475], quantization loss [ 0.0403],  0.60 sec/batch.
+2022-10-18 23:41:55,899 step [ 755], lr [0.0000750], embedding loss [ 0.7415], quantization loss [ 0.0389],  0.60 sec/batch.
+2022-10-18 23:41:57,981 step [ 756], lr [0.0000750], embedding loss [ 0.7422], quantization loss [ 0.0431],  0.61 sec/batch.
+2022-10-18 23:42:00,079 step [ 757], lr [0.0000750], embedding loss [ 0.7310], quantization loss [ 0.0429],  0.63 sec/batch.
+2022-10-18 23:42:02,124 step [ 758], lr [0.0000750], embedding loss [ 0.7241], quantization loss [ 0.0358],  0.58 sec/batch.
+2022-10-18 23:42:04,172 step [ 759], lr [0.0000750], embedding loss [ 0.7496], quantization loss [ 0.0379],  0.57 sec/batch.
+2022-10-18 23:42:06,222 step [ 760], lr [0.0000750], embedding loss [ 0.7413], quantization loss [ 0.0382],  0.57 sec/batch.
+2022-10-18 23:42:08,255 step [ 761], lr [0.0000750], embedding loss [ 0.7413], quantization loss [ 0.0400],  0.58 sec/batch.
+2022-10-18 23:42:10,280 step [ 762], lr [0.0000750], embedding loss [ 0.7386], quantization loss [ 0.0374],  0.55 sec/batch.
+2022-10-18 23:42:12,310 step [ 763], lr [0.0000750], embedding loss [ 0.7373], quantization loss [ 0.0357],  0.57 sec/batch.
+2022-10-18 23:42:14,348 step [ 764], lr [0.0000750], embedding loss [ 0.7232], quantization loss [ 0.0350],  0.57 sec/batch.
+2022-10-18 23:42:16,389 step [ 765], lr [0.0000750], embedding loss [ 0.7354], quantization loss [ 0.0323],  0.57 sec/batch.
+2022-10-18 23:42:18,392 step [ 766], lr [0.0000750], embedding loss [ 0.7359], quantization loss [ 0.0388],  0.57 sec/batch.
+2022-10-18 23:42:20,486 step [ 767], lr [0.0000750], embedding loss [ 0.7247], quantization loss [ 0.0363],  0.61 sec/batch.
+2022-10-18 23:42:22,534 step [ 768], lr [0.0000750], embedding loss [ 0.7276], quantization loss [ 0.0372],  0.60 sec/batch.
+2022-10-18 23:42:24,634 step [ 769], lr [0.0000750], embedding loss [ 0.7417], quantization loss [ 0.0391],  0.59 sec/batch.
+2022-10-18 23:42:26,657 step [ 770], lr [0.0000750], embedding loss [ 0.7348], quantization loss [ 0.0363],  0.58 sec/batch.
+2022-10-18 23:42:28,720 step [ 771], lr [0.0000750], embedding loss [ 0.7375], quantization loss [ 0.0343],  0.60 sec/batch.
+2022-10-18 23:42:30,780 step [ 772], lr [0.0000750], embedding loss [ 0.7367], quantization loss [ 0.0381],  0.61 sec/batch.
+2022-10-18 23:42:32,868 step [ 773], lr [0.0000750], embedding loss [ 0.7459], quantization loss [ 0.0384],  0.61 sec/batch.
+2022-10-18 23:42:34,986 step [ 774], lr [0.0000750], embedding loss [ 0.7356], quantization loss [ 0.0409],  0.61 sec/batch.
+2022-10-18 23:42:37,159 step [ 775], lr [0.0000750], embedding loss [ 0.7395], quantization loss [ 0.0419],  0.62 sec/batch.
+2022-10-18 23:42:39,338 step [ 776], lr [0.0000750], embedding loss [ 0.7322], quantization loss [ 0.0367],  0.61 sec/batch.
+2022-10-18 23:42:41,497 step [ 777], lr [0.0000750], embedding loss [ 0.7286], quantization loss [ 0.0336],  0.61 sec/batch.
+2022-10-18 23:42:43,509 step [ 778], lr [0.0000750], embedding loss [ 0.7414], quantization loss [ 0.0339],  0.61 sec/batch.
+2022-10-18 23:42:45,626 step [ 779], lr [0.0000750], embedding loss [ 0.7457], quantization loss [ 0.0417],  0.61 sec/batch.
+2022-10-18 23:42:47,730 step [ 780], lr [0.0000750], embedding loss [ 0.7595], quantization loss [ 0.0353],  0.61 sec/batch.
+2022-10-18 23:42:49,894 step [ 781], lr [0.0000750], embedding loss [ 0.7431], quantization loss [ 0.0452],  0.61 sec/batch.
+2022-10-18 23:42:52,011 step [ 782], lr [0.0000750], embedding loss [ 0.7452], quantization loss [ 0.0374],  0.61 sec/batch.
+2022-10-18 23:42:54,134 step [ 783], lr [0.0000750], embedding loss [ 0.7329], quantization loss [ 0.0381],  0.62 sec/batch.
+2022-10-18 23:42:56,254 step [ 784], lr [0.0000750], embedding loss [ 0.7365], quantization loss [ 0.0429],  0.61 sec/batch.
+2022-10-18 23:42:58,332 step [ 785], lr [0.0000750], embedding loss [ 0.7461], quantization loss [ 0.0404],  0.60 sec/batch.
+2022-10-18 23:43:00,314 step [ 786], lr [0.0000750], embedding loss [ 0.7315], quantization loss [ 0.0400],  0.59 sec/batch.
+2022-10-18 23:43:02,400 step [ 787], lr [0.0000750], embedding loss [ 0.7291], quantization loss [ 0.0337],  0.60 sec/batch.
+2022-10-18 23:43:04,480 step [ 788], lr [0.0000750], embedding loss [ 0.7247], quantization loss [ 0.0366],  0.60 sec/batch.
+2022-10-18 23:43:06,560 step [ 789], lr [0.0000750], embedding loss [ 0.7387], quantization loss [ 0.0391],  0.60 sec/batch.
+2022-10-18 23:43:08,633 step [ 790], lr [0.0000750], embedding loss [ 0.7473], quantization loss [ 0.0361],  0.60 sec/batch.
+2022-10-18 23:43:10,687 step [ 791], lr [0.0000750], embedding loss [ 0.7380], quantization loss [ 0.0381],  0.60 sec/batch.
+2022-10-18 23:43:12,725 step [ 792], lr [0.0000750], embedding loss [ 0.7398], quantization loss [ 0.0353],  0.58 sec/batch.
+2022-10-18 23:43:14,793 step [ 793], lr [0.0000750], embedding loss [ 0.7507], quantization loss [ 0.0338],  0.60 sec/batch.
+2022-10-18 23:43:16,854 step [ 794], lr [0.0000750], embedding loss [ 0.7353], quantization loss [ 0.0357],  0.63 sec/batch.
+2022-10-18 23:43:18,962 step [ 795], lr [0.0000750], embedding loss [ 0.7391], quantization loss [ 0.0426],  0.64 sec/batch.
+2022-10-18 23:43:21,143 step [ 796], lr [0.0000750], embedding loss [ 0.7295], quantization loss [ 0.0381],  0.64 sec/batch.
+2022-10-18 23:43:23,279 step [ 797], lr [0.0000750], embedding loss [ 0.7400], quantization loss [ 0.0411],  0.64 sec/batch.
+2022-10-18 23:43:25,405 step [ 798], lr [0.0000750], embedding loss [ 0.7329], quantization loss [ 0.0389],  0.63 sec/batch.
+2022-10-18 23:43:27,498 step [ 799], lr [0.0000750], embedding loss [ 0.7393], quantization loss [ 0.0459],  0.64 sec/batch.
+2022-10-18 23:43:29,627 step [ 800], lr [0.0000750], embedding loss [ 0.7386], quantization loss [ 0.0362],  0.64 sec/batch.
+2022-10-18 23:43:31,741 step [ 801], lr [0.0000750], embedding loss [ 0.7423], quantization loss [ 0.0362],  0.63 sec/batch.
+2022-10-18 23:43:31,741 update codes and centers iter(1/1).
+2022-10-18 23:43:32,800 number of update_code wrong: 0.
+2022-10-18 23:43:35,630 non zero codewords: 256.
+2022-10-18 23:43:35,630 finish center update, duration: 3.89 sec.
+2022-10-18 23:43:37,613 step [ 802], lr [0.0000750], embedding loss [ 0.7357], quantization loss [ 0.0362],  0.62 sec/batch.
+2022-10-18 23:43:39,641 step [ 803], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0370],  0.63 sec/batch.
+2022-10-18 23:43:41,766 step [ 804], lr [0.0000750], embedding loss [ 0.7393], quantization loss [ 0.0410],  0.64 sec/batch.
+2022-10-18 23:43:43,885 step [ 805], lr [0.0000750], embedding loss [ 0.7323], quantization loss [ 0.0402],  0.64 sec/batch.
+2022-10-18 23:43:46,009 step [ 806], lr [0.0000750], embedding loss [ 0.7432], quantization loss [ 0.0342],  0.64 sec/batch.
+2022-10-18 23:43:48,066 step [ 807], lr [0.0000750], embedding loss [ 0.7326], quantization loss [ 0.0406],  0.58 sec/batch.
+2022-10-18 23:43:50,095 step [ 808], lr [0.0000750], embedding loss [ 0.7359], quantization loss [ 0.0356],  0.57 sec/batch.
+2022-10-18 23:43:52,146 step [ 809], lr [0.0000750], embedding loss [ 0.7458], quantization loss [ 0.0361],  0.57 sec/batch.
+2022-10-18 23:43:54,214 step [ 810], lr [0.0000750], embedding loss [ 0.7300], quantization loss [ 0.0351],  0.56 sec/batch.
+2022-10-18 23:43:56,269 step [ 811], lr [0.0000750], embedding loss [ 0.7407], quantization loss [ 0.0370],  0.55 sec/batch.
+2022-10-18 23:43:58,252 step [ 812], lr [0.0000750], embedding loss [ 0.7417], quantization loss [ 0.0348],  0.55 sec/batch.
+2022-10-18 23:44:00,266 step [ 813], lr [0.0000750], embedding loss [ 0.7335], quantization loss [ 0.0355],  0.55 sec/batch.
+2022-10-18 23:44:02,282 step [ 814], lr [0.0000750], embedding loss [ 0.7373], quantization loss [ 0.0385],  0.55 sec/batch.
+2022-10-18 23:44:04,404 step [ 815], lr [0.0000750], embedding loss [ 0.7475], quantization loss [ 0.0439],  0.63 sec/batch.
+2022-10-18 23:44:06,503 step [ 816], lr [0.0000750], embedding loss [ 0.7314], quantization loss [ 0.0362],  0.62 sec/batch.
+2022-10-18 23:44:08,640 step [ 817], lr [0.0000750], embedding loss [ 0.7322], quantization loss [ 0.0371],  0.64 sec/batch.
+2022-10-18 23:44:10,773 step [ 818], lr [0.0000750], embedding loss [ 0.7263], quantization loss [ 0.0436],  0.64 sec/batch.
+2022-10-18 23:44:12,891 step [ 819], lr [0.0000750], embedding loss [ 0.7289], quantization loss [ 0.0376],  0.63 sec/batch.
+2022-10-18 23:44:15,015 step [ 820], lr [0.0000750], embedding loss [ 0.7326], quantization loss [ 0.0360],  0.65 sec/batch.
+2022-10-18 23:44:17,151 step [ 821], lr [0.0000750], embedding loss [ 0.7398], quantization loss [ 0.0406],  0.64 sec/batch.
+2022-10-18 23:44:19,270 step [ 822], lr [0.0000750], embedding loss [ 0.7399], quantization loss [ 0.0342],  0.64 sec/batch.
+2022-10-18 23:44:21,463 step [ 823], lr [0.0000750], embedding loss [ 0.7361], quantization loss [ 0.0403],  0.65 sec/batch.
+2022-10-18 23:44:23,525 step [ 824], lr [0.0000750], embedding loss [ 0.7532], quantization loss [ 0.0402],  0.62 sec/batch.
+2022-10-18 23:44:25,640 step [ 825], lr [0.0000750], embedding loss [ 0.7535], quantization loss [ 0.0391],  0.64 sec/batch.
+2022-10-18 23:44:27,791 step [ 826], lr [0.0000750], embedding loss [ 0.7326], quantization loss [ 0.0437],  0.63 sec/batch.
+2022-10-18 23:44:29,893 step [ 827], lr [0.0000750], embedding loss [ 0.7298], quantization loss [ 0.0439],  0.62 sec/batch.
+2022-10-18 23:44:32,000 step [ 828], lr [0.0000750], embedding loss [ 0.7397], quantization loss [ 0.0366],  0.63 sec/batch.
+2022-10-18 23:44:34,111 step [ 829], lr [0.0000750], embedding loss [ 0.7447], quantization loss [ 0.0386],  0.64 sec/batch.
+2022-10-18 23:44:36,224 step [ 830], lr [0.0000750], embedding loss [ 0.7385], quantization loss [ 0.0401],  0.63 sec/batch.
+2022-10-18 23:44:38,360 step [ 831], lr [0.0000750], embedding loss [ 0.7326], quantization loss [ 0.0410],  0.64 sec/batch.
+2022-10-18 23:44:40,489 step [ 832], lr [0.0000750], embedding loss [ 0.7358], quantization loss [ 0.0322],  0.64 sec/batch.
+2022-10-18 23:44:42,609 step [ 833], lr [0.0000750], embedding loss [ 0.7147], quantization loss [ 0.0380],  0.64 sec/batch.
+2022-10-18 23:44:44,781 step [ 834], lr [0.0000750], embedding loss [ 0.7349], quantization loss [ 0.0371],  0.64 sec/batch.
+2022-10-18 23:44:46,865 step [ 835], lr [0.0000750], embedding loss [ 0.7387], quantization loss [ 0.0402],  0.62 sec/batch.
+2022-10-18 23:44:48,925 step [ 836], lr [0.0000750], embedding loss [ 0.7314], quantization loss [ 0.0402],  0.61 sec/batch.
+2022-10-18 23:44:50,940 step [ 837], lr [0.0000750], embedding loss [ 0.7412], quantization loss [ 0.0333],  0.63 sec/batch.
+2022-10-18 23:44:53,056 step [ 838], lr [0.0000750], embedding loss [ 0.7330], quantization loss [ 0.0413],  0.63 sec/batch.
+2022-10-18 23:44:55,141 step [ 839], lr [0.0000750], embedding loss [ 0.7375], quantization loss [ 0.0336],  0.63 sec/batch.
+2022-10-18 23:44:57,235 step [ 840], lr [0.0000750], embedding loss [ 0.7285], quantization loss [ 0.0421],  0.64 sec/batch.
+2022-10-18 23:44:59,362 step [ 841], lr [0.0000750], embedding loss [ 0.7480], quantization loss [ 0.0346],  0.64 sec/batch.
+2022-10-18 23:45:01,430 step [ 842], lr [0.0000750], embedding loss [ 0.7432], quantization loss [ 0.0415],  0.63 sec/batch.
+2022-10-18 23:45:03,412 step [ 843], lr [0.0000750], embedding loss [ 0.7193], quantization loss [ 0.0321],  0.55 sec/batch.
+2022-10-18 23:45:05,433 step [ 844], lr [0.0000750], embedding loss [ 0.7431], quantization loss [ 0.0402],  0.56 sec/batch.
+2022-10-18 23:45:07,441 step [ 845], lr [0.0000750], embedding loss [ 0.7373], quantization loss [ 0.0355],  0.57 sec/batch.
+2022-10-18 23:45:09,489 step [ 846], lr [0.0000750], embedding loss [ 0.7385], quantization loss [ 0.0369],  0.56 sec/batch.
+2022-10-18 23:45:11,534 step [ 847], lr [0.0000750], embedding loss [ 0.7372], quantization loss [ 0.0362],  0.56 sec/batch.
+2022-10-18 23:45:13,533 step [ 848], lr [0.0000750], embedding loss [ 0.7312], quantization loss [ 0.0336],  0.56 sec/batch.
+2022-10-18 23:45:15,473 step [ 849], lr [0.0000750], embedding loss [ 0.7333], quantization loss [ 0.0342],  0.55 sec/batch.
+2022-10-18 23:45:17,508 step [ 850], lr [0.0000750], embedding loss [ 0.7417], quantization loss [ 0.0383],  0.55 sec/batch.
+2022-10-18 23:45:19,592 step [ 851], lr [0.0000750], embedding loss [ 0.7303], quantization loss [ 0.0354],  0.57 sec/batch.
+2022-10-18 23:45:21,649 step [ 852], lr [0.0000750], embedding loss [ 0.7370], quantization loss [ 0.0369],  0.57 sec/batch.
+2022-10-18 23:45:23,674 step [ 853], lr [0.0000750], embedding loss [ 0.7255], quantization loss [ 0.0386],  0.56 sec/batch.
+2022-10-18 23:45:25,806 step [ 854], lr [0.0000750], embedding loss [ 0.7349], quantization loss [ 0.0442],  0.58 sec/batch.
+2022-10-18 23:45:27,911 step [ 855], lr [0.0000750], embedding loss [ 0.7328], quantization loss [ 0.0336],  0.56 sec/batch.
+2022-10-18 23:45:30,002 step [ 856], lr [0.0000750], embedding loss [ 0.7353], quantization loss [ 0.0382],  0.56 sec/batch.
+2022-10-18 23:45:32,108 step [ 857], lr [0.0000750], embedding loss [ 0.7332], quantization loss [ 0.0364],  0.56 sec/batch.
+2022-10-18 23:45:34,192 step [ 858], lr [0.0000750], embedding loss [ 0.7422], quantization loss [ 0.0339],  0.56 sec/batch.
+2022-10-18 23:45:36,297 step [ 859], lr [0.0000750], embedding loss [ 0.7359], quantization loss [ 0.0334],  0.57 sec/batch.
+2022-10-18 23:45:38,332 step [ 860], lr [0.0000750], embedding loss [ 0.7518], quantization loss [ 0.0397],  0.55 sec/batch.
+2022-10-18 23:45:40,406 step [ 861], lr [0.0000750], embedding loss [ 0.7222], quantization loss [ 0.0368],  0.56 sec/batch.
+2022-10-18 23:45:42,451 step [ 862], lr [0.0000750], embedding loss [ 0.7353], quantization loss [ 0.0354],  0.56 sec/batch.
+2022-10-18 23:45:44,527 step [ 863], lr [0.0000750], embedding loss [ 0.7315], quantization loss [ 0.0358],  0.57 sec/batch.
+2022-10-18 23:45:46,616 step [ 864], lr [0.0000750], embedding loss [ 0.7349], quantization loss [ 0.0357],  0.56 sec/batch.
+2022-10-18 23:45:48,732 step [ 865], lr [0.0000750], embedding loss [ 0.7265], quantization loss [ 0.0344],  0.58 sec/batch.
+2022-10-18 23:45:50,987 step [ 866], lr [0.0000750], embedding loss [ 0.7330], quantization loss [ 0.0317],  0.77 sec/batch.
+2022-10-18 23:45:53,057 step [ 867], lr [0.0000750], embedding loss [ 0.7411], quantization loss [ 0.0375],  0.52 sec/batch.
+2022-10-18 23:45:55,100 step [ 868], lr [0.0000750], embedding loss [ 0.7288], quantization loss [ 0.0359],  0.53 sec/batch.
+2022-10-18 23:45:57,144 step [ 869], lr [0.0000750], embedding loss [ 0.7281], quantization loss [ 0.0401],  0.53 sec/batch.
+2022-10-18 23:45:59,195 step [ 870], lr [0.0000750], embedding loss [ 0.7436], quantization loss [ 0.0390],  0.53 sec/batch.
+2022-10-18 23:46:01,281 step [ 871], lr [0.0000750], embedding loss [ 0.7305], quantization loss [ 0.0383],  0.53 sec/batch.
+2022-10-18 23:46:03,306 step [ 872], lr [0.0000750], embedding loss [ 0.7353], quantization loss [ 0.0349],  0.53 sec/batch.
+2022-10-18 23:46:05,345 step [ 873], lr [0.0000750], embedding loss [ 0.7315], quantization loss [ 0.0349],  0.51 sec/batch.
+2022-10-18 23:46:07,370 step [ 874], lr [0.0000750], embedding loss [ 0.7379], quantization loss [ 0.0394],  0.53 sec/batch.
+2022-10-18 23:46:09,475 step [ 875], lr [0.0000750], embedding loss [ 0.7483], quantization loss [ 0.0362],  0.54 sec/batch.
+2022-10-18 23:46:11,536 step [ 876], lr [0.0000750], embedding loss [ 0.7309], quantization loss [ 0.0398],  0.53 sec/batch.
+2022-10-18 23:46:13,592 step [ 877], lr [0.0000750], embedding loss [ 0.7396], quantization loss [ 0.0346],  0.53 sec/batch.
+2022-10-18 23:46:15,649 step [ 878], lr [0.0000750], embedding loss [ 0.7408], quantization loss [ 0.0378],  0.52 sec/batch.
+2022-10-18 23:46:17,713 step [ 879], lr [0.0000750], embedding loss [ 0.7460], quantization loss [ 0.0363],  0.53 sec/batch.
+2022-10-18 23:46:19,770 step [ 880], lr [0.0000750], embedding loss [ 0.7344], quantization loss [ 0.0380],  0.53 sec/batch.
+2022-10-18 23:46:21,824 step [ 881], lr [0.0000750], embedding loss [ 0.7347], quantization loss [ 0.0366],  0.53 sec/batch.
+2022-10-18 23:46:21,824 update codes and centers iter(1/1).
+2022-10-18 23:46:22,614 number of update_code wrong: 0.
+2022-10-18 23:46:25,662 non zero codewords: 256.
+2022-10-18 23:46:25,662 finish center update, duration: 3.84 sec.
+2022-10-18 23:46:27,608 step [ 882], lr [0.0000750], embedding loss [ 0.7274], quantization loss [ 0.0385],  0.54 sec/batch.
+2022-10-18 23:46:29,604 step [ 883], lr [0.0000750], embedding loss [ 0.7317], quantization loss [ 0.0397],  0.55 sec/batch.
+2022-10-18 23:46:31,673 step [ 884], lr [0.0000750], embedding loss [ 0.7269], quantization loss [ 0.0334],  0.56 sec/batch.
+2022-10-18 23:46:33,796 step [ 885], lr [0.0000750], embedding loss [ 0.7498], quantization loss [ 0.0406],  0.56 sec/batch.
+2022-10-18 23:46:35,931 step [ 886], lr [0.0000750], embedding loss [ 0.7265], quantization loss [ 0.0356],  0.56 sec/batch.
+2022-10-18 23:46:38,028 step [ 887], lr [0.0000750], embedding loss [ 0.7354], quantization loss [ 0.0419],  0.56 sec/batch.
+2022-10-18 23:46:40,102 step [ 888], lr [0.0000750], embedding loss [ 0.7322], quantization loss [ 0.0341],  0.55 sec/batch.
+2022-10-18 23:46:42,200 step [ 889], lr [0.0000750], embedding loss [ 0.7276], quantization loss [ 0.0342],  0.56 sec/batch.
+2022-10-18 23:46:44,323 step [ 890], lr [0.0000750], embedding loss [ 0.7288], quantization loss [ 0.0384],  0.57 sec/batch.
+2022-10-18 23:46:46,439 step [ 891], lr [0.0000750], embedding loss [ 0.7337], quantization loss [ 0.0381],  0.55 sec/batch.
+2022-10-18 23:46:48,569 step [ 892], lr [0.0000750], embedding loss [ 0.7326], quantization loss [ 0.0401],  0.56 sec/batch.
+2022-10-18 23:46:50,634 step [ 893], lr [0.0000750], embedding loss [ 0.7265], quantization loss [ 0.0360],  0.55 sec/batch.
+2022-10-18 23:46:52,723 step [ 894], lr [0.0000750], embedding loss [ 0.7393], quantization loss [ 0.0367],  0.56 sec/batch.
+2022-10-18 23:46:54,774 step [ 895], lr [0.0000750], embedding loss [ 0.7302], quantization loss [ 0.0386],  0.56 sec/batch.
+2022-10-18 23:46:56,826 step [ 896], lr [0.0000750], embedding loss [ 0.7248], quantization loss [ 0.0386],  0.56 sec/batch.
+2022-10-18 23:46:58,883 step [ 897], lr [0.0000750], embedding loss [ 0.7407], quantization loss [ 0.0388],  0.55 sec/batch.
+2022-10-18 23:47:00,971 step [ 898], lr [0.0000750], embedding loss [ 0.7383], quantization loss [ 0.0440],  0.56 sec/batch.
+2022-10-18 23:47:03,069 step [ 899], lr [0.0000750], embedding loss [ 0.7469], quantization loss [ 0.0380],  0.56 sec/batch.
+2022-10-18 23:47:05,153 step [ 900], lr [0.0000750], embedding loss [ 0.7414], quantization loss [ 0.0330],  0.57 sec/batch.
+2022-10-18 23:47:07,240 step [ 901], lr [0.0000375], embedding loss [ 0.7365], quantization loss [ 0.0355],  0.56 sec/batch.
+2022-10-18 23:47:09,371 step [ 902], lr [0.0000375], embedding loss [ 0.7201], quantization loss [ 0.0408],  0.56 sec/batch.
+2022-10-18 23:47:11,372 step [ 903], lr [0.0000375], embedding loss [ 0.7375], quantization loss [ 0.0340],  0.55 sec/batch.
+2022-10-18 23:47:13,426 step [ 904], lr [0.0000375], embedding loss [ 0.7396], quantization loss [ 0.0382],  0.54 sec/batch.
+2022-10-18 23:47:15,417 step [ 905], lr [0.0000375], embedding loss [ 0.7327], quantization loss [ 0.0367],  0.59 sec/batch.
+2022-10-18 23:47:17,459 step [ 906], lr [0.0000375], embedding loss [ 0.7280], quantization loss [ 0.0353],  0.56 sec/batch.
+2022-10-18 23:47:19,583 step [ 907], lr [0.0000375], embedding loss [ 0.7412], quantization loss [ 0.0402],  0.55 sec/batch.
+2022-10-18 23:47:21,632 step [ 908], lr [0.0000375], embedding loss [ 0.7303], quantization loss [ 0.0365],  0.55 sec/batch.
+2022-10-18 23:47:23,734 step [ 909], lr [0.0000375], embedding loss [ 0.7440], quantization loss [ 0.0358],  0.57 sec/batch.
+2022-10-18 23:47:25,822 step [ 910], lr [0.0000375], embedding loss [ 0.7307], quantization loss [ 0.0352],  0.56 sec/batch.
+2022-10-18 23:47:27,885 step [ 911], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0349],  0.56 sec/batch.
+2022-10-18 23:47:29,914 step [ 912], lr [0.0000375], embedding loss [ 0.7348], quantization loss [ 0.0385],  0.56 sec/batch.
+2022-10-18 23:47:31,979 step [ 913], lr [0.0000375], embedding loss [ 0.7290], quantization loss [ 0.0348],  0.56 sec/batch.
+2022-10-18 23:47:34,045 step [ 914], lr [0.0000375], embedding loss [ 0.7353], quantization loss [ 0.0356],  0.56 sec/batch.
+2022-10-18 23:47:36,091 step [ 915], lr [0.0000375], embedding loss [ 0.7378], quantization loss [ 0.0344],  0.55 sec/batch.
+2022-10-18 23:47:38,153 step [ 916], lr [0.0000375], embedding loss [ 0.7440], quantization loss [ 0.0373],  0.55 sec/batch.
+2022-10-18 23:47:40,229 step [ 917], lr [0.0000375], embedding loss [ 0.7259], quantization loss [ 0.0344],  0.55 sec/batch.
+2022-10-18 23:47:42,299 step [ 918], lr [0.0000375], embedding loss [ 0.7437], quantization loss [ 0.0381],  0.55 sec/batch.
+2022-10-18 23:47:44,349 step [ 919], lr [0.0000375], embedding loss [ 0.7410], quantization loss [ 0.0416],  0.56 sec/batch.
+2022-10-18 23:47:46,406 step [ 920], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0367],  0.56 sec/batch.
+2022-10-18 23:47:48,485 step [ 921], lr [0.0000375], embedding loss [ 0.7325], quantization loss [ 0.0370],  0.56 sec/batch.
+2022-10-18 23:47:50,548 step [ 922], lr [0.0000375], embedding loss [ 0.7406], quantization loss [ 0.0367],  0.55 sec/batch.
+2022-10-18 23:47:52,622 step [ 923], lr [0.0000375], embedding loss [ 0.7348], quantization loss [ 0.0334],  0.56 sec/batch.
+2022-10-18 23:47:54,679 step [ 924], lr [0.0000375], embedding loss [ 0.7234], quantization loss [ 0.0350],  0.55 sec/batch.
+2022-10-18 23:47:56,727 step [ 925], lr [0.0000375], embedding loss [ 0.7355], quantization loss [ 0.0339],  0.55 sec/batch.
+2022-10-18 23:47:58,786 step [ 926], lr [0.0000375], embedding loss [ 0.7387], quantization loss [ 0.0363],  0.55 sec/batch.
+2022-10-18 23:48:00,915 step [ 927], lr [0.0000375], embedding loss [ 0.7497], quantization loss [ 0.0395],  0.56 sec/batch.
+2022-10-18 23:48:02,952 step [ 928], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0352],  0.55 sec/batch.
+2022-10-18 23:48:05,033 step [ 929], lr [0.0000375], embedding loss [ 0.7359], quantization loss [ 0.0291],  0.56 sec/batch.
+2022-10-18 23:48:07,047 step [ 930], lr [0.0000375], embedding loss [ 0.7445], quantization loss [ 0.0366],  0.55 sec/batch.
+2022-10-18 23:48:09,124 step [ 931], lr [0.0000375], embedding loss [ 0.7317], quantization loss [ 0.0329],  0.56 sec/batch.
+2022-10-18 23:48:11,160 step [ 932], lr [0.0000375], embedding loss [ 0.7366], quantization loss [ 0.0314],  0.55 sec/batch.
+2022-10-18 23:48:13,232 step [ 933], lr [0.0000375], embedding loss [ 0.7287], quantization loss [ 0.0332],  0.56 sec/batch.
+2022-10-18 23:48:15,268 step [ 934], lr [0.0000375], embedding loss [ 0.7211], quantization loss [ 0.0330],  0.55 sec/batch.
+2022-10-18 23:48:17,355 step [ 935], lr [0.0000375], embedding loss [ 0.7351], quantization loss [ 0.0347],  0.56 sec/batch.
+2022-10-18 23:48:19,445 step [ 936], lr [0.0000375], embedding loss [ 0.7306], quantization loss [ 0.0438],  0.56 sec/batch.
+2022-10-18 23:48:21,509 step [ 937], lr [0.0000375], embedding loss [ 0.7254], quantization loss [ 0.0338],  0.56 sec/batch.
+2022-10-18 23:48:23,527 step [ 938], lr [0.0000375], embedding loss [ 0.7361], quantization loss [ 0.0323],  0.55 sec/batch.
+2022-10-18 23:48:25,592 step [ 939], lr [0.0000375], embedding loss [ 0.7408], quantization loss [ 0.0353],  0.56 sec/batch.
+2022-10-18 23:48:27,678 step [ 940], lr [0.0000375], embedding loss [ 0.7317], quantization loss [ 0.0400],  0.56 sec/batch.
+2022-10-18 23:48:29,757 step [ 941], lr [0.0000375], embedding loss [ 0.7309], quantization loss [ 0.0368],  0.57 sec/batch.
+2022-10-18 23:48:31,768 step [ 942], lr [0.0000375], embedding loss [ 0.7362], quantization loss [ 0.0403],  0.55 sec/batch.
+2022-10-18 23:48:33,847 step [ 943], lr [0.0000375], embedding loss [ 0.7336], quantization loss [ 0.0338],  0.56 sec/batch.
+2022-10-18 23:48:35,891 step [ 944], lr [0.0000375], embedding loss [ 0.7168], quantization loss [ 0.0386],  0.56 sec/batch.
+2022-10-18 23:48:38,014 step [ 945], lr [0.0000375], embedding loss [ 0.7370], quantization loss [ 0.0329],  0.56 sec/batch.
+2022-10-18 23:48:40,081 step [ 946], lr [0.0000375], embedding loss [ 0.7418], quantization loss [ 0.0344],  0.54 sec/batch.
+2022-10-18 23:48:42,140 step [ 947], lr [0.0000375], embedding loss [ 0.7408], quantization loss [ 0.0361],  0.55 sec/batch.
+2022-10-18 23:48:44,186 step [ 948], lr [0.0000375], embedding loss [ 0.7287], quantization loss [ 0.0375],  0.55 sec/batch.
+2022-10-18 23:48:46,187 step [ 949], lr [0.0000375], embedding loss [ 0.7290], quantization loss [ 0.0365],  0.55 sec/batch.
+2022-10-18 23:48:48,235 step [ 950], lr [0.0000375], embedding loss [ 0.7356], quantization loss [ 0.0331],  0.56 sec/batch.
+2022-10-18 23:48:50,305 step [ 951], lr [0.0000375], embedding loss [ 0.7366], quantization loss [ 0.0329],  0.55 sec/batch.
+2022-10-18 23:48:52,379 step [ 952], lr [0.0000375], embedding loss [ 0.7392], quantization loss [ 0.0393],  0.55 sec/batch.
+2022-10-18 23:48:54,511 step [ 953], lr [0.0000375], embedding loss [ 0.7265], quantization loss [ 0.0394],  0.61 sec/batch.
+2022-10-18 23:48:56,645 step [ 954], lr [0.0000375], embedding loss [ 0.7315], quantization loss [ 0.0360],  0.62 sec/batch.
+2022-10-18 23:48:58,742 step [ 955], lr [0.0000375], embedding loss [ 0.7290], quantization loss [ 0.0399],  0.61 sec/batch.
+2022-10-18 23:49:00,839 step [ 956], lr [0.0000375], embedding loss [ 0.7343], quantization loss [ 0.0395],  0.61 sec/batch.
+2022-10-18 23:49:02,979 step [ 957], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0349],  0.62 sec/batch.
+2022-10-18 23:49:05,162 step [ 958], lr [0.0000375], embedding loss [ 0.7300], quantization loss [ 0.0344],  0.62 sec/batch.
+2022-10-18 23:49:07,309 step [ 959], lr [0.0000375], embedding loss [ 0.7388], quantization loss [ 0.0350],  0.61 sec/batch.
+2022-10-18 23:49:09,480 step [ 960], lr [0.0000375], embedding loss [ 0.7336], quantization loss [ 0.0344],  0.64 sec/batch.
+2022-10-18 23:49:11,634 step [ 961], lr [0.0000375], embedding loss [ 0.7185], quantization loss [ 0.0331],  0.63 sec/batch.
+2022-10-18 23:49:11,634 update codes and centers iter(1/1).
+2022-10-18 23:49:12,673 number of update_code wrong: 0.
+2022-10-18 23:49:15,755 non zero codewords: 256.
+2022-10-18 23:49:15,755 finish center update, duration: 4.12 sec.
+2022-10-18 23:49:17,917 step [ 962], lr [0.0000375], embedding loss [ 0.7296], quantization loss [ 0.0324],  0.63 sec/batch.
+2022-10-18 23:49:20,063 step [ 963], lr [0.0000375], embedding loss [ 0.7265], quantization loss [ 0.0339],  0.62 sec/batch.
+2022-10-18 23:49:22,226 step [ 964], lr [0.0000375], embedding loss [ 0.7507], quantization loss [ 0.0362],  0.63 sec/batch.
+2022-10-18 23:49:24,394 step [ 965], lr [0.0000375], embedding loss [ 0.7368], quantization loss [ 0.0332],  0.62 sec/batch.
+2022-10-18 23:49:26,521 step [ 966], lr [0.0000375], embedding loss [ 0.7303], quantization loss [ 0.0383],  0.61 sec/batch.
+2022-10-18 23:49:28,689 step [ 967], lr [0.0000375], embedding loss [ 0.7356], quantization loss [ 0.0375],  0.62 sec/batch.
+2022-10-18 23:49:30,845 step [ 968], lr [0.0000375], embedding loss [ 0.7277], quantization loss [ 0.0349],  0.62 sec/batch.
+2022-10-18 23:49:33,044 step [ 969], lr [0.0000375], embedding loss [ 0.7326], quantization loss [ 0.0305],  0.61 sec/batch.
+2022-10-18 23:49:35,139 step [ 970], lr [0.0000375], embedding loss [ 0.7303], quantization loss [ 0.0393],  0.61 sec/batch.
+2022-10-18 23:49:37,300 step [ 971], lr [0.0000375], embedding loss [ 0.7359], quantization loss [ 0.0340],  0.61 sec/batch.
+2022-10-18 23:49:39,347 step [ 972], lr [0.0000375], embedding loss [ 0.7405], quantization loss [ 0.0360],  0.61 sec/batch.
+2022-10-18 23:49:41,540 step [ 973], lr [0.0000375], embedding loss [ 0.7292], quantization loss [ 0.0340],  0.61 sec/batch.
+2022-10-18 23:49:43,674 step [ 974], lr [0.0000375], embedding loss [ 0.7347], quantization loss [ 0.0334],  0.61 sec/batch.
+2022-10-18 23:49:45,876 step [ 975], lr [0.0000375], embedding loss [ 0.7295], quantization loss [ 0.0325],  0.62 sec/batch.
+2022-10-18 23:49:48,069 step [ 976], lr [0.0000375], embedding loss [ 0.7281], quantization loss [ 0.0374],  0.62 sec/batch.
+2022-10-18 23:49:50,219 step [ 977], lr [0.0000375], embedding loss [ 0.7401], quantization loss [ 0.0395],  0.62 sec/batch.
+2022-10-18 23:49:52,377 step [ 978], lr [0.0000375], embedding loss [ 0.7391], quantization loss [ 0.0409],  0.63 sec/batch.
+2022-10-18 23:49:54,536 step [ 979], lr [0.0000375], embedding loss [ 0.7346], quantization loss [ 0.0330],  0.63 sec/batch.
+2022-10-18 23:49:56,681 step [ 980], lr [0.0000375], embedding loss [ 0.7264], quantization loss [ 0.0324],  0.62 sec/batch.
+2022-10-18 23:49:58,816 step [ 981], lr [0.0000375], embedding loss [ 0.7209], quantization loss [ 0.0339],  0.62 sec/batch.
+2022-10-18 23:50:01,043 step [ 982], lr [0.0000375], embedding loss [ 0.7295], quantization loss [ 0.0315],  0.62 sec/batch.
+2022-10-18 23:50:03,250 step [ 983], lr [0.0000375], embedding loss [ 0.7407], quantization loss [ 0.0377],  0.63 sec/batch.
+2022-10-18 23:50:05,383 step [ 984], lr [0.0000375], embedding loss [ 0.7317], quantization loss [ 0.0320],  0.61 sec/batch.
+2022-10-18 23:50:07,623 step [ 985], lr [0.0000375], embedding loss [ 0.7595], quantization loss [ 0.0338],  0.63 sec/batch.
+2022-10-18 23:50:09,854 step [ 986], lr [0.0000375], embedding loss [ 0.7341], quantization loss [ 0.0331],  0.64 sec/batch.
+2022-10-18 23:50:12,047 step [ 987], lr [0.0000375], embedding loss [ 0.7376], quantization loss [ 0.0350],  0.62 sec/batch.
+2022-10-18 23:50:14,199 step [ 988], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0324],  0.62 sec/batch.
+2022-10-18 23:50:16,347 step [ 989], lr [0.0000375], embedding loss [ 0.7357], quantization loss [ 0.0382],  0.62 sec/batch.
+2022-10-18 23:50:18,501 step [ 990], lr [0.0000375], embedding loss [ 0.7347], quantization loss [ 0.0331],  0.62 sec/batch.
+2022-10-18 23:50:20,701 step [ 991], lr [0.0000375], embedding loss [ 0.7246], quantization loss [ 0.0385],  0.61 sec/batch.
+2022-10-18 23:50:22,839 step [ 992], lr [0.0000375], embedding loss [ 0.7318], quantization loss [ 0.0385],  0.62 sec/batch.
+2022-10-18 23:50:24,992 step [ 993], lr [0.0000375], embedding loss [ 0.7272], quantization loss [ 0.0368],  0.60 sec/batch.
+2022-10-18 23:50:27,121 step [ 994], lr [0.0000375], embedding loss [ 0.7383], quantization loss [ 0.0369],  0.61 sec/batch.
+2022-10-18 23:50:29,255 step [ 995], lr [0.0000375], embedding loss [ 0.7326], quantization loss [ 0.0352],  0.62 sec/batch.
+2022-10-18 23:50:31,398 step [ 996], lr [0.0000375], embedding loss [ 0.7375], quantization loss [ 0.0371],  0.62 sec/batch.
+2022-10-18 23:50:33,570 step [ 997], lr [0.0000375], embedding loss [ 0.7167], quantization loss [ 0.0381],  0.62 sec/batch.
+2022-10-18 23:50:35,718 step [ 998], lr [0.0000375], embedding loss [ 0.7278], quantization loss [ 0.0325],  0.60 sec/batch.
+2022-10-18 23:50:37,877 step [ 999], lr [0.0000375], embedding loss [ 0.7274], quantization loss [ 0.0361],  0.60 sec/batch.
+2022-10-18 23:50:40,006 step [1000], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0330],  0.60 sec/batch.
+2022-10-18 23:50:42,108 step [1001], lr [0.0000375], embedding loss [ 0.7203], quantization loss [ 0.0334],  0.59 sec/batch.
+2022-10-18 23:50:44,229 step [1002], lr [0.0000375], embedding loss [ 0.7257], quantization loss [ 0.0313],  0.60 sec/batch.
+2022-10-18 23:50:46,388 step [1003], lr [0.0000375], embedding loss [ 0.7442], quantization loss [ 0.0306],  0.59 sec/batch.
+2022-10-18 23:50:48,527 step [1004], lr [0.0000375], embedding loss [ 0.7257], quantization loss [ 0.0329],  0.60 sec/batch.
+2022-10-18 23:50:50,718 step [1005], lr [0.0000375], embedding loss [ 0.7366], quantization loss [ 0.0338],  0.61 sec/batch.
+2022-10-18 23:50:52,938 step [1006], lr [0.0000375], embedding loss [ 0.7306], quantization loss [ 0.0309],  0.60 sec/batch.
+2022-10-18 23:50:55,064 step [1007], lr [0.0000375], embedding loss [ 0.7452], quantization loss [ 0.0332],  0.61 sec/batch.
+2022-10-18 23:50:57,230 step [1008], lr [0.0000375], embedding loss [ 0.7240], quantization loss [ 0.0304],  0.61 sec/batch.
+2022-10-18 23:50:59,413 step [1009], lr [0.0000375], embedding loss [ 0.7343], quantization loss [ 0.0343],  0.63 sec/batch.
+2022-10-18 23:51:01,527 step [1010], lr [0.0000375], embedding loss [ 0.7412], quantization loss [ 0.0373],  0.58 sec/batch.
+2022-10-18 23:51:03,615 step [1011], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0331],  0.60 sec/batch.
+2022-10-18 23:51:05,753 step [1012], lr [0.0000375], embedding loss [ 0.7194], quantization loss [ 0.0342],  0.61 sec/batch.
+2022-10-18 23:51:07,839 step [1013], lr [0.0000375], embedding loss [ 0.7356], quantization loss [ 0.0304],  0.60 sec/batch.
+2022-10-18 23:51:09,973 step [1014], lr [0.0000375], embedding loss [ 0.7365], quantization loss [ 0.0328],  0.61 sec/batch.
+2022-10-18 23:51:12,099 step [1015], lr [0.0000375], embedding loss [ 0.7464], quantization loss [ 0.0317],  0.59 sec/batch.
+2022-10-18 23:51:14,261 step [1016], lr [0.0000375], embedding loss [ 0.7280], quantization loss [ 0.0340],  0.59 sec/batch.
+2022-10-18 23:51:16,388 step [1017], lr [0.0000375], embedding loss [ 0.7500], quantization loss [ 0.0373],  0.59 sec/batch.
+2022-10-18 23:51:18,499 step [1018], lr [0.0000375], embedding loss [ 0.7273], quantization loss [ 0.0351],  0.58 sec/batch.
+2022-10-18 23:51:20,628 step [1019], lr [0.0000375], embedding loss [ 0.7101], quantization loss [ 0.0311],  0.59 sec/batch.
+2022-10-18 23:51:22,756 step [1020], lr [0.0000375], embedding loss [ 0.7312], quantization loss [ 0.0368],  0.59 sec/batch.
+2022-10-18 23:51:24,867 step [1021], lr [0.0000375], embedding loss [ 0.7191], quantization loss [ 0.0325],  0.59 sec/batch.
+2022-10-18 23:51:26,975 step [1022], lr [0.0000375], embedding loss [ 0.7286], quantization loss [ 0.0378],  0.57 sec/batch.
+2022-10-18 23:51:29,115 step [1023], lr [0.0000375], embedding loss [ 0.7265], quantization loss [ 0.0340],  0.61 sec/batch.
+2022-10-18 23:51:31,265 step [1024], lr [0.0000375], embedding loss [ 0.7370], quantization loss [ 0.0313],  0.60 sec/batch.
+2022-10-18 23:51:33,364 step [1025], lr [0.0000375], embedding loss [ 0.7281], quantization loss [ 0.0337],  0.60 sec/batch.
+2022-10-18 23:51:35,505 step [1026], lr [0.0000375], embedding loss [ 0.7389], quantization loss [ 0.0367],  0.61 sec/batch.
+2022-10-18 23:51:37,706 step [1027], lr [0.0000375], embedding loss [ 0.7377], quantization loss [ 0.0337],  0.61 sec/batch.
+2022-10-18 23:51:39,932 step [1028], lr [0.0000375], embedding loss [ 0.7312], quantization loss [ 0.0337],  0.63 sec/batch.
+2022-10-18 23:51:42,083 step [1029], lr [0.0000375], embedding loss [ 0.7304], quantization loss [ 0.0329],  0.61 sec/batch.
+2022-10-18 23:51:44,179 step [1030], lr [0.0000375], embedding loss [ 0.7332], quantization loss [ 0.0352],  0.62 sec/batch.
+2022-10-18 23:51:46,316 step [1031], lr [0.0000375], embedding loss [ 0.7417], quantization loss [ 0.0389],  0.61 sec/batch.
+2022-10-18 23:51:48,478 step [1032], lr [0.0000375], embedding loss [ 0.7355], quantization loss [ 0.0382],  0.62 sec/batch.
+2022-10-18 23:51:50,624 step [1033], lr [0.0000375], embedding loss [ 0.7346], quantization loss [ 0.0340],  0.61 sec/batch.
+2022-10-18 23:51:52,773 step [1034], lr [0.0000375], embedding loss [ 0.7312], quantization loss [ 0.0383],  0.61 sec/batch.
+2022-10-18 23:51:54,930 step [1035], lr [0.0000375], embedding loss [ 0.7327], quantization loss [ 0.0344],  0.60 sec/batch.
+2022-10-18 23:51:57,092 step [1036], lr [0.0000375], embedding loss [ 0.7316], quantization loss [ 0.0357],  0.58 sec/batch.
+2022-10-18 23:51:59,195 step [1037], lr [0.0000375], embedding loss [ 0.7293], quantization loss [ 0.0323],  0.61 sec/batch.
+2022-10-18 23:52:01,305 step [1038], lr [0.0000375], embedding loss [ 0.7418], quantization loss [ 0.0322],  0.60 sec/batch.
+2022-10-18 23:52:03,430 step [1039], lr [0.0000375], embedding loss [ 0.7227], quantization loss [ 0.0399],  0.60 sec/batch.
+2022-10-18 23:52:05,592 step [1040], lr [0.0000375], embedding loss [ 0.7233], quantization loss [ 0.0294],  0.61 sec/batch.
+2022-10-18 23:52:07,738 step [1041], lr [0.0000375], embedding loss [ 0.7167], quantization loss [ 0.0350],  0.60 sec/batch.
+2022-10-18 23:52:07,738 update codes and centers iter(1/1).
+2022-10-18 23:52:08,712 number of update_code wrong: 0.
+2022-10-18 23:52:11,814 non zero codewords: 256.
+2022-10-18 23:52:11,814 finish center update, duration: 4.08 sec.
+2022-10-18 23:52:13,905 step [1042], lr [0.0000375], embedding loss [ 0.7247], quantization loss [ 0.0326],  0.58 sec/batch.
+2022-10-18 23:52:16,066 step [1043], lr [0.0000375], embedding loss [ 0.7370], quantization loss [ 0.0310],  0.58 sec/batch.
+2022-10-18 23:52:18,211 step [1044], lr [0.0000375], embedding loss [ 0.7353], quantization loss [ 0.0385],  0.59 sec/batch.
+2022-10-18 23:52:20,352 step [1045], lr [0.0000375], embedding loss [ 0.7242], quantization loss [ 0.0335],  0.59 sec/batch.
+2022-10-18 23:52:22,421 step [1046], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0335],  0.58 sec/batch.
+2022-10-18 23:52:24,572 step [1047], lr [0.0000375], embedding loss [ 0.7265], quantization loss [ 0.0316],  0.59 sec/batch.
+2022-10-18 23:52:26,664 step [1048], lr [0.0000375], embedding loss [ 0.7275], quantization loss [ 0.0354],  0.60 sec/batch.
+2022-10-18 23:52:28,878 step [1049], lr [0.0000375], embedding loss [ 0.7278], quantization loss [ 0.0329],  0.61 sec/batch.
+2022-10-18 23:52:31,037 step [1050], lr [0.0000375], embedding loss [ 0.7239], quantization loss [ 0.0367],  0.61 sec/batch.
+2022-10-18 23:52:33,255 step [1051], lr [0.0000375], embedding loss [ 0.7270], quantization loss [ 0.0354],  0.61 sec/batch.
+2022-10-18 23:52:35,407 step [1052], lr [0.0000375], embedding loss [ 0.7349], quantization loss [ 0.0377],  0.61 sec/batch.
+2022-10-18 23:52:37,544 step [1053], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0350],  0.60 sec/batch.
+2022-10-18 23:52:39,728 step [1054], lr [0.0000375], embedding loss [ 0.7415], quantization loss [ 0.0339],  0.61 sec/batch.
+2022-10-18 23:52:41,966 step [1055], lr [0.0000375], embedding loss [ 0.7241], quantization loss [ 0.0366],  0.60 sec/batch.
+2022-10-18 23:52:44,151 step [1056], lr [0.0000375], embedding loss [ 0.7321], quantization loss [ 0.0392],  0.61 sec/batch.
+2022-10-18 23:52:46,298 step [1057], lr [0.0000375], embedding loss [ 0.7300], quantization loss [ 0.0304],  0.58 sec/batch.
+2022-10-18 23:52:48,463 step [1058], lr [0.0000375], embedding loss [ 0.7307], quantization loss [ 0.0384],  0.59 sec/batch.
+2022-10-18 23:52:50,588 step [1059], lr [0.0000375], embedding loss [ 0.7296], quantization loss [ 0.0336],  0.57 sec/batch.
+2022-10-18 23:52:52,735 step [1060], lr [0.0000375], embedding loss [ 0.7315], quantization loss [ 0.0344],  0.58 sec/batch.
+2022-10-18 23:52:54,814 step [1061], lr [0.0000375], embedding loss [ 0.7376], quantization loss [ 0.0342],  0.57 sec/batch.
+2022-10-18 23:52:56,997 step [1062], lr [0.0000375], embedding loss [ 0.7332], quantization loss [ 0.0347],  0.58 sec/batch.
+2022-10-18 23:52:59,118 step [1063], lr [0.0000375], embedding loss [ 0.7459], quantization loss [ 0.0316],  0.58 sec/batch.
+2022-10-18 23:53:01,195 step [1064], lr [0.0000375], embedding loss [ 0.7269], quantization loss [ 0.0354],  0.57 sec/batch.
+2022-10-18 23:53:03,328 step [1065], lr [0.0000375], embedding loss [ 0.7310], quantization loss [ 0.0352],  0.61 sec/batch.
+2022-10-18 23:53:05,472 step [1066], lr [0.0000375], embedding loss [ 0.7292], quantization loss [ 0.0347],  0.61 sec/batch.
+2022-10-18 23:53:07,554 step [1067], lr [0.0000375], embedding loss [ 0.7426], quantization loss [ 0.0354],  0.60 sec/batch.
+2022-10-18 23:53:09,700 step [1068], lr [0.0000375], embedding loss [ 0.7386], quantization loss [ 0.0333],  0.61 sec/batch.
+2022-10-18 23:53:11,916 step [1069], lr [0.0000375], embedding loss [ 0.7390], quantization loss [ 0.0309],  0.61 sec/batch.
+2022-10-18 23:53:14,066 step [1070], lr [0.0000375], embedding loss [ 0.7264], quantization loss [ 0.0380],  0.60 sec/batch.
+2022-10-18 23:53:16,275 step [1071], lr [0.0000375], embedding loss [ 0.7307], quantization loss [ 0.0345],  0.60 sec/batch.
+2022-10-18 23:53:18,392 step [1072], lr [0.0000375], embedding loss [ 0.7364], quantization loss [ 0.0385],  0.60 sec/batch.
+2022-10-18 23:53:20,519 step [1073], lr [0.0000375], embedding loss [ 0.7397], quantization loss [ 0.0375],  0.60 sec/batch.
+2022-10-18 23:53:22,656 step [1074], lr [0.0000375], embedding loss [ 0.7255], quantization loss [ 0.0404],  0.61 sec/batch.
+2022-10-18 23:53:24,805 step [1075], lr [0.0000375], embedding loss [ 0.7154], quantization loss [ 0.0332],  0.61 sec/batch.
+2022-10-18 23:53:26,959 step [1076], lr [0.0000375], embedding loss [ 0.7338], quantization loss [ 0.0371],  0.60 sec/batch.
+2022-10-18 23:53:29,116 step [1077], lr [0.0000375], embedding loss [ 0.7343], quantization loss [ 0.0392],  0.61 sec/batch.
+2022-10-18 23:53:31,280 step [1078], lr [0.0000375], embedding loss [ 0.7350], quantization loss [ 0.0376],  0.60 sec/batch.
+2022-10-18 23:53:33,469 step [1079], lr [0.0000375], embedding loss [ 0.7177], quantization loss [ 0.0342],  0.61 sec/batch.
+2022-10-18 23:53:35,608 step [1080], lr [0.0000375], embedding loss [ 0.7345], quantization loss [ 0.0316],  0.60 sec/batch.
+2022-10-18 23:53:37,785 step [1081], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0360],  0.61 sec/batch.
+2022-10-18 23:53:39,938 step [1082], lr [0.0000375], embedding loss [ 0.7279], quantization loss [ 0.0334],  0.59 sec/batch.
+2022-10-18 23:53:42,082 step [1083], lr [0.0000375], embedding loss [ 0.7308], quantization loss [ 0.0336],  0.60 sec/batch.
+2022-10-18 23:53:44,216 step [1084], lr [0.0000375], embedding loss [ 0.7269], quantization loss [ 0.0357],  0.60 sec/batch.
+2022-10-18 23:53:46,366 step [1085], lr [0.0000375], embedding loss [ 0.7317], quantization loss [ 0.0319],  0.61 sec/batch.
+2022-10-18 23:53:48,573 step [1086], lr [0.0000375], embedding loss [ 0.7383], quantization loss [ 0.0331],  0.61 sec/batch.
+2022-10-18 23:53:50,738 step [1087], lr [0.0000375], embedding loss [ 0.7329], quantization loss [ 0.0337],  0.60 sec/batch.
+2022-10-18 23:53:52,860 step [1088], lr [0.0000375], embedding loss [ 0.7401], quantization loss [ 0.0352],  0.58 sec/batch.
+2022-10-18 23:53:54,964 step [1089], lr [0.0000375], embedding loss [ 0.7417], quantization loss [ 0.0357],  0.58 sec/batch.
+2022-10-18 23:53:57,111 step [1090], lr [0.0000375], embedding loss [ 0.7343], quantization loss [ 0.0335],  0.61 sec/batch.
+2022-10-18 23:53:59,306 step [1091], lr [0.0000375], embedding loss [ 0.7241], quantization loss [ 0.0336],  0.64 sec/batch.
+2022-10-18 23:54:01,490 step [1092], lr [0.0000375], embedding loss [ 0.7328], quantization loss [ 0.0273],  0.64 sec/batch.
+2022-10-18 23:54:03,645 step [1093], lr [0.0000375], embedding loss [ 0.7246], quantization loss [ 0.0344],  0.62 sec/batch.
+2022-10-18 23:54:05,805 step [1094], lr [0.0000375], embedding loss [ 0.7304], quantization loss [ 0.0345],  0.63 sec/batch.
+2022-10-18 23:54:08,093 step [1095], lr [0.0000375], embedding loss [ 0.7352], quantization loss [ 0.0338],  0.69 sec/batch.
+2022-10-18 23:54:10,262 step [1096], lr [0.0000375], embedding loss [ 0.7421], quantization loss [ 0.0303],  0.63 sec/batch.
+2022-10-18 23:54:12,502 step [1097], lr [0.0000375], embedding loss [ 0.7470], quantization loss [ 0.0329],  0.63 sec/batch.
+2022-10-18 23:54:14,653 step [1098], lr [0.0000375], embedding loss [ 0.7306], quantization loss [ 0.0337],  0.63 sec/batch.
+2022-10-18 23:54:16,779 step [1099], lr [0.0000375], embedding loss [ 0.7442], quantization loss [ 0.0359],  0.63 sec/batch.
+2022-10-18 23:54:18,950 step [1100], lr [0.0000375], embedding loss [ 0.7340], quantization loss [ 0.0325],  0.64 sec/batch.
+2022-10-18 23:54:21,121 step [1101], lr [0.0000375], embedding loss [ 0.7350], quantization loss [ 0.0357],  0.63 sec/batch.
+2022-10-18 23:54:23,288 step [1102], lr [0.0000375], embedding loss [ 0.7249], quantization loss [ 0.0324],  0.64 sec/batch.
+2022-10-18 23:54:25,472 step [1103], lr [0.0000375], embedding loss [ 0.7244], quantization loss [ 0.0318],  0.63 sec/batch.
+2022-10-18 23:54:27,574 step [1104], lr [0.0000375], embedding loss [ 0.7192], quantization loss [ 0.0318],  0.63 sec/batch.
+2022-10-18 23:54:29,668 step [1105], lr [0.0000375], embedding loss [ 0.7329], quantization loss [ 0.0381],  0.57 sec/batch.
+2022-10-18 23:54:31,789 step [1106], lr [0.0000375], embedding loss [ 0.7259], quantization loss [ 0.0355],  0.58 sec/batch.
+2022-10-18 23:54:33,983 step [1107], lr [0.0000375], embedding loss [ 0.7307], quantization loss [ 0.0323],  0.58 sec/batch.
+2022-10-18 23:54:36,114 step [1108], lr [0.0000375], embedding loss [ 0.7234], quantization loss [ 0.0344],  0.56 sec/batch.
+2022-10-18 23:54:38,254 step [1109], lr [0.0000375], embedding loss [ 0.7327], quantization loss [ 0.0312],  0.56 sec/batch.
+2022-10-18 23:54:40,435 step [1110], lr [0.0000375], embedding loss [ 0.7258], quantization loss [ 0.0297],  0.57 sec/batch.
+2022-10-18 23:54:42,529 step [1111], lr [0.0000375], embedding loss [ 0.7331], quantization loss [ 0.0317],  0.56 sec/batch.
+2022-10-18 23:54:44,713 step [1112], lr [0.0000375], embedding loss [ 0.7243], quantization loss [ 0.0357],  0.63 sec/batch.
+2022-10-18 23:54:46,866 step [1113], lr [0.0000375], embedding loss [ 0.7414], quantization loss [ 0.0328],  0.62 sec/batch.
+2022-10-18 23:54:49,039 step [1114], lr [0.0000375], embedding loss [ 0.7203], quantization loss [ 0.0370],  0.63 sec/batch.
+2022-10-18 23:54:51,289 step [1115], lr [0.0000375], embedding loss [ 0.7297], quantization loss [ 0.0342],  0.65 sec/batch.
+2022-10-18 23:54:53,493 step [1116], lr [0.0000375], embedding loss [ 0.7266], quantization loss [ 0.0332],  0.63 sec/batch.
+2022-10-18 23:54:55,602 step [1117], lr [0.0000375], embedding loss [ 0.7254], quantization loss [ 0.0371],  0.63 sec/batch.
+2022-10-18 23:54:57,820 step [1118], lr [0.0000375], embedding loss [ 0.7244], quantization loss [ 0.0303],  0.66 sec/batch.
+2022-10-18 23:55:00,073 step [1119], lr [0.0000375], embedding loss [ 0.7309], quantization loss [ 0.0361],  0.64 sec/batch.
+2022-10-18 23:55:02,277 step [1120], lr [0.0000375], embedding loss [ 0.7324], quantization loss [ 0.0282],  0.65 sec/batch.
+2022-10-18 23:55:04,490 step [1121], lr [0.0000375], embedding loss [ 0.7277], quantization loss [ 0.0328],  0.64 sec/batch.
+2022-10-18 23:55:04,491 update codes and centers iter(1/1).
+2022-10-18 23:55:05,549 number of update_code wrong: 0.
+2022-10-18 23:55:08,522 non zero codewords: 256.
+2022-10-18 23:55:08,522 finish center update, duration: 4.03 sec.
+2022-10-18 23:55:10,620 step [1122], lr [0.0000375], embedding loss [ 0.7274], quantization loss [ 0.0348],  0.63 sec/batch.
+2022-10-18 23:55:12,762 step [1123], lr [0.0000375], embedding loss [ 0.7421], quantization loss [ 0.0381],  0.64 sec/batch.
+2022-10-18 23:55:14,896 step [1124], lr [0.0000375], embedding loss [ 0.7385], quantization loss [ 0.0316],  0.63 sec/batch.
+2022-10-18 23:55:17,155 step [1125], lr [0.0000375], embedding loss [ 0.7291], quantization loss [ 0.0328],  0.64 sec/batch.
+2022-10-18 23:55:19,339 step [1126], lr [0.0000375], embedding loss [ 0.7253], quantization loss [ 0.0354],  0.64 sec/batch.
+2022-10-18 23:55:21,621 step [1127], lr [0.0000375], embedding loss [ 0.7419], quantization loss [ 0.0300],  0.64 sec/batch.
+2022-10-18 23:55:23,788 step [1128], lr [0.0000375], embedding loss [ 0.7304], quantization loss [ 0.0328],  0.63 sec/batch.
+2022-10-18 23:55:25,972 step [1129], lr [0.0000375], embedding loss [ 0.7315], quantization loss [ 0.0376],  0.64 sec/batch.
+2022-10-18 23:55:28,175 step [1130], lr [0.0000375], embedding loss [ 0.7366], quantization loss [ 0.0312],  0.64 sec/batch.
+2022-10-18 23:55:30,381 step [1131], lr [0.0000375], embedding loss [ 0.7285], quantization loss [ 0.0326],  0.64 sec/batch.
+2022-10-18 23:55:32,576 step [1132], lr [0.0000375], embedding loss [ 0.7063], quantization loss [ 0.0332],  0.63 sec/batch.
+2022-10-18 23:55:34,749 step [1133], lr [0.0000375], embedding loss [ 0.7286], quantization loss [ 0.0351],  0.64 sec/batch.
+2022-10-18 23:55:36,883 step [1134], lr [0.0000375], embedding loss [ 0.7298], quantization loss [ 0.0326],  0.64 sec/batch.
+2022-10-18 23:55:39,067 step [1135], lr [0.0000375], embedding loss [ 0.7247], quantization loss [ 0.0328],  0.64 sec/batch.
+2022-10-18 23:55:41,254 step [1136], lr [0.0000375], embedding loss [ 0.7419], quantization loss [ 0.0335],  0.64 sec/batch.
+2022-10-18 23:55:43,421 step [1137], lr [0.0000375], embedding loss [ 0.7244], quantization loss [ 0.0373],  0.59 sec/batch.
+2022-10-18 23:55:45,534 step [1138], lr [0.0000375], embedding loss [ 0.7301], quantization loss [ 0.0342],  0.57 sec/batch.
+2022-10-18 23:55:47,657 step [1139], lr [0.0000375], embedding loss [ 0.7220], quantization loss [ 0.0342],  0.57 sec/batch.
+2022-10-18 23:55:49,768 step [1140], lr [0.0000375], embedding loss [ 0.7342], quantization loss [ 0.0338],  0.57 sec/batch.
+2022-10-18 23:55:51,859 step [1141], lr [0.0000375], embedding loss [ 0.7330], quantization loss [ 0.0322],  0.56 sec/batch.
+2022-10-18 23:55:53,954 step [1142], lr [0.0000375], embedding loss [ 0.7493], quantization loss [ 0.0328],  0.55 sec/batch.
+2022-10-18 23:55:56,078 step [1143], lr [0.0000375], embedding loss [ 0.7388], quantization loss [ 0.0340],  0.57 sec/batch.
+2022-10-18 23:55:58,184 step [1144], lr [0.0000375], embedding loss [ 0.7203], quantization loss [ 0.0323],  0.55 sec/batch.
+2022-10-18 23:56:00,302 step [1145], lr [0.0000375], embedding loss [ 0.7302], quantization loss [ 0.0347],  0.56 sec/batch.
+2022-10-18 23:56:02,447 step [1146], lr [0.0000375], embedding loss [ 0.7217], quantization loss [ 0.0362],  0.56 sec/batch.
+2022-10-18 23:56:04,535 step [1147], lr [0.0000375], embedding loss [ 0.7133], quantization loss [ 0.0349],  0.56 sec/batch.
+2022-10-18 23:56:06,564 step [1148], lr [0.0000375], embedding loss [ 0.7262], quantization loss [ 0.0318],  0.56 sec/batch.
+2022-10-18 23:56:08,912 step [1149], lr [0.0000375], embedding loss [ 0.7209], quantization loss [ 0.0345],  0.55 sec/batch.
+2022-10-18 23:56:10,922 step [1150], lr [0.0000375], embedding loss [ 0.7323], quantization loss [ 0.0307],  0.54 sec/batch.
+2022-10-18 23:56:13,020 step [1151], lr [0.0000375], embedding loss [ 0.7261], quantization loss [ 0.0354],  0.58 sec/batch.
+2022-10-18 23:56:15,047 step [1152], lr [0.0000375], embedding loss [ 0.7383], quantization loss [ 0.0318],  0.55 sec/batch.
+2022-10-18 23:56:17,057 step [1153], lr [0.0000375], embedding loss [ 0.7404], quantization loss [ 0.0318],  0.56 sec/batch.
+2022-10-18 23:56:19,089 step [1154], lr [0.0000375], embedding loss [ 0.7290], quantization loss [ 0.0333],  0.56 sec/batch.
+2022-10-18 23:56:21,073 step [1155], lr [0.0000375], embedding loss [ 0.7398], quantization loss [ 0.0324],  0.55 sec/batch.
+2022-10-18 23:56:23,151 step [1156], lr [0.0000375], embedding loss [ 0.7385], quantization loss [ 0.0317],  0.59 sec/batch.
+2022-10-18 23:56:25,190 step [1157], lr [0.0000375], embedding loss [ 0.7132], quantization loss [ 0.0305],  0.55 sec/batch.
+2022-10-18 23:56:27,150 step [1158], lr [0.0000375], embedding loss [ 0.7267], quantization loss [ 0.0330],  0.55 sec/batch.
+2022-10-18 23:56:29,202 step [1159], lr [0.0000375], embedding loss [ 0.7349], quantization loss [ 0.0370],  0.55 sec/batch.
+2022-10-18 23:56:31,183 step [1160], lr [0.0000375], embedding loss [ 0.7307], quantization loss [ 0.0390],  0.55 sec/batch.
+2022-10-18 23:56:33,501 step [1161], lr [0.0000375], embedding loss [ 0.7383], quantization loss [ 0.0315],  0.75 sec/batch.
+2022-10-18 23:56:35,516 step [1162], lr [0.0000375], embedding loss [ 0.7323], quantization loss [ 0.0346],  0.54 sec/batch.
+2022-10-18 23:56:37,402 step [1163], lr [0.0000375], embedding loss [ 0.7239], quantization loss [ 0.0334],  0.50 sec/batch.
+2022-10-18 23:56:39,420 step [1164], lr [0.0000375], embedding loss [ 0.7256], quantization loss [ 0.0337],  0.50 sec/batch.
+2022-10-18 23:56:41,364 step [1165], lr [0.0000375], embedding loss [ 0.7318], quantization loss [ 0.0336],  0.51 sec/batch.
+2022-10-18 23:56:43,386 step [1166], lr [0.0000375], embedding loss [ 0.7191], quantization loss [ 0.0318],  0.51 sec/batch.
+2022-10-18 23:56:45,392 step [1167], lr [0.0000375], embedding loss [ 0.7449], quantization loss [ 0.0352],  0.52 sec/batch.
+2022-10-18 23:56:47,420 step [1168], lr [0.0000375], embedding loss [ 0.7250], quantization loss [ 0.0326],  0.52 sec/batch.
+2022-10-18 23:56:49,354 step [1169], lr [0.0000375], embedding loss [ 0.7312], quantization loss [ 0.0291],  0.51 sec/batch.
+2022-10-18 23:56:51,604 step [1170], lr [0.0000375], embedding loss [ 0.7458], quantization loss [ 0.0303],  0.58 sec/batch.
+2022-10-18 23:56:53,843 step [1171], lr [0.0000375], embedding loss [ 0.7359], quantization loss [ 0.0291],  0.56 sec/batch.
+2022-10-18 23:56:55,903 step [1172], lr [0.0000375], embedding loss [ 0.7262], quantization loss [ 0.0345],  0.51 sec/batch.
+2022-10-18 23:56:57,898 step [1173], lr [0.0000375], embedding loss [ 0.7382], quantization loss [ 0.0344],  0.52 sec/batch.
+2022-10-18 23:57:00,107 step [1174], lr [0.0000375], embedding loss [ 0.7337], quantization loss [ 0.0344],  0.51 sec/batch.
+2022-10-18 23:57:02,144 step [1175], lr [0.0000375], embedding loss [ 0.7246], quantization loss [ 0.0362],  0.52 sec/batch.
+2022-10-18 23:57:04,103 step [1176], lr [0.0000375], embedding loss [ 0.7144], quantization loss [ 0.0310],  0.52 sec/batch.
+2022-10-18 23:57:06,143 step [1177], lr [0.0000375], embedding loss [ 0.7302], quantization loss [ 0.0379],  0.52 sec/batch.
+2022-10-18 23:57:08,198 step [1178], lr [0.0000375], embedding loss [ 0.7439], quantization loss [ 0.0326],  0.53 sec/batch.
+2022-10-18 23:57:10,220 step [1179], lr [0.0000375], embedding loss [ 0.7273], quantization loss [ 0.0313],  0.60 sec/batch.
+2022-10-18 23:57:12,294 step [1180], lr [0.0000375], embedding loss [ 0.7228], quantization loss [ 0.0355],  0.51 sec/batch.
+2022-10-18 23:57:14,297 step [1181], lr [0.0000375], embedding loss [ 0.7268], quantization loss [ 0.0330],  0.52 sec/batch.
+2022-10-18 23:57:16,361 step [1182], lr [0.0000375], embedding loss [ 0.7310], quantization loss [ 0.0329],  0.51 sec/batch.
+2022-10-18 23:57:18,484 step [1183], lr [0.0000375], embedding loss [ 0.7341], quantization loss [ 0.0325],  0.51 sec/batch.
+2022-10-18 23:57:20,492 step [1184], lr [0.0000375], embedding loss [ 0.7360], quantization loss [ 0.0291],  0.52 sec/batch.
+2022-10-18 23:57:22,540 step [1185], lr [0.0000375], embedding loss [ 0.7274], quantization loss [ 0.0276],  0.51 sec/batch.
+2022-10-18 23:57:24,679 step [1186], lr [0.0000375], embedding loss [ 0.7270], quantization loss [ 0.0353],  0.52 sec/batch.
+2022-10-18 23:57:26,704 step [1187], lr [0.0000375], embedding loss [ 0.7142], quantization loss [ 0.0321],  0.52 sec/batch.
+2022-10-18 23:57:28,727 step [1188], lr [0.0000375], embedding loss [ 0.7404], quantization loss [ 0.0328],  0.53 sec/batch.
+2022-10-18 23:57:30,721 step [1189], lr [0.0000375], embedding loss [ 0.7332], quantization loss [ 0.0337],  0.51 sec/batch.
+2022-10-18 23:57:32,771 step [1190], lr [0.0000375], embedding loss [ 0.7320], quantization loss [ 0.0315],  0.51 sec/batch.
+2022-10-18 23:57:34,830 step [1191], lr [0.0000375], embedding loss [ 0.7171], quantization loss [ 0.0313],  0.52 sec/batch.
+2022-10-18 23:57:36,911 step [1192], lr [0.0000375], embedding loss [ 0.7296], quantization loss [ 0.0315],  0.52 sec/batch.
+2022-10-18 23:57:38,864 step [1193], lr [0.0000375], embedding loss [ 0.7371], quantization loss [ 0.0301],  0.49 sec/batch.
+2022-10-18 23:57:40,800 step [1194], lr [0.0000375], embedding loss [ 0.7363], quantization loss [ 0.0331],  0.50 sec/batch.
+2022-10-18 23:57:42,844 step [1195], lr [0.0000375], embedding loss [ 0.7291], quantization loss [ 0.0295],  0.52 sec/batch.
+2022-10-18 23:57:44,776 step [1196], lr [0.0000375], embedding loss [ 0.7282], quantization loss [ 0.0318],  0.51 sec/batch.
+2022-10-18 23:57:46,858 step [1197], lr [0.0000375], embedding loss [ 0.7244], quantization loss [ 0.0319],  0.57 sec/batch.
+2022-10-18 23:57:49,249 step [1198], lr [0.0000375], embedding loss [ 0.7180], quantization loss [ 0.0304],  0.59 sec/batch.
+2022-10-18 23:57:51,231 step [1199], lr [0.0000375], embedding loss [ 0.7209], quantization loss [ 0.0349],  0.54 sec/batch.
+2022-10-18 23:57:53,263 step [1200], lr [0.0000375], embedding loss [ 0.7332], quantization loss [ 0.0342],  0.52 sec/batch.
+2022-10-18 23:57:55,415 step [1201], lr [0.0000188], embedding loss [ 0.7253], quantization loss [ 0.0339],  0.51 sec/batch.
+2022-10-18 23:57:55,415 update codes and centers iter(1/1).
+2022-10-18 23:57:56,205 number of update_code wrong: 0.
+2022-10-18 23:57:58,965 non zero codewords: 256.
+2022-10-18 23:57:58,965 finish center update, duration: 3.55 sec.
+2022-10-18 23:58:00,995 step [1202], lr [0.0000188], embedding loss [ 0.7263], quantization loss [ 0.0346],  0.51 sec/batch.
+2022-10-18 23:58:02,985 step [1203], lr [0.0000188], embedding loss [ 0.7239], quantization loss [ 0.0312],  0.52 sec/batch.
+2022-10-18 23:58:05,043 step [1204], lr [0.0000188], embedding loss [ 0.7236], quantization loss [ 0.0331],  0.52 sec/batch.
+2022-10-18 23:58:07,065 step [1205], lr [0.0000188], embedding loss [ 0.7178], quantization loss [ 0.0346],  0.50 sec/batch.
+2022-10-18 23:58:09,122 step [1206], lr [0.0000188], embedding loss [ 0.7357], quantization loss [ 0.0304],  0.51 sec/batch.
+2022-10-18 23:58:11,258 step [1207], lr [0.0000188], embedding loss [ 0.7294], quantization loss [ 0.0375],  0.52 sec/batch.
+2022-10-18 23:58:13,263 step [1208], lr [0.0000188], embedding loss [ 0.7212], quantization loss [ 0.0334],  0.52 sec/batch.
+2022-10-18 23:58:15,309 step [1209], lr [0.0000188], embedding loss [ 0.7170], quantization loss [ 0.0315],  0.52 sec/batch.
+2022-10-18 23:58:17,369 step [1210], lr [0.0000188], embedding loss [ 0.7303], quantization loss [ 0.0308],  0.51 sec/batch.
+2022-10-18 23:58:19,300 step [1211], lr [0.0000188], embedding loss [ 0.7282], quantization loss [ 0.0303],  0.51 sec/batch.
+2022-10-18 23:58:21,243 step [1212], lr [0.0000188], embedding loss [ 0.7218], quantization loss [ 0.0313],  0.51 sec/batch.
+2022-10-18 23:58:23,124 step [1213], lr [0.0000188], embedding loss [ 0.7298], quantization loss [ 0.0299],  0.50 sec/batch.
+2022-10-18 23:58:25,020 step [1214], lr [0.0000188], embedding loss [ 0.7311], quantization loss [ 0.0293],  0.51 sec/batch.
+2022-10-18 23:58:26,946 step [1215], lr [0.0000188], embedding loss [ 0.7074], quantization loss [ 0.0328],  0.52 sec/batch.
+2022-10-18 23:58:28,854 step [1216], lr [0.0000188], embedding loss [ 0.7272], quantization loss [ 0.0357],  0.50 sec/batch.
+2022-10-18 23:58:30,784 step [1217], lr [0.0000188], embedding loss [ 0.7218], quantization loss [ 0.0366],  0.50 sec/batch.
+2022-10-18 23:58:32,695 step [1218], lr [0.0000188], embedding loss [ 0.7294], quantization loss [ 0.0305],  0.51 sec/batch.
+2022-10-18 23:58:34,638 step [1219], lr [0.0000188], embedding loss [ 0.7352], quantization loss [ 0.0327],  0.52 sec/batch.
+2022-10-18 23:58:36,545 step [1220], lr [0.0000188], embedding loss [ 0.7399], quantization loss [ 0.0316],  0.50 sec/batch.
+2022-10-18 23:58:38,459 step [1221], lr [0.0000188], embedding loss [ 0.7394], quantization loss [ 0.0304],  0.51 sec/batch.
+2022-10-18 23:58:40,361 step [1222], lr [0.0000188], embedding loss [ 0.7314], quantization loss [ 0.0301],  0.51 sec/batch.
+2022-10-18 23:58:42,300 step [1223], lr [0.0000188], embedding loss [ 0.7305], quantization loss [ 0.0297],  0.51 sec/batch.
+2022-10-18 23:58:44,248 step [1224], lr [0.0000188], embedding loss [ 0.7249], quantization loss [ 0.0347],  0.52 sec/batch.
+2022-10-18 23:58:46,168 step [1225], lr [0.0000188], embedding loss [ 0.7377], quantization loss [ 0.0337],  0.52 sec/batch.
+2022-10-18 23:58:48,137 step [1226], lr [0.0000188], embedding loss [ 0.7472], quantization loss [ 0.0303],  0.51 sec/batch.
+2022-10-18 23:58:50,048 step [1227], lr [0.0000188], embedding loss [ 0.7287], quantization loss [ 0.0328],  0.52 sec/batch.
+2022-10-18 23:58:51,981 step [1228], lr [0.0000188], embedding loss [ 0.7270], quantization loss [ 0.0375],  0.52 sec/batch.
+2022-10-18 23:58:53,977 step [1229], lr [0.0000188], embedding loss [ 0.7252], quantization loss [ 0.0325],  0.53 sec/batch.
+2022-10-18 23:58:55,921 step [1230], lr [0.0000188], embedding loss [ 0.7320], quantization loss [ 0.0312],  0.52 sec/batch.
+2022-10-18 23:58:57,906 step [1231], lr [0.0000188], embedding loss [ 0.7153], quantization loss [ 0.0364],  0.52 sec/batch.
+2022-10-18 23:58:59,880 step [1232], lr [0.0000188], embedding loss [ 0.7319], quantization loss [ 0.0327],  0.52 sec/batch.
+2022-10-18 23:59:01,840 step [1233], lr [0.0000188], embedding loss [ 0.7200], quantization loss [ 0.0359],  0.51 sec/batch.
+2022-10-18 23:59:03,782 step [1234], lr [0.0000188], embedding loss [ 0.7382], quantization loss [ 0.0306],  0.52 sec/batch.
+2022-10-18 23:59:05,725 step [1235], lr [0.0000188], embedding loss [ 0.7239], quantization loss [ 0.0404],  0.51 sec/batch.
+2022-10-18 23:59:07,665 step [1236], lr [0.0000188], embedding loss [ 0.7296], quantization loss [ 0.0311],  0.52 sec/batch.
+2022-10-18 23:59:09,622 step [1237], lr [0.0000188], embedding loss [ 0.7380], quantization loss [ 0.0304],  0.53 sec/batch.
+2022-10-18 23:59:11,618 step [1238], lr [0.0000188], embedding loss [ 0.7332], quantization loss [ 0.0310],  0.53 sec/batch.
+2022-10-18 23:59:13,543 step [1239], lr [0.0000188], embedding loss [ 0.7341], quantization loss [ 0.0323],  0.51 sec/batch.
+2022-10-18 23:59:15,538 step [1240], lr [0.0000188], embedding loss [ 0.7344], quantization loss [ 0.0362],  0.52 sec/batch.
+2022-10-18 23:59:17,473 step [1241], lr [0.0000188], embedding loss [ 0.7342], quantization loss [ 0.0317],  0.52 sec/batch.
+2022-10-18 23:59:19,391 step [1242], lr [0.0000188], embedding loss [ 0.7283], quantization loss [ 0.0319],  0.51 sec/batch.
+2022-10-18 23:59:21,304 step [1243], lr [0.0000188], embedding loss [ 0.7316], quantization loss [ 0.0330],  0.52 sec/batch.
+2022-10-18 23:59:23,252 step [1244], lr [0.0000188], embedding loss [ 0.7223], quantization loss [ 0.0307],  0.52 sec/batch.
+2022-10-18 23:59:25,200 step [1245], lr [0.0000188], embedding loss [ 0.7259], quantization loss [ 0.0317],  0.52 sec/batch.
+2022-10-18 23:59:27,135 step [1246], lr [0.0000188], embedding loss [ 0.7218], quantization loss [ 0.0305],  0.50 sec/batch.
+2022-10-18 23:59:29,056 step [1247], lr [0.0000188], embedding loss [ 0.7160], quantization loss [ 0.0331],  0.51 sec/batch.
+2022-10-18 23:59:31,037 step [1248], lr [0.0000188], embedding loss [ 0.7421], quantization loss [ 0.0320],  0.50 sec/batch.
+2022-10-18 23:59:32,997 step [1249], lr [0.0000188], embedding loss [ 0.7335], quantization loss [ 0.0330],  0.52 sec/batch.
+2022-10-18 23:59:34,974 step [1250], lr [0.0000188], embedding loss [ 0.7263], quantization loss [ 0.0306],  0.53 sec/batch.
+2022-10-18 23:59:36,954 step [1251], lr [0.0000188], embedding loss [ 0.7229], quantization loss [ 0.0328],  0.53 sec/batch.
+2022-10-18 23:59:38,914 step [1252], lr [0.0000188], embedding loss [ 0.7300], quantization loss [ 0.0336],  0.51 sec/batch.
+2022-10-18 23:59:40,869 step [1253], lr [0.0000188], embedding loss [ 0.7281], quantization loss [ 0.0327],  0.52 sec/batch.
+2022-10-18 23:59:42,942 step [1254], lr [0.0000188], embedding loss [ 0.7193], quantization loss [ 0.0298],  0.55 sec/batch.
+2022-10-18 23:59:44,889 step [1255], lr [0.0000188], embedding loss [ 0.7338], quantization loss [ 0.0343],  0.51 sec/batch.
+2022-10-18 23:59:46,942 step [1256], lr [0.0000188], embedding loss [ 0.7438], quantization loss [ 0.0341],  0.52 sec/batch.
+2022-10-18 23:59:48,943 step [1257], lr [0.0000188], embedding loss [ 0.7260], quantization loss [ 0.0332],  0.51 sec/batch.
+2022-10-18 23:59:50,981 step [1258], lr [0.0000188], embedding loss [ 0.7289], quantization loss [ 0.0293],  0.53 sec/batch.
+2022-10-18 23:59:52,984 step [1259], lr [0.0000188], embedding loss [ 0.7294], quantization loss [ 0.0309],  0.52 sec/batch.
+2022-10-18 23:59:55,014 step [1260], lr [0.0000188], embedding loss [ 0.7321], quantization loss [ 0.0305],  0.55 sec/batch.
+2022-10-18 23:59:57,029 step [1261], lr [0.0000188], embedding loss [ 0.7197], quantization loss [ 0.0325],  0.51 sec/batch.
+2022-10-18 23:59:58,964 step [1262], lr [0.0000188], embedding loss [ 0.7310], quantization loss [ 0.0333],  0.52 sec/batch.
+2022-10-19 00:00:00,980 step [1263], lr [0.0000188], embedding loss [ 0.7289], quantization loss [ 0.0298],  0.52 sec/batch.
+2022-10-19 00:00:02,990 step [1264], lr [0.0000188], embedding loss [ 0.7099], quantization loss [ 0.0321],  0.51 sec/batch.
+2022-10-19 00:00:04,982 step [1265], lr [0.0000188], embedding loss [ 0.7348], quantization loss [ 0.0306],  0.52 sec/batch.
+2022-10-19 00:00:07,009 step [1266], lr [0.0000188], embedding loss [ 0.7370], quantization loss [ 0.0324],  0.55 sec/batch.
+2022-10-19 00:00:09,013 step [1267], lr [0.0000188], embedding loss [ 0.7339], quantization loss [ 0.0354],  0.55 sec/batch.
+2022-10-19 00:00:11,062 step [1268], lr [0.0000188], embedding loss [ 0.7295], quantization loss [ 0.0360],  0.56 sec/batch.
+2022-10-19 00:00:13,131 step [1269], lr [0.0000188], embedding loss [ 0.7351], quantization loss [ 0.0334],  0.55 sec/batch.
+2022-10-19 00:00:15,199 step [1270], lr [0.0000188], embedding loss [ 0.7436], quantization loss [ 0.0307],  0.55 sec/batch.
+2022-10-19 00:00:17,222 step [1271], lr [0.0000188], embedding loss [ 0.7342], quantization loss [ 0.0297],  0.55 sec/batch.
+2022-10-19 00:00:19,291 step [1272], lr [0.0000188], embedding loss [ 0.7265], quantization loss [ 0.0286],  0.56 sec/batch.
+2022-10-19 00:00:21,384 step [1273], lr [0.0000188], embedding loss [ 0.7205], quantization loss [ 0.0358],  0.56 sec/batch.
+2022-10-19 00:00:23,404 step [1274], lr [0.0000188], embedding loss [ 0.7285], quantization loss [ 0.0321],  0.55 sec/batch.
+2022-10-19 00:00:25,447 step [1275], lr [0.0000188], embedding loss [ 0.7276], quantization loss [ 0.0313],  0.55 sec/batch.
+2022-10-19 00:00:27,514 step [1276], lr [0.0000188], embedding loss [ 0.7189], quantization loss [ 0.0294],  0.56 sec/batch.
+2022-10-19 00:00:29,569 step [1277], lr [0.0000188], embedding loss [ 0.7198], quantization loss [ 0.0326],  0.55 sec/batch.
+2022-10-19 00:00:31,644 step [1278], lr [0.0000188], embedding loss [ 0.7224], quantization loss [ 0.0337],  0.55 sec/batch.
+2022-10-19 00:00:33,664 step [1279], lr [0.0000188], embedding loss [ 0.7365], quantization loss [ 0.0317],  0.56 sec/batch.
+2022-10-19 00:00:35,737 step [1280], lr [0.0000188], embedding loss [ 0.7212], quantization loss [ 0.0294],  0.55 sec/batch.
+2022-10-19 00:00:37,743 step [1281], lr [0.0000188], embedding loss [ 0.7234], quantization loss [ 0.0304],  0.55 sec/batch.
+2022-10-19 00:00:37,744 update codes and centers iter(1/1).
+2022-10-19 00:00:38,625 number of update_code wrong: 0.
+2022-10-19 00:00:41,559 non zero codewords: 256.
+2022-10-19 00:00:41,559 finish center update, duration: 3.82 sec.
+2022-10-19 00:00:43,590 step [1282], lr [0.0000188], embedding loss [ 0.7325], quantization loss [ 0.0311],  0.56 sec/batch.
+2022-10-19 00:00:45,642 step [1283], lr [0.0000188], embedding loss [ 0.7206], quantization loss [ 0.0270],  0.54 sec/batch.
+2022-10-19 00:00:47,664 step [1284], lr [0.0000188], embedding loss [ 0.7258], quantization loss [ 0.0299],  0.56 sec/batch.
+2022-10-19 00:00:49,686 step [1285], lr [0.0000188], embedding loss [ 0.7198], quantization loss [ 0.0325],  0.55 sec/batch.
+2022-10-19 00:00:51,698 step [1286], lr [0.0000188], embedding loss [ 0.7158], quantization loss [ 0.0319],  0.56 sec/batch.
+2022-10-19 00:00:53,721 step [1287], lr [0.0000188], embedding loss [ 0.7200], quantization loss [ 0.0312],  0.56 sec/batch.
+2022-10-19 00:00:55,742 step [1288], lr [0.0000188], embedding loss [ 0.7309], quantization loss [ 0.0328],  0.55 sec/batch.
+2022-10-19 00:00:57,778 step [1289], lr [0.0000188], embedding loss [ 0.7314], quantization loss [ 0.0308],  0.56 sec/batch.
+2022-10-19 00:00:59,822 step [1290], lr [0.0000188], embedding loss [ 0.7406], quantization loss [ 0.0316],  0.56 sec/batch.
+2022-10-19 00:01:01,876 step [1291], lr [0.0000188], embedding loss [ 0.7395], quantization loss [ 0.0327],  0.55 sec/batch.
+2022-10-19 00:01:03,927 step [1292], lr [0.0000188], embedding loss [ 0.7260], quantization loss [ 0.0290],  0.56 sec/batch.
+2022-10-19 00:01:05,976 step [1293], lr [0.0000188], embedding loss [ 0.7252], quantization loss [ 0.0332],  0.55 sec/batch.
+2022-10-19 00:01:08,005 step [1294], lr [0.0000188], embedding loss [ 0.7394], quantization loss [ 0.0306],  0.54 sec/batch.
+2022-10-19 00:01:10,028 step [1295], lr [0.0000188], embedding loss [ 0.7264], quantization loss [ 0.0288],  0.54 sec/batch.
+2022-10-19 00:01:12,028 step [1296], lr [0.0000188], embedding loss [ 0.7274], quantization loss [ 0.0295],  0.55 sec/batch.
+2022-10-19 00:01:14,046 step [1297], lr [0.0000188], embedding loss [ 0.7340], quantization loss [ 0.0366],  0.57 sec/batch.
+2022-10-19 00:01:16,121 step [1298], lr [0.0000188], embedding loss [ 0.7296], quantization loss [ 0.0320],  0.56 sec/batch.
+2022-10-19 00:01:18,163 step [1299], lr [0.0000188], embedding loss [ 0.7246], quantization loss [ 0.0357],  0.56 sec/batch.
+2022-10-19 00:01:20,253 step [1300], lr [0.0000188], embedding loss [ 0.7339], quantization loss [ 0.0317],  0.56 sec/batch.
+2022-10-19 00:01:22,319 step [1301], lr [0.0000188], embedding loss [ 0.7151], quantization loss [ 0.0320],  0.56 sec/batch.
+2022-10-19 00:01:24,408 step [1302], lr [0.0000188], embedding loss [ 0.7317], quantization loss [ 0.0331],  0.57 sec/batch.
+2022-10-19 00:01:26,481 step [1303], lr [0.0000188], embedding loss [ 0.7347], quantization loss [ 0.0289],  0.55 sec/batch.
+2022-10-19 00:01:28,525 step [1304], lr [0.0000188], embedding loss [ 0.7353], quantization loss [ 0.0304],  0.56 sec/batch.
+2022-10-19 00:01:30,565 step [1305], lr [0.0000188], embedding loss [ 0.7286], quantization loss [ 0.0297],  0.57 sec/batch.
+2022-10-19 00:01:32,606 step [1306], lr [0.0000188], embedding loss [ 0.7248], quantization loss [ 0.0353],  0.56 sec/batch.
+2022-10-19 00:01:34,666 step [1307], lr [0.0000188], embedding loss [ 0.7378], quantization loss [ 0.0339],  0.55 sec/batch.
+2022-10-19 00:01:36,706 step [1308], lr [0.0000188], embedding loss [ 0.7348], quantization loss [ 0.0348],  0.56 sec/batch.
+2022-10-19 00:01:38,751 step [1309], lr [0.0000188], embedding loss [ 0.7244], quantization loss [ 0.0309],  0.55 sec/batch.
+2022-10-19 00:01:40,814 step [1310], lr [0.0000188], embedding loss [ 0.7264], quantization loss [ 0.0307],  0.56 sec/batch.
+2022-10-19 00:01:42,822 step [1311], lr [0.0000188], embedding loss [ 0.7191], quantization loss [ 0.0320],  0.55 sec/batch.
+2022-10-19 00:01:44,859 step [1312], lr [0.0000188], embedding loss [ 0.7336], quantization loss [ 0.0349],  0.56 sec/batch.
+2022-10-19 00:01:46,881 step [1313], lr [0.0000188], embedding loss [ 0.7322], quantization loss [ 0.0296],  0.55 sec/batch.
+2022-10-19 00:01:48,927 step [1314], lr [0.0000188], embedding loss [ 0.7235], quantization loss [ 0.0299],  0.55 sec/batch.
+2022-10-19 00:01:50,945 step [1315], lr [0.0000188], embedding loss [ 0.7147], quantization loss [ 0.0333],  0.56 sec/batch.
+2022-10-19 00:01:52,952 step [1316], lr [0.0000188], embedding loss [ 0.7206], quantization loss [ 0.0322],  0.54 sec/batch.
+2022-10-19 00:01:54,950 step [1317], lr [0.0000188], embedding loss [ 0.7383], quantization loss [ 0.0274],  0.55 sec/batch.
+2022-10-19 00:01:56,981 step [1318], lr [0.0000188], embedding loss [ 0.7360], quantization loss [ 0.0280],  0.57 sec/batch.
+2022-10-19 00:01:59,028 step [1319], lr [0.0000188], embedding loss [ 0.7246], quantization loss [ 0.0385],  0.53 sec/batch.
+2022-10-19 00:02:01,047 step [1320], lr [0.0000188], embedding loss [ 0.7153], quantization loss [ 0.0261],  0.55 sec/batch.
+2022-10-19 00:02:03,101 step [1321], lr [0.0000188], embedding loss [ 0.7181], quantization loss [ 0.0321],  0.55 sec/batch.
+2022-10-19 00:02:05,160 step [1322], lr [0.0000188], embedding loss [ 0.7295], quantization loss [ 0.0292],  0.56 sec/batch.
+2022-10-19 00:02:07,183 step [1323], lr [0.0000188], embedding loss [ 0.7288], quantization loss [ 0.0315],  0.54 sec/batch.
+2022-10-19 00:02:09,214 step [1324], lr [0.0000188], embedding loss [ 0.7433], quantization loss [ 0.0330],  0.56 sec/batch.
+2022-10-19 00:02:11,263 step [1325], lr [0.0000188], embedding loss [ 0.7240], quantization loss [ 0.0326],  0.56 sec/batch.
+2022-10-19 00:02:13,368 step [1326], lr [0.0000188], embedding loss [ 0.7206], quantization loss [ 0.0318],  0.61 sec/batch.
+2022-10-19 00:02:15,415 step [1327], lr [0.0000188], embedding loss [ 0.7198], quantization loss [ 0.0305],  0.57 sec/batch.
+2022-10-19 00:02:17,541 step [1328], lr [0.0000188], embedding loss [ 0.7411], quantization loss [ 0.0310],  0.56 sec/batch.
+2022-10-19 00:02:19,589 step [1329], lr [0.0000188], embedding loss [ 0.7313], quantization loss [ 0.0324],  0.55 sec/batch.
+2022-10-19 00:02:21,654 step [1330], lr [0.0000188], embedding loss [ 0.7142], quantization loss [ 0.0314],  0.56 sec/batch.
+2022-10-19 00:02:23,675 step [1331], lr [0.0000188], embedding loss [ 0.7414], quantization loss [ 0.0351],  0.55 sec/batch.
+2022-10-19 00:02:25,717 step [1332], lr [0.0000188], embedding loss [ 0.7106], quantization loss [ 0.0327],  0.56 sec/batch.
+2022-10-19 00:02:27,725 step [1333], lr [0.0000188], embedding loss [ 0.7211], quantization loss [ 0.0336],  0.55 sec/batch.
+2022-10-19 00:02:29,755 step [1334], lr [0.0000188], embedding loss [ 0.7450], quantization loss [ 0.0316],  0.55 sec/batch.
+2022-10-19 00:02:31,830 step [1335], lr [0.0000188], embedding loss [ 0.7221], quantization loss [ 0.0295],  0.61 sec/batch.
+2022-10-19 00:02:34,218 step [1336], lr [0.0000188], embedding loss [ 0.7240], quantization loss [ 0.0304],  0.66 sec/batch.
+2022-10-19 00:02:36,667 step [1337], lr [0.0000188], embedding loss [ 0.7269], quantization loss [ 0.0266],  0.62 sec/batch.
+2022-10-19 00:02:38,853 step [1338], lr [0.0000188], embedding loss [ 0.7386], quantization loss [ 0.0305],  0.61 sec/batch.
+2022-10-19 00:02:40,974 step [1339], lr [0.0000188], embedding loss [ 0.7169], quantization loss [ 0.0308],  0.62 sec/batch.
+2022-10-19 00:02:43,280 step [1340], lr [0.0000188], embedding loss [ 0.7243], quantization loss [ 0.0296],  0.64 sec/batch.
+2022-10-19 00:02:45,638 step [1341], lr [0.0000188], embedding loss [ 0.7309], quantization loss [ 0.0297],  0.61 sec/batch.
+2022-10-19 00:02:47,817 step [1342], lr [0.0000188], embedding loss [ 0.7235], quantization loss [ 0.0303],  0.62 sec/batch.
+2022-10-19 00:02:50,169 step [1343], lr [0.0000188], embedding loss [ 0.7299], quantization loss [ 0.0313],  0.62 sec/batch.
+2022-10-19 00:02:52,496 step [1344], lr [0.0000188], embedding loss [ 0.7311], quantization loss [ 0.0325],  0.67 sec/batch.
+2022-10-19 00:02:54,653 step [1345], lr [0.0000188], embedding loss [ 0.7356], quantization loss [ 0.0310],  0.62 sec/batch.
+2022-10-19 00:02:56,844 step [1346], lr [0.0000188], embedding loss [ 0.7330], quantization loss [ 0.0351],  0.60 sec/batch.
+2022-10-19 00:02:59,305 step [1347], lr [0.0000188], embedding loss [ 0.7281], quantization loss [ 0.0308],  0.62 sec/batch.
+2022-10-19 00:03:01,518 step [1348], lr [0.0000188], embedding loss [ 0.7284], quantization loss [ 0.0343],  0.63 sec/batch.
+2022-10-19 00:03:03,627 step [1349], lr [0.0000188], embedding loss [ 0.7290], quantization loss [ 0.0303],  0.61 sec/batch.
+2022-10-19 00:03:05,951 step [1350], lr [0.0000188], embedding loss [ 0.7255], quantization loss [ 0.0329],  0.62 sec/batch.
+2022-10-19 00:03:08,204 step [1351], lr [0.0000188], embedding loss [ 0.7165], quantization loss [ 0.0320],  0.66 sec/batch.
+2022-10-19 00:03:10,419 step [1352], lr [0.0000188], embedding loss [ 0.7326], quantization loss [ 0.0326],  0.61 sec/batch.
+2022-10-19 00:03:12,536 step [1353], lr [0.0000188], embedding loss [ 0.7373], quantization loss [ 0.0336],  0.63 sec/batch.
+2022-10-19 00:03:14,608 step [1354], lr [0.0000188], embedding loss [ 0.7187], quantization loss [ 0.0308],  0.62 sec/batch.
+2022-10-19 00:03:16,828 step [1355], lr [0.0000188], embedding loss [ 0.7343], quantization loss [ 0.0331],  0.61 sec/batch.
+2022-10-19 00:03:19,165 step [1356], lr [0.0000188], embedding loss [ 0.7273], quantization loss [ 0.0307],  0.63 sec/batch.
+2022-10-19 00:03:21,485 step [1357], lr [0.0000188], embedding loss [ 0.7307], quantization loss [ 0.0367],  0.67 sec/batch.
+2022-10-19 00:03:23,755 step [1358], lr [0.0000188], embedding loss [ 0.7244], quantization loss [ 0.0332],  0.62 sec/batch.
+2022-10-19 00:03:26,065 step [1359], lr [0.0000188], embedding loss [ 0.7269], quantization loss [ 0.0379],  0.63 sec/batch.
+2022-10-19 00:03:28,299 step [1360], lr [0.0000188], embedding loss [ 0.7131], quantization loss [ 0.0301],  0.61 sec/batch.
+2022-10-19 00:03:30,429 step [1361], lr [0.0000188], embedding loss [ 0.7369], quantization loss [ 0.0267],  0.62 sec/batch.
+2022-10-19 00:03:30,430 update codes and centers iter(1/1).
+2022-10-19 00:03:31,473 number of update_code wrong: 0.
+2022-10-19 00:03:34,672 non zero codewords: 256.
+2022-10-19 00:03:34,672 finish center update, duration: 4.24 sec.
+2022-10-19 00:03:36,838 step [1362], lr [0.0000188], embedding loss [ 0.7328], quantization loss [ 0.0304],  0.62 sec/batch.
+2022-10-19 00:03:39,105 step [1363], lr [0.0000188], embedding loss [ 0.7333], quantization loss [ 0.0341],  0.62 sec/batch.
+2022-10-19 00:03:41,399 step [1364], lr [0.0000188], embedding loss [ 0.7106], quantization loss [ 0.0316],  0.63 sec/batch.
+2022-10-19 00:03:43,640 step [1365], lr [0.0000188], embedding loss [ 0.7160], quantization loss [ 0.0284],  0.62 sec/batch.
+2022-10-19 00:03:45,813 step [1366], lr [0.0000188], embedding loss [ 0.7277], quantization loss [ 0.0340],  0.61 sec/batch.
+2022-10-19 00:03:48,012 step [1367], lr [0.0000188], embedding loss [ 0.7219], quantization loss [ 0.0295],  0.62 sec/batch.
+2022-10-19 00:03:50,256 step [1368], lr [0.0000188], embedding loss [ 0.7232], quantization loss [ 0.0352],  0.61 sec/batch.
+2022-10-19 00:03:52,561 step [1369], lr [0.0000188], embedding loss [ 0.7299], quantization loss [ 0.0322],  0.62 sec/batch.
+2022-10-19 00:03:54,794 step [1370], lr [0.0000188], embedding loss [ 0.7378], quantization loss [ 0.0288],  0.65 sec/batch.
+2022-10-19 00:03:56,930 step [1371], lr [0.0000188], embedding loss [ 0.7266], quantization loss [ 0.0297],  0.62 sec/batch.
+2022-10-19 00:03:59,211 step [1372], lr [0.0000188], embedding loss [ 0.7185], quantization loss [ 0.0307],  0.62 sec/batch.
+2022-10-19 00:04:01,525 step [1373], lr [0.0000188], embedding loss [ 0.7256], quantization loss [ 0.0274],  0.64 sec/batch.
+2022-10-19 00:04:03,726 step [1374], lr [0.0000188], embedding loss [ 0.7372], quantization loss [ 0.0294],  0.64 sec/batch.
+2022-10-19 00:04:06,035 step [1375], lr [0.0000188], embedding loss [ 0.7386], quantization loss [ 0.0307],  0.66 sec/batch.
+2022-10-19 00:04:08,365 step [1376], lr [0.0000188], embedding loss [ 0.7264], quantization loss [ 0.0327],  0.64 sec/batch.
+2022-10-19 00:04:10,580 step [1377], lr [0.0000188], embedding loss [ 0.7182], quantization loss [ 0.0299],  0.61 sec/batch.
+2022-10-19 00:04:12,904 step [1378], lr [0.0000188], embedding loss [ 0.7212], quantization loss [ 0.0338],  0.63 sec/batch.
+2022-10-19 00:04:15,159 step [1379], lr [0.0000188], embedding loss [ 0.7218], quantization loss [ 0.0273],  0.61 sec/batch.
+2022-10-19 00:04:17,337 step [1380], lr [0.0000188], embedding loss [ 0.7334], quantization loss [ 0.0344],  0.60 sec/batch.
+2022-10-19 00:04:19,577 step [1381], lr [0.0000188], embedding loss [ 0.7329], quantization loss [ 0.0305],  0.62 sec/batch.
+2022-10-19 00:04:21,770 step [1382], lr [0.0000188], embedding loss [ 0.7329], quantization loss [ 0.0344],  0.60 sec/batch.
+2022-10-19 00:04:23,976 step [1383], lr [0.0000188], embedding loss [ 0.7171], quantization loss [ 0.0334],  0.59 sec/batch.
+2022-10-19 00:04:26,133 step [1384], lr [0.0000188], embedding loss [ 0.7392], quantization loss [ 0.0306],  0.59 sec/batch.
+2022-10-19 00:04:28,194 step [1385], lr [0.0000188], embedding loss [ 0.7238], quantization loss [ 0.0356],  0.60 sec/batch.
+2022-10-19 00:04:30,255 step [1386], lr [0.0000188], embedding loss [ 0.7263], quantization loss [ 0.0341],  0.60 sec/batch.
+2022-10-19 00:04:32,436 step [1387], lr [0.0000188], embedding loss [ 0.7371], quantization loss [ 0.0312],  0.59 sec/batch.
+2022-10-19 00:04:34,588 step [1388], lr [0.0000188], embedding loss [ 0.7344], quantization loss [ 0.0317],  0.60 sec/batch.
+2022-10-19 00:04:36,777 step [1389], lr [0.0000188], embedding loss [ 0.7206], quantization loss [ 0.0289],  0.60 sec/batch.
+2022-10-19 00:04:39,126 step [1390], lr [0.0000188], embedding loss [ 0.7277], quantization loss [ 0.0294],  0.62 sec/batch.
+2022-10-19 00:04:41,343 step [1391], lr [0.0000188], embedding loss [ 0.7343], quantization loss [ 0.0295],  0.59 sec/batch.
+2022-10-19 00:04:43,646 step [1392], lr [0.0000188], embedding loss [ 0.7151], quantization loss [ 0.0314],  0.66 sec/batch.
+2022-10-19 00:04:45,960 step [1393], lr [0.0000188], embedding loss [ 0.7264], quantization loss [ 0.0299],  0.62 sec/batch.
+2022-10-19 00:04:48,046 step [1394], lr [0.0000188], embedding loss [ 0.7255], quantization loss [ 0.0279],  0.63 sec/batch.
+2022-10-19 00:04:50,449 step [1395], lr [0.0000188], embedding loss [ 0.7273], quantization loss [ 0.0333],  0.63 sec/batch.
+2022-10-19 00:04:52,741 step [1396], lr [0.0000188], embedding loss [ 0.7302], quantization loss [ 0.0320],  0.59 sec/batch.
+2022-10-19 00:04:54,790 step [1397], lr [0.0000188], embedding loss [ 0.7280], quantization loss [ 0.0308],  0.61 sec/batch.
+2022-10-19 00:04:56,958 step [1398], lr [0.0000188], embedding loss [ 0.7390], quantization loss [ 0.0307],  0.59 sec/batch.
+2022-10-19 00:04:59,209 step [1399], lr [0.0000188], embedding loss [ 0.7210], quantization loss [ 0.0297],  0.58 sec/batch.
+2022-10-19 00:05:01,427 step [1400], lr [0.0000188], embedding loss [ 0.7291], quantization loss [ 0.0360],  0.62 sec/batch.
+2022-10-19 00:05:03,497 step [1401], lr [0.0000188], embedding loss [ 0.7263], quantization loss [ 0.0360],  0.59 sec/batch.
+2022-10-19 00:05:05,685 step [1402], lr [0.0000188], embedding loss [ 0.7442], quantization loss [ 0.0301],  0.59 sec/batch.
+2022-10-19 00:05:07,730 step [1403], lr [0.0000188], embedding loss [ 0.7295], quantization loss [ 0.0299],  0.58 sec/batch.
+2022-10-19 00:05:09,944 step [1404], lr [0.0000188], embedding loss [ 0.7209], quantization loss [ 0.0287],  0.58 sec/batch.
+2022-10-19 00:05:12,096 step [1405], lr [0.0000188], embedding loss [ 0.7441], quantization loss [ 0.0309],  0.59 sec/batch.
+2022-10-19 00:05:14,234 step [1406], lr [0.0000188], embedding loss [ 0.7179], quantization loss [ 0.0273],  0.61 sec/batch.
+2022-10-19 00:05:16,389 step [1407], lr [0.0000188], embedding loss [ 0.7173], quantization loss [ 0.0334],  0.60 sec/batch.
+2022-10-19 00:05:18,615 step [1408], lr [0.0000188], embedding loss [ 0.7114], quantization loss [ 0.0300],  0.63 sec/batch.
+2022-10-19 00:05:20,883 step [1409], lr [0.0000188], embedding loss [ 0.7240], quantization loss [ 0.0332],  0.63 sec/batch.
+2022-10-19 00:05:23,075 step [1410], lr [0.0000188], embedding loss [ 0.7288], quantization loss [ 0.0265],  0.61 sec/batch.
+2022-10-19 00:05:25,196 step [1411], lr [0.0000188], embedding loss [ 0.7254], quantization loss [ 0.0311],  0.61 sec/batch.
+2022-10-19 00:05:27,456 step [1412], lr [0.0000188], embedding loss [ 0.7347], quantization loss [ 0.0280],  0.63 sec/batch.
+2022-10-19 00:05:29,644 step [1413], lr [0.0000188], embedding loss [ 0.7171], quantization loss [ 0.0303],  0.59 sec/batch.
+2022-10-19 00:05:31,760 step [1414], lr [0.0000188], embedding loss [ 0.7323], quantization loss [ 0.0269],  0.60 sec/batch.
+2022-10-19 00:05:33,841 step [1415], lr [0.0000188], embedding loss [ 0.7260], quantization loss [ 0.0312],  0.61 sec/batch.
+2022-10-19 00:05:36,024 step [1416], lr [0.0000188], embedding loss [ 0.7438], quantization loss [ 0.0314],  0.62 sec/batch.
+2022-10-19 00:05:38,226 step [1417], lr [0.0000188], embedding loss [ 0.7146], quantization loss [ 0.0289],  0.58 sec/batch.
+2022-10-19 00:05:40,456 step [1418], lr [0.0000188], embedding loss [ 0.7276], quantization loss [ 0.0298],  0.66 sec/batch.
+2022-10-19 00:05:42,629 step [1419], lr [0.0000188], embedding loss [ 0.7300], quantization loss [ 0.0319],  0.61 sec/batch.
+2022-10-19 00:05:44,836 step [1420], lr [0.0000188], embedding loss [ 0.7109], quantization loss [ 0.0290],  0.59 sec/batch.
+2022-10-19 00:05:47,217 step [1421], lr [0.0000188], embedding loss [ 0.7321], quantization loss [ 0.0325],  0.60 sec/batch.
+2022-10-19 00:05:49,439 step [1422], lr [0.0000188], embedding loss [ 0.7400], quantization loss [ 0.0331],  0.61 sec/batch.
+2022-10-19 00:05:51,562 step [1423], lr [0.0000188], embedding loss [ 0.7164], quantization loss [ 0.0335],  0.61 sec/batch.
+2022-10-19 00:05:53,898 step [1424], lr [0.0000188], embedding loss [ 0.7237], quantization loss [ 0.0339],  0.63 sec/batch.
+2022-10-19 00:05:56,362 step [1425], lr [0.0000188], embedding loss [ 0.7372], quantization loss [ 0.0272],  0.62 sec/batch.
+2022-10-19 00:05:58,567 step [1426], lr [0.0000188], embedding loss [ 0.7331], quantization loss [ 0.0275],  0.59 sec/batch.
+2022-10-19 00:06:00,764 step [1427], lr [0.0000188], embedding loss [ 0.7286], quantization loss [ 0.0290],  0.59 sec/batch.
+2022-10-19 00:06:03,045 step [1428], lr [0.0000188], embedding loss [ 0.7016], quantization loss [ 0.0309],  0.59 sec/batch.
+2022-10-19 00:06:05,250 step [1429], lr [0.0000188], embedding loss [ 0.7192], quantization loss [ 0.0278],  0.59 sec/batch.
+2022-10-19 00:06:07,359 step [1430], lr [0.0000188], embedding loss [ 0.7302], quantization loss [ 0.0296],  0.58 sec/batch.
+2022-10-19 00:06:09,557 step [1431], lr [0.0000188], embedding loss [ 0.7244], quantization loss [ 0.0349],  0.58 sec/batch.
+2022-10-19 00:06:11,823 step [1432], lr [0.0000188], embedding loss [ 0.7269], quantization loss [ 0.0341],  0.57 sec/batch.
+2022-10-19 00:06:13,932 step [1433], lr [0.0000188], embedding loss [ 0.7320], quantization loss [ 0.0285],  0.59 sec/batch.
+2022-10-19 00:06:16,076 step [1434], lr [0.0000188], embedding loss [ 0.7356], quantization loss [ 0.0301],  0.60 sec/batch.
+2022-10-19 00:06:18,168 step [1435], lr [0.0000188], embedding loss [ 0.7354], quantization loss [ 0.0282],  0.61 sec/batch.
+2022-10-19 00:06:20,384 step [1436], lr [0.0000188], embedding loss [ 0.7234], quantization loss [ 0.0301],  0.60 sec/batch.
+2022-10-19 00:06:22,603 step [1437], lr [0.0000188], embedding loss [ 0.7270], quantization loss [ 0.0327],  0.61 sec/batch.
+2022-10-19 00:06:24,950 step [1438], lr [0.0000188], embedding loss [ 0.7274], quantization loss [ 0.0342],  0.60 sec/batch.
+2022-10-19 00:06:27,171 step [1439], lr [0.0000188], embedding loss [ 0.7363], quantization loss [ 0.0335],  0.63 sec/batch.
+2022-10-19 00:06:29,428 step [1440], lr [0.0000188], embedding loss [ 0.7230], quantization loss [ 0.0319],  0.59 sec/batch.
+2022-10-19 00:06:31,494 step [1441], lr [0.0000188], embedding loss [ 0.7167], quantization loss [ 0.0299],  0.60 sec/batch.
+2022-10-19 00:06:31,494 update codes and centers iter(1/1).
+2022-10-19 00:06:32,489 number of update_code wrong: 0.
+2022-10-19 00:06:35,633 non zero codewords: 256.
+2022-10-19 00:06:35,634 finish center update, duration: 4.14 sec.
+2022-10-19 00:06:37,870 step [1442], lr [0.0000188], embedding loss [ 0.7322], quantization loss [ 0.0326],  0.58 sec/batch.
+2022-10-19 00:06:40,185 step [1443], lr [0.0000188], embedding loss [ 0.7321], quantization loss [ 0.0302],  0.58 sec/batch.
+2022-10-19 00:06:42,465 step [1444], lr [0.0000188], embedding loss [ 0.7168], quantization loss [ 0.0284],  0.58 sec/batch.
+2022-10-19 00:06:44,645 step [1445], lr [0.0000188], embedding loss [ 0.7191], quantization loss [ 0.0316],  0.57 sec/batch.
+2022-10-19 00:06:46,824 step [1446], lr [0.0000188], embedding loss [ 0.7362], quantization loss [ 0.0332],  0.59 sec/batch.
+2022-10-19 00:06:49,197 step [1447], lr [0.0000188], embedding loss [ 0.7267], quantization loss [ 0.0318],  0.61 sec/batch.
+2022-10-19 00:06:51,457 step [1448], lr [0.0000188], embedding loss [ 0.7385], quantization loss [ 0.0296],  0.63 sec/batch.
+2022-10-19 00:06:53,769 step [1449], lr [0.0000188], embedding loss [ 0.7204], quantization loss [ 0.0324],  0.62 sec/batch.
+2022-10-19 00:06:56,097 step [1450], lr [0.0000188], embedding loss [ 0.7245], quantization loss [ 0.0348],  0.64 sec/batch.
+2022-10-19 00:06:58,270 step [1451], lr [0.0000188], embedding loss [ 0.7334], quantization loss [ 0.0301],  0.60 sec/batch.
+2022-10-19 00:07:00,592 step [1452], lr [0.0000188], embedding loss [ 0.7419], quantization loss [ 0.0290],  0.60 sec/batch.
+2022-10-19 00:07:02,793 step [1453], lr [0.0000188], embedding loss [ 0.7269], quantization loss [ 0.0290],  0.61 sec/batch.
+2022-10-19 00:07:05,023 step [1454], lr [0.0000188], embedding loss [ 0.7113], quantization loss [ 0.0260],  0.60 sec/batch.
+2022-10-19 00:07:07,346 step [1455], lr [0.0000188], embedding loss [ 0.7216], quantization loss [ 0.0299],  0.63 sec/batch.
+2022-10-19 00:07:09,534 step [1456], lr [0.0000188], embedding loss [ 0.7198], quantization loss [ 0.0338],  0.60 sec/batch.
+2022-10-19 00:07:11,728 step [1457], lr [0.0000188], embedding loss [ 0.7324], quantization loss [ 0.0337],  0.60 sec/batch.
+2022-10-19 00:07:13,809 step [1458], lr [0.0000188], embedding loss [ 0.7293], quantization loss [ 0.0284],  0.60 sec/batch.
+2022-10-19 00:07:16,018 step [1459], lr [0.0000188], embedding loss [ 0.7220], quantization loss [ 0.0296],  0.62 sec/batch.
+2022-10-19 00:07:18,281 step [1460], lr [0.0000188], embedding loss [ 0.7318], quantization loss [ 0.0324],  0.61 sec/batch.
+2022-10-19 00:07:20,525 step [1461], lr [0.0000188], embedding loss [ 0.7241], quantization loss [ 0.0302],  0.60 sec/batch.
+2022-10-19 00:07:22,748 step [1462], lr [0.0000188], embedding loss [ 0.7275], quantization loss [ 0.0267],  0.60 sec/batch.
+2022-10-19 00:07:24,957 step [1463], lr [0.0000188], embedding loss [ 0.7327], quantization loss [ 0.0293],  0.66 sec/batch.
+2022-10-19 00:07:27,035 step [1464], lr [0.0000188], embedding loss [ 0.7179], quantization loss [ 0.0319],  0.60 sec/batch.
+2022-10-19 00:07:29,157 step [1465], lr [0.0000188], embedding loss [ 0.7228], quantization loss [ 0.0312],  0.59 sec/batch.
+2022-10-19 00:07:31,213 step [1466], lr [0.0000188], embedding loss [ 0.7271], quantization loss [ 0.0265],  0.60 sec/batch.
+2022-10-19 00:07:33,463 step [1467], lr [0.0000188], embedding loss [ 0.7262], quantization loss [ 0.0351],  0.60 sec/batch.
+2022-10-19 00:07:35,559 step [1468], lr [0.0000188], embedding loss [ 0.7325], quantization loss [ 0.0317],  0.62 sec/batch.
+2022-10-19 00:07:37,791 step [1469], lr [0.0000188], embedding loss [ 0.7324], quantization loss [ 0.0294],  0.60 sec/batch.
+2022-10-19 00:07:40,071 step [1470], lr [0.0000188], embedding loss [ 0.7248], quantization loss [ 0.0274],  0.59 sec/batch.
+2022-10-19 00:07:42,259 step [1471], lr [0.0000188], embedding loss [ 0.7132], quantization loss [ 0.0299],  0.63 sec/batch.
+2022-10-19 00:07:44,544 step [1472], lr [0.0000188], embedding loss [ 0.7295], quantization loss [ 0.0301],  0.63 sec/batch.
+2022-10-19 00:07:46,846 step [1473], lr [0.0000188], embedding loss [ 0.7413], quantization loss [ 0.0288],  0.59 sec/batch.
+2022-10-19 00:07:48,922 step [1474], lr [0.0000188], embedding loss [ 0.7190], quantization loss [ 0.0312],  0.59 sec/batch.
+2022-10-19 00:07:51,076 step [1475], lr [0.0000188], embedding loss [ 0.7354], quantization loss [ 0.0345],  0.60 sec/batch.
+2022-10-19 00:07:53,151 step [1476], lr [0.0000188], embedding loss [ 0.7180], quantization loss [ 0.0306],  0.60 sec/batch.
+2022-10-19 00:07:55,439 step [1477], lr [0.0000188], embedding loss [ 0.7120], quantization loss [ 0.0331],  0.69 sec/batch.
+2022-10-19 00:07:57,710 step [1478], lr [0.0000188], embedding loss [ 0.7218], quantization loss [ 0.0285],  0.66 sec/batch.
+2022-10-19 00:07:59,965 step [1479], lr [0.0000188], embedding loss [ 0.7222], quantization loss [ 0.0319],  0.63 sec/batch.
+2022-10-19 00:08:02,103 step [1480], lr [0.0000188], embedding loss [ 0.7394], quantization loss [ 0.0267],  0.64 sec/batch.
+2022-10-19 00:08:04,383 step [1481], lr [0.0000188], embedding loss [ 0.7186], quantization loss [ 0.0281],  0.65 sec/batch.
+2022-10-19 00:08:06,778 step [1482], lr [0.0000188], embedding loss [ 0.7294], quantization loss [ 0.0275],  0.68 sec/batch.
+2022-10-19 00:08:09,006 step [1483], lr [0.0000188], embedding loss [ 0.7320], quantization loss [ 0.0305],  0.65 sec/batch.
+2022-10-19 00:08:11,221 step [1484], lr [0.0000188], embedding loss [ 0.7100], quantization loss [ 0.0282],  0.66 sec/batch.
+2022-10-19 00:08:13,663 step [1485], lr [0.0000188], embedding loss [ 0.7274], quantization loss [ 0.0302],  0.64 sec/batch.
+2022-10-19 00:08:16,039 step [1486], lr [0.0000188], embedding loss [ 0.7372], quantization loss [ 0.0306],  0.64 sec/batch.
+2022-10-19 00:08:18,372 step [1487], lr [0.0000188], embedding loss [ 0.7224], quantization loss [ 0.0280],  0.66 sec/batch.
+2022-10-19 00:08:20,599 step [1488], lr [0.0000188], embedding loss [ 0.7214], quantization loss [ 0.0305],  0.63 sec/batch.
+2022-10-19 00:08:22,857 step [1489], lr [0.0000188], embedding loss [ 0.7284], quantization loss [ 0.0302],  0.65 sec/batch.
+2022-10-19 00:08:25,095 step [1490], lr [0.0000188], embedding loss [ 0.7338], quantization loss [ 0.0319],  0.58 sec/batch.
+2022-10-19 00:08:27,316 step [1491], lr [0.0000188], embedding loss [ 0.7120], quantization loss [ 0.0260],  0.61 sec/batch.
+2022-10-19 00:08:29,385 step [1492], lr [0.0000188], embedding loss [ 0.7285], quantization loss [ 0.0265],  0.59 sec/batch.
+2022-10-19 00:08:31,566 step [1493], lr [0.0000188], embedding loss [ 0.7192], quantization loss [ 0.0328],  0.59 sec/batch.
+2022-10-19 00:08:33,697 step [1494], lr [0.0000188], embedding loss [ 0.7293], quantization loss [ 0.0304],  0.57 sec/batch.
+2022-10-19 00:08:35,917 step [1495], lr [0.0000188], embedding loss [ 0.7334], quantization loss [ 0.0302],  0.58 sec/batch.
+2022-10-19 00:08:38,208 step [1496], lr [0.0000188], embedding loss [ 0.7226], quantization loss [ 0.0298],  0.59 sec/batch.
+2022-10-19 00:08:40,430 step [1497], lr [0.0000188], embedding loss [ 0.7211], quantization loss [ 0.0329],  0.60 sec/batch.
+2022-10-19 00:08:42,750 step [1498], lr [0.0000188], embedding loss [ 0.7202], quantization loss [ 0.0276],  0.57 sec/batch.
+2022-10-19 00:08:45,043 step [1499], lr [0.0000188], embedding loss [ 0.7299], quantization loss [ 0.0288],  0.63 sec/batch.
+2022-10-19 00:08:47,359 step [1500], lr [0.0000188], embedding loss [ 0.7117], quantization loss [ 0.0254],  0.62 sec/batch.
+2022-10-19 00:08:47,359 finish training iterations and begin saving model.
+2022-10-19 00:08:55,087 finish model saving.
+2022-10-19 00:08:55,088 finish training, model saved under ./checkpoints/nuswide_WSDQH_nbits=8_adaMargin_gamma=1_lambda=0.0001_221018.npy.
+2022-10-19 02:50:28,634 prepare dataset.
+2022-10-19 02:50:35,999 prepare data loader.
+2022-10-19 02:50:35,999 Initializing DataLoader.
+2022-10-19 02:50:36,003 DataLoader already.
+2022-10-19 02:50:36,003 Initializing DataLoader.
+2022-10-19 02:50:36,005 DataLoader already.
+2022-10-19 02:50:36,005 prepare model.
+2022-10-19 02:50:36,182 Number of semantic embeddings: 928.
+2022-10-19 02:50:53,837 begin validation.
+2022-10-19 02:52:02,761 finish query feature extraction, duration: 68.92 sec.
+2022-10-19 03:26:51,529 finish database feature extraction, duration: 2088.77 sec.
+2022-10-19 03:26:51,529 compute quantization codes for query.
+2022-10-19 03:26:52,858 number of update_code wrong: 0.
+2022-10-19 03:26:52,858 finish query encoding, duration: 1.33 sec.
+2022-10-19 03:26:52,858 compute quantization codes for database.
+2022-10-19 03:27:06,677 number of update_code wrong: 0.
+2022-10-19 03:27:06,678 finish database encoding, duration: 13.82 sec.
+2022-10-19 03:27:06,678 save retrieval information: codes, features, reconstructions of queries and database.
+2022-10-19 03:27:08,018 begin to calculate MAP@5000.
+2022-10-19 03:27:08,019 begin to calculate AQD mAP@5000.
+2022-10-19 03:27:43,676 AQD mAP@5000 = [0.7154], duration: 35.66 sec.
+2022-10-19 03:27:43,676 begin to calculate SQD mAP@5000.
+2022-10-19 03:28:17,009 SQD mAP@5000 = [0.7056], duration: 33.33 sec.
+2022-10-19 03:28:17,009 begin to calculate feats mAP@5000.
+2022-10-19 03:28:54,385 feats mAP@5000 = [0.7192], duration: 37.38 sec.
+2022-10-19 03:28:54,386 finish validation.
+2022-10-20 10:42:22,674 prepare dataset.
+2022-10-20 10:42:29,510 prepare data loader.
+2022-10-20 10:42:29,511 Initializing DataLoader.
+2022-10-20 10:42:29,514 DataLoader already.
+2022-10-20 10:42:29,514 Initializing DataLoader.
+2022-10-20 10:42:29,516 DataLoader already.
+2022-10-20 10:42:29,516 prepare model.
+2022-10-20 10:42:29,690 Number of semantic embeddings: 928.
+2022-10-20 10:42:49,366 begin validation.
+2022-10-20 10:43:24,845 finish query feature extraction, duration: 35.48 sec.
+2022-10-20 10:59:12,447 finish database feature extraction, duration: 947.60 sec.
+2022-10-20 10:59:12,447 compute quantization codes for query.
+2022-10-20 10:59:13,759 number of update_code wrong: 0.
+2022-10-20 10:59:13,760 finish query encoding, duration: 1.31 sec.
+2022-10-20 10:59:13,760 compute quantization codes for database.
+2022-10-20 10:59:27,533 number of update_code wrong: 0.
+2022-10-20 10:59:27,533 finish database encoding, duration: 13.77 sec.
+2022-10-20 10:59:27,533 save retrieval information: codes, features, reconstructions of queries and database.
+2022-10-20 10:59:28,950 begin to calculate MAP@5000.
+2022-10-20 10:59:28,950 begin to calculate AQD mAP@5000.
+2022-10-20 11:00:05,557 AQD mAP@5000 = [0.7167], duration: 36.61 sec.
+2022-10-20 11:00:05,557 begin to calculate SQD mAP@5000.
+2022-10-20 11:00:39,630 SQD mAP@5000 = [0.7076], duration: 34.07 sec.
+2022-10-20 11:00:39,631 begin to calculate feats mAP@5000.
+2022-10-20 11:01:10,593 feats mAP@5000 = [0.7196], duration: 30.96 sec.
+2022-10-20 11:01:10,594 finish validation.
