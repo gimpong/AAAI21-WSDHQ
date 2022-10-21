@@ -252,7 +252,7 @@ Note that some values can slightly deviate from the reported results in our orig
 </tbody>
 </table>
 
-## 4. References
+## 5. References
 
 If you find this code useful or use the toolkit in your work, please consider citing:
 
@@ -268,9 +268,9 @@ If you find this code useful or use the toolkit in your work, please consider ci
 }
 ```
 
-## 5. Acknowledgements
+## 6. Acknowledgements
 
 We use [DeepHash](https://github.com/thulab/DeepHash) as the code base in our implementation. 
 
-## 6. Contact
+## 7. Contact
 If you have any question, you can raise an issue or email Jinpeng Wang ([wjp20@mails.tsinghua.edu.cn](wjp20@mails.tsinghua.edu.cn)). We will reply you soon.
